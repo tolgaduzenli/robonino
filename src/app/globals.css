@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F8FAFC;
+  --foreground: #0F172A;
+  --primary: #0F172A;
+  --primary-light: #1E293B;
+  --primary-lighter: #334155;
+  --secondary: #F97316;
+  --secondary-dark: #EA580C;
+  --secondary-light: #FB923C;
+  --secondary-lighter: #FDBA74;
+  --tertiary: #06B6D4;
+  --tertiary-dark: #0891B2;
+  --tertiary-light: #22D3EE;
+  --tertiary-lighter: #67E8F9;
+  --neutral: #F8FAFC;
+  --neutral-dark: #E2E8F0;
+  --neutral-darker: #CBD5E1;
+  --neutral-light: #FFFFFF;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-primary-lighter: var(--primary-lighter);
+  --color-secondary: var(--secondary);
+  --color-secondary-dark: var(--secondary-dark);
+  --color-secondary-light: var(--secondary-light);
+  --color-secondary-lighter: var(--secondary-lighter);
+  --color-tertiary: var(--tertiary);
+  --color-tertiary-dark: var(--tertiary-dark);
+  --color-tertiary-light: var(--tertiary-light);
+  --color-tertiary-lighter: var(--tertiary-lighter);
+  --color-neutral: var(--neutral);
+  --color-neutral-dark: var(--neutral-dark);
+  --color-neutral-darker: var(--neutral-darker);
+  --color-neutral-light: var(--neutral-light);
+  --font-sans: var(--font-plus-jakarta-sans);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-plus-jakarta-sans), Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}

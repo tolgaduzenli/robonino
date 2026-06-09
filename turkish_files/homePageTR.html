@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Robonino | Education, Technology &amp; International Experiences</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-bright": "#f7f9fb",
+                      "tertiary-fixed": "#acedff",
+                      "on-secondary-fixed": "#341100",
+                      "on-surface-variant": "#45464d",
+                      "surface-tint": "#565e74",
+                      "secondary-fixed": "#ffdbca",
+                      "surface-container-low": "#f2f4f6",
+                      "outline-variant": "#c6c6cd",
+                      "surface-dim": "#d8dadc",
+                      "error": "#ba1a1a",
+                      "surface-variant": "#e0e3e5",
+                      "secondary-container": "#fd761a",
+                      "on-error": "#ffffff",
+                      "on-tertiary-container": "#0090a9",
+                      "on-surface": "#191c1e",
+                      "surface": "#f7f9fb",
+                      "on-secondary": "#ffffff",
+                      "tertiary-container": "#001f26",
+                      "error-container": "#ffdad6",
+                      "surface-container-high": "#e6e8ea",
+                      "surface-container-highest": "#e0e3e5",
+                      "surface-container": "#eceef0",
+                      "primary-fixed": "#dae2fd",
+                      "tertiary": "#000000",
+                      "secondary": "#9d4300",
+                      "on-primary-fixed": "#131b2e",
+                      "inverse-on-surface": "#eff1f3",
+                      "on-tertiary-fixed-variant": "#004e5c",
+                      "on-primary-fixed-variant": "#3f465c",
+                      "secondary-fixed-dim": "#ffb690",
+                      "on-secondary-container": "#5c2400",
+                      "primary-fixed-dim": "#bec6e0",
+                      "on-tertiary-fixed": "#001f26",
+                      "primary": "#000000",
+                      "on-secondary-fixed-variant": "#783200",
+                      "background": "#f7f9fb",
+                      "inverse-primary": "#bec6e0",
+                      "on-primary-container": "#7c839b",
+                      "inverse-surface": "#2d3133",
+                      "tertiary-fixed-dim": "#4cd7f6",
+                      "primary-container": "#131b2e",
+                      "on-error-container": "#93000a",
+                      "surface-container-lowest": "#ffffff",
+                      "on-primary": "#ffffff",
+                      "outline": "#76777d",
+                      "on-tertiary": "#ffffff",
+                      "on-background": "#191c1e"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "base": "8px",
+                      "xs": "4px",
+                      "sm": "12px",
+                      "container-max": "1200px",
+                      "gutter": "24px",
+                      "lg": "48px",
+                      "xl": "80px",
+                      "md": "24px"
+              },
+              "fontFamily": {
+                      "display-xl": ["Plus Jakarta Sans"],
+                      "headline-lg": ["Plus Jakarta Sans"],
+                      "headline-md": ["Plus Jakarta Sans"],
+                      "headline-lg-mobile": ["Plus Jakarta Sans"],
+                      "body-lg": ["Plus Jakarta Sans"],
+                      "label-md": ["Plus Jakarta Sans"],
+                      "label-sm": ["Plus Jakarta Sans"],
+                      "body-md": ["Plus Jakarta Sans"]
+              },
+              "fontSize": {
+                      "display-xl": ["60px", {"lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                      "headline-lg": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                      "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                      "headline-lg-mobile": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                      "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                      "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}],
+                      "label-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "700"}],
+                      "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}]
+              }
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        .bento-card:hover .bento-image {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md overflow-x-hidden">
+<!-- TopNavBar Shell -->
+<header class="fixed top-0 z-50 w-full bg-surface/80 backdrop-blur-md">
+<nav class="flex justify-between items-center w-full px-8 py-4 max-w-container-max mx-auto">
+<div class="flex items-center gap-base">
+<span class="text-headline-md font-headline-md font-extrabold text-primary tracking-tighter">Robonino</span>
+</div>
+<div class="hidden md:flex items-center gap-lg">
+<a class="text-on-surface-variant font-bold border-b-2 border-secondary text-label-md font-label-md hover:text-secondary transition-colors duration-200" href="#">İngiltere'de Eđitim</a>
+<a class="text-on-surface-variant font-medium text-label-md font-label-md hover:text-secondary transition-colors duration-200" href="#">Robotik ve Kodlama</a>
+<a class="text-on-surface-variant font-medium text-label-md font-label-md hover:text-secondary transition-colors duration-200" href="#">Kurumsal Etkinlikler</a>
+</div>
+<div class="flex items-center gap-md">
+<button class="hidden sm:block text-label-md font-label-md text-on-surface-variant hover:text-secondary transition-all">TR/EN</button>
+<button class="bg-primary text-on-primary px-6 py-2.5 rounded-full text-label-md font-label-md hover:opacity-90 active:scale-95 transition-all">Apply Now</button>
+</div>
+</nav>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-center pt-20 overflow-hidden bg-surface-bright">
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-gradient-to-r from-surface-bright via-surface-bright/40 to-transparent z-10"></div>
+<img class="w-full h-full object-cover" data-alt="A group of diverse international students collaborating on a technology project in a bright, modern university setting in the UK. The lighting is natural and high-key, emphasizing a clean Apple-style aesthetic. The students are smiling, focused, and represent a premium educational atmosphere. The color palette features soft whites, deep blues, and subtle orange highlights." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5vzy9JfR7EfVlr21YbVpgeJK22QyB_s_SDf4Jl2iMmzETyQU71wbuvz_regntt39FJ24n3vKdAfdq7VKGS0k7KEVjOruVjVaYKltN0lg23A-QPHBXyMy5-kqXuHGORML-4OC4E8Pg8q5vDAnxTdduhjMxc-9Yy6ZI1uxnCVZU6EbnR0LC4UYSPIO_j9kH6YCgt0LexURyhPSSqSt5QVxb-q0fq1F8GKsvIa9xRwZs_HTyFGunmFSoG5bk9j2HL0qzAiIDDlE11b5u"/>
+</div>
+<div class="relative z-20 max-w-container-max mx-auto px-8 py-xl">
+<div class="max-w-2xl space-y-md">
+<h1 class="text-display-xl font-display-xl text-primary leading-tight">Eđitim, Teknoloji ve Uluslararası Deneyimler</h1>
+<p class="text-body-lg font-body-lg text-on-surface-variant max-w-lg">Kwltwrler ve teknolojiler arasında kprw kurarak, her đrencinin ve profesyonelin yerel uzmanlık ve kwresel eriŗimle baŗarıya giden yolunu bulmasını sađlıyoruz.</p>
+<div class="flex flex-wrap gap-md pt-sm">
+<button class="bg-primary text-on-primary px-8 py-4 rounded-xl text-label-md font-label-md flex items-center gap-xs hover:shadow-lg transition-all">İngiltere'de Eđitim <span class="material-symbols-outlined text-[18px]">arrow_forward</span></button>
+<button class="bg-surface-container-lowest text-primary border border-outline-variant px-8 py-4 rounded-xl text-label-md font-label-md hover:bg-surface-container transition-all">Robotik ve Kodlama</button>
+<button class="bg-secondary text-on-secondary px-8 py-4 rounded-xl text-label-md font-label-md hover:opacity-90 transition-all">Kurumsal Etkinlikler</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section: Premium Cards -->
+<section class="py-xl bg-white">
+<div class="max-w-container-max mx-auto px-8">
+<div class="mb-lg">
+<span class="text-secondary font-bold text-label-sm uppercase tracking-widest">UZMANLIK ALANIMIZ</span>
+<h2 class="text-headline-lg font-headline-lg mt-base">Premium vđrenme Svtunları</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Study in UK -->
+<div class="group relative overflow-hidden rounded-[32px] aspect-[4/5] shadow-sm hover:shadow-xl transition-all duration-500">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A sophisticated architectural shot of a modern UK school campus with large glass windows and historical brickwork. The scene is bright and airy, reflecting academic prestige and safety. The color profile is clean with high contrast, following a minimalist aesthetic with deep blue shadows and bright white highlights." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0AQku1zLWTaAHXEdr83IsbvDmhNGUnjl94HwKCatAmaaXxUSBx20sMc0VfVU8LDhuF8xSNyw3pQDmw89g_UvCsuo4s9byUEV0vVWX6UFbTOe4ggT6VH2YHr4Sd_f-qWrSd2eXvYKIrmPzX-qbGwGuR5P2ZAz7beOhdbtRemYaGozrh1Y-EV0L5D_zHa92MoJ20mcbv5JK1Zugt1-u51nYmqZvNJVLlq7fJ2mivlYK8D4sJXbg9-Ij06s47MZTDB6n5kX4UhhgBpoG"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
+<div class="absolute bottom-0 p-lg text-on-primary">
+<h3 class="text-headline-md font-headline-md mb-sm">İngiltere'de İngilizce Eđitimi</h3>
+<ul class="space-y-xs mb-md opacity-90"><li class="flex items-center gap-xs"><span class="material-symbols-outlined text-[18px]">check_circle</span> Okul yerleŗtirme</li><li class="flex items-center gap-xs"><span class="material-symbols-outlined text-[18px]">check_circle</span> Yaz okulları</li><li class="flex items-center gap-xs"><span class="material-symbols-outlined text-[18px]">check_circle</span> Sınava hazırlık</li></ul>
+<button class="bg-white text-primary px-6 py-2.5 rounded-full text-label-md font-label-md hover:bg-secondary hover:text-white transition-all">Danıŗmanlık Alın</button>
+</div>
+</div>
+<!-- Robotics & Coding -->
+<div class="group relative overflow-hidden rounded-[32px] aspect-[4/5] shadow-sm hover:shadow-xl transition-all duration-500">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Detailed close-up of a child's hands carefully assembling a sleek, modern robot in a STEM workshop. The lighting is focused and technological with turquoise and white accents. The background is a clean, organized lab space that feels premium and innovative. High-end product photography style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_qstik2xcUztJG44prYkt1na_EhjZebaUodKwFJhIQOGN6bmlD_D-XYl9ATSy3r1Szbi8fZ8gGM4muaLEvf_6Z7LGBDY7LyJ512YdgWuf9S7pfVdOSE1rGLw3yaStHn86tpt8_MuO3vzzaZGywtlsqGqReHpgTsBpQVInLmDRz96ZkSaROsv0LOMHflEba1CKk9TD67356EyEuVLlaCQurK9OWBu1B7GCdWQDZhDec9X9VYarptJaDZEQbsAgyDTj12CIab99HwLV"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
+<div class="absolute bottom-0 p-lg text-on-primary">
+<h3 class="text-headline-md font-headline-md mb-sm">wocuklar İwin Robotik ve Kodlama</h3>
+<ul class="space-y-xs mb-md opacity-90"><li class="flex items-center gap-xs"><span class="material-symbols-outlined text-[18px]">check_circle</span> Robotik atvlyeleri</li><li class="flex items-center gap-xs"><span class="material-symbols-outlined text-[18px]">check_circle</span> STEM kulwpleri</li><li class="flex items-center gap-xs"><span class="material-symbols-outlined text-[18px]">check_circle</span> İnovasyon kampları</li></ul>
+<button class="bg-white text-primary px-6 py-2.5 rounded-full text-label-md font-label-md hover:bg-secondary hover:text-white transition-all">Danıŗmanlık Alın</button>
+</div>
+</div>
+<!-- Corporate -->
+<div class="group relative overflow-hidden rounded-[32px] aspect-[4/5] shadow-sm hover:shadow-xl transition-all duration-500">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A professional team-building event where adults are engaged in a robotics challenge. The atmosphere is energetic and collaborative, set in a high-end corporate lounge with modern furniture. The lighting is warm and inviting, using a palette of soft oranges and deep blues to convey a premium, professional yet creative mood." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCArHIbp2Y6iu0pYmzlYUJRPy5iox--wwDTONWipVxdtjOVkG_pe81lpS17XgXMjC24P9e4S3CXrciTfWh-aRSiNgZCdVF55HywEjCUfP9QA89LlCYfwsRKl7Cyl0Q8NgeoVCVmQGEDATRB4MsJ_bjXIUFab5NGvyXLoAzFn2mayDsSmSMuJtOH9dDm7jP73vQ2TRizd6ma6bmrBuSDjMPvGVpNrBdVAgCCHk-BALVeCXkTUfwX9MSQkmFgJrrSrMZFV05231dxS_zO"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
+<div class="absolute bottom-0 p-lg text-on-primary">
+<h3 class="text-headline-md font-headline-md mb-sm">Kurumsal ve Sosyal Etkinlikler</h3>
+<ul class="space-y-xs mb-md opacity-90"><li class="flex items-center gap-xs"><span class="material-symbols-outlined text-[18px]">check_circle</span> Takım alıŗması</li><li class="flex items-center gap-xs"><span class="material-symbols-outlined text-[18px]">check_circle</span> Robotik yarıŗmalar</li><li class="flex items-center gap-xs"><span class="material-symbols-outlined text-[18px]">check_circle</span> Etkinlik prodwksiyonu</li></ul>
+<button class="bg-white text-primary px-6 py-2.5 rounded-full text-label-md font-label-md hover:bg-secondary hover:text-white transition-all">Danıŗmanlık Alın</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Robonino Section -->
+<section class="py-xl bg-surface-bright">
+<div class="max-w-container-max mx-auto px-8">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-xl items-center">
+<div>
+<span class="text-secondary font-bold text-label-sm uppercase tracking-widest">KwRESEL GwVEN</span>
+<h2 class="text-headline-lg font-headline-lg mt-base">Robonino Farkı</h2>
+<p class="text-body-lg font-body-lg text-on-surface-variant mt-md">Kwltwrler ve teknolojiler arasında kprw kurarak, her đrencinin ve profesyonelin yerel uzmanlık ve kwresel eriŗimle baŗarıya giden yolunu bulmasını sađlıyoruz.</p>
+<div class="mt-lg space-y-gutter">
+<div class="flex gap-md">
+<div class="bg-white p-sm rounded-2xl shadow-sm text-secondary shrink-0 h-fit">
+<span class="material-symbols-outlined text-[32px]">support_agent</span>
+</div>
+<div>
+<h4 class="text-headline-md font-headline-md">İngiltere Merkezli Yerel Destek</h4>
+<p class="text-on-surface-variant mt-xs">İngiltere'deki dođrudan varlıđımız, twm đrenciler ve etkinlikler iwin birebir destek sađlar.</p>
+</div>
+</div>
+<div class="flex gap-md">
+<div class="bg-white p-sm rounded-2xl shadow-sm text-secondary shrink-0 h-fit">
+<span class="material-symbols-outlined text-[32px]">verified_user</span>
+</div>
+<div>
+<h4 class="text-headline-md font-headline-md">wocuk Gwvenliđi nceliđimiz</h4>
+<p class="text-on-surface-variant mt-xs">Sunduđumuz her programda katı İngiltere ocuk koruma standartları uygulanır.</p>
+</div>
+</div>
+<div class="flex gap-md">
+<div class="bg-white p-sm rounded-2xl shadow-sm text-secondary shrink-0 h-fit">
+<span class="material-symbols-outlined text-[32px]">translate</span>
+</div>
+<div>
+<h4 class="text-headline-md font-headline-md">ift Dilli İletiŗim</h4>
+<p class="text-on-surface-variant mt-xs">Twrk aileler iwin net iletiŗim sađlamak amacıyla tam TR/EN desteđi.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="relative">
+<div class="bg-secondary/10 absolute -inset-8 rounded-full blur-3xl"></div>
+<img class="relative z-10 rounded-[40px] shadow-2xl object-cover h-[500px] w-full" data-alt="A portrait of a confident, smiling teacher and student in a modern classroom setting. The teacher is pointing to a laptop screen showing coding diagrams. The room is brightly lit with a clean, tech-focused interior. Soft shadows and a neutral color palette with pops of orange highlight the innovative and supportive learning environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCOUJfqbP6TSWQsxtNGqW7EBT_6QCIIhx81376UN2Z5B5msXHCpVX5xOHwQhOpnf7giux0ZFUvo5k8ZrdpBKLAECjkGX9DnYh-isfR3N6ABS_Wj9hZBZ4iz1zQcfOAjyijJ1Rccs95kbFhTXmO7Kj9AahzNFj4KmGBMeZOsWwMkm0-wvJeAtUkEWulppAp5_ZeTE_GuKHvjvktpEFRQEeoksYaZB7GcwpyPvTvji_w5QQwe0z9uVu0pfy_MFkaDTN9jwaVafOvx6J_O"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Destinations Section -->
+<section class="py-xl bg-white overflow-hidden">
+<div class="max-w-container-max mx-auto px-8">
+<div class="text-center mb-lg">
+<h2 class="text-headline-lg font-headline-lg">En Popwler Destinasyonları Keŗfedin</h2>
+<p class="text-on-surface-variant mt-base">İngiltere'nin en prestijli eđitim merkezleri arasından seiminizi yapın.</p>
+</div>
+<div class="flex gap-gutter overflow-x-auto pb-lg snap-x hide-scrollbar">
+<!-- London -->
+<div class="min-w-[300px] flex-1 snap-center group">
+<div class="relative overflow-hidden rounded-[24px] aspect-[3/4] mb-md">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="A classic, premium view of London's Big Ben and Westminster Bridge during a soft golden hour. The image has a clean, high-end travel aesthetic with vibrant yet natural colors. The sky is a pale blue with soft clouds, reflecting an aspirational and prestigious atmosphere for international students." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVpRa3ReV5z90hBe_W8ytHpFHeFRd9ScT9KNmkZHSgOO_yMbVzpHJg51C3CgqBDMkyjxhRrnUGI5CRLBD76e0DkRJ7DXw4ncEGBLy3NTOtxYgSN6L3s47dESKTLX-mLvPXHE02ZZ-Sm46VNF_eTAdNDykXVEl9xG3zjC3-VAZvpKWFmWRqH-S2SYR-BqekG_1zUvrCj4gGokqJUnDUWIZPprJwGRvdrfyL7iIKxb2rELoHQEJBXU5BxrFDaRdXd7d9XtgJt9JV9Y-n"/>
+</div>
+<h4 class="text-headline-md font-headline-md">London</h4>
+<p class="text-label-md font-label-md text-on-surface-variant">Eđitimin Dwnya Baŗkenti</p>
+</div>
+<!-- Oxford -->
+<div class="min-w-[300px] flex-1 snap-center group">
+<div class="relative overflow-hidden rounded-[24px] aspect-[3/4] mb-md">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="The historic spires of Oxford University set against a crisp blue sky. The architecture is grand and academic, captured with sharp detail and natural lighting. The mood is one of timeless knowledge and elite education, presented in a minimalist, modern photography style with clean lines and balanced composition." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDECvsd9-mwfSbxbi79Yi1-JV-1NOvXy3et_WtcW1D2USU2erSKuKITqA6A8xQi5caNEFxuk2WfY2CHXiG5oZABfvWOi3Bp8ClZSLhML0Elghmbt6TlE0kmACtuX-51GtD8V3Iks_w05mZJ8_TuBL_iZs4NUgxYz5oDTg-tFDGQ6w-CGNEKUonS4dFWVBuJ4Nks11lBYfMmULqu746raa-k-kSKz2p1is31WBg2Fc9ZHxfd8AvqQu1NuMFTlJBQM0P3rHfYUCbPcL3I"/>
+</div>
+<h4 class="text-headline-md font-headline-md">Oxford</h4>
+<p class="text-label-md font-label-md text-on-surface-variant">Geleneksel Mwkemmellik</p>
+</div>
+<!-- Cambridge -->
+<div class="min-w-[300px] flex-1 snap-center group">
+<div class="relative overflow-hidden rounded-[24px] aspect-[3/4] mb-md">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="A peaceful scene of punting on the River Cam in Cambridge, with King's College Chapel in the background. The lighting is soft and bright, reflecting a serene yet intellectual environment. The aesthetic is sophisticated and premium, highlighting the beauty of historic UK university towns." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCB9zi9f5ZAJCjfY5rOR4SduEAJPZL1uvq9Aa_Sn7NsyvYFhaVw98Jem_PEjDIVAaUOke07zeDCKv745vvfttvEb5xjI1jYsjEjr3h6TQEeOO8J-0a883oqVqGl3GxwdxgGscuvH0wnptbEaxk5w1kKiB-mCvZSyYr-5Aq-iLZ4hw1WCdIMb3Le5-xYlFXEOUxGPl2dmMJNi3jSlzXlHlDn6Qomo7-T_kiKFgbJCq6fXD4kX5j6lYHzlRjQBqZB_xhMOCSZaeJiJdcq"/>
+</div>
+<h4 class="text-headline-md font-headline-md">Cambridge</h4>
+<p class="text-label-md font-label-md text-on-surface-variant">İnovasyon Ruhu</p>
+</div>
+<!-- Brighton -->
+<div class="min-w-[300px] flex-1 snap-center group">
+<div class="relative overflow-hidden rounded-[24px] aspect-[3/4] mb-md">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="A bright, colorful view of the Brighton seaside and the Royal Pavilion. The image is high-energy and summery, with clear blue water and vibrant architecture. It conveys a welcoming, fun, and safe environment for summer schools, styled with high contrast and clean minimalist framing." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3jsP4FmAbXTH55zH1t4ix15Olwkt8ablSlv7a4u-dEUdambjLtyPdxXOwHtiMFBoKGj0J0yayPpzc7bDchGoU3pQzEpTwnO5bf4n6x23pSmKwVFsgxcv5BanGWva6YtemTm0DgLMfKxitY0sqZHQpZYAdPwHPdxKtLQyjrLYbDbuukxl-BVfoYs59aSkRawR7xUm_f09AJIo2lIZV1YY3rMJydbowGRDlvT1RI6FVPGlC5Hx8CdV23VC5q-c3hljNfmtYQIys7Epc"/>
+</div>
+<h4 class="text-headline-md font-headline-md">Brighton</h4>
+<p class="text-label-md font-label-md text-on-surface-variant">Yaratıcı Kıyı Yaŗamı</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="py-xl bg-surface-container-lowest">
+<div class="max-w-container-max mx-auto px-8">
+<div class="text-center mb-lg">
+<h2 class="text-headline-lg font-headline-lg">Topluluđumuzun Sesi</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Parent -->
+<div class="bg-white p-lg rounded-[24px] shadow-sm border border-outline-variant/30 flex flex-col justify-between">
+<div class="space-y-sm">
+<div class="flex text-secondary">
+<span class="material-symbols-outlined font-variation-settings-fill">star</span>
+<span class="material-symbols-outlined font-variation-settings-fill">star</span>
+<span class="material-symbols-outlined font-variation-settings-fill">star</span>
+<span class="material-symbols-outlined font-variation-settings-fill">star</span>
+<span class="material-symbols-outlined font-variation-settings-fill">star</span>
+</div>
+<p class="text-body-md font-body-md italic text-on-surface">"Robonino'nun Londra'daki ekibi ođlumun ilk yaz okulu deneyimini inanılmaz derecede gwvenli ve heyecan verici kıldı. ift dilli destek bir can kurtarandı."</p>
+</div>
+<div class="mt-lg flex items-center gap-md">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="A professional and friendly headshot of a middle-aged woman with a warm smile, set against a blurred, bright interior background. The lighting is soft and flattering, emphasizing trust and community. The style is modern and high-quality, fitting for a premium education brand testimonial." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtZz7b6kbQVfW7xyuNLkLWO2TCxmBqiMMYYE8c9x5U6TqegRo8ILV5iSHG1gl5yJGWTgcJ-gCysCgIko-MyZ5scCIwJjEh3ylMzxeC9cbfkAP1xUz_f-rOJv4WyRN46L6oIkNJg4ibWKzE67l54x1xc3zMYrFANxZ4y8Y_D93wQuogjBd9lPjkLloXL74CS6g6m1l7MHFawR-DBTqI2qwtWY8fKVqCAn8gtuqc7mQ0zi1OV6I6uY4E4aCk7bLpA5cAgUy2ratILcKf"/>
+<div>
+<p class="font-bold text-label-md">Arzu K.</p>
+<p class="text-label-sm text-on-surface-variant">Veli</p>
+</div>
+</div>
+</div>
+<!-- Student -->
+<div class="bg-white p-lg rounded-[24px] shadow-sm border border-outline-variant/30 flex flex-col justify-between">
+<div class="space-y-sm">
+<div class="flex text-secondary">
+<span class="material-symbols-outlined font-variation-settings-fill">star</span>
+<span class="material-symbols-outlined font-variation-settings-fill">star</span>
+<span class="material-symbols-outlined font-variation-settings-fill">star</span>
+<span class="material-symbols-outlined font-variation-settings-fill">star</span>
+<span class="material-symbols-outlined font-variation-settings-fill">star</span>
+</div>
+<p class="text-body-md font-body-md italic text-on-surface">"Robotik atvlyesi daha nce gwrdwđwm hibir ŗeye benzemiyordu. Cambridge'de İngilizce pratiđi yaparken gerek yapay zeka sistemleri inŗa ettik. Harikaydı!"</p>
+</div>
+<div class="mt-lg flex items-center gap-md">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="A portrait of a young male student, looking enthusiastic and bright, with a university campus background. High-key lighting and professional composition reflect a sense of achievement and innovation. The style follows a clean Apple-inspired aesthetic with deep blue and white tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLTaKmzqY65KVQtOfq84UGhpcMScF1lN1lzyimDdtqQN6me65NxkccPW_k2aHB33myT0igsNsNpOwPlfUIvtmdjBzCR0vm5ShBnz0pNUlhQHI7O3CoSSZhkQTeX8YYqom4Zz6aQKrGUueKPcKXC3TZ18Nx4toErQveomcLQUL_JaQkOlIebSUobdvo8rQDn8ZXf0XCSJ0XEMHfKqEXLHrmqJnTwYg7XruejMw1b8vTtrcT0PSSm8rXHMU0d1Gbobcatk4jr-Jey2k9"/>
+<div>
+<p class="font-bold text-label-md">Can M.</p>
+<p class="text-label-sm text-on-surface-variant">STEM đrencisi</p>
+</div>
+</div>
+</div>
+<!-- Corporate -->
+<div class="bg-white p-lg rounded-[24px] shadow-sm border border-outline-variant/30 flex flex-col justify-between">
+<div class="space-y-sm">
+<div class="flex text-secondary">
+<span class="material-symbols-outlined font-variation-settings-fill">star</span>
+<span class="material-symbols-outlined font-variation-settings-fill">star</span>
+<span class="material-symbols-outlined font-variation-settings-fill">star</span>
+<span class="material-symbols-outlined font-variation-settings-fill">star</span>
+<span class="material-symbols-outlined font-variation-settings-fill">star</span>
+</div>
+<p class="text-body-md font-body-md italic text-on-surface">"Yıllık liderlik kampımızı Robonino ile organize etmek, ekip alıŗmamıza taze bir teknolojik bakıŗ aısı getirdi. Kusursuz bir uygulama."</p>
+</div>
+<div class="mt-lg flex items-center gap-md">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="A professional headshot of a corporate executive woman with a friendly, confident expression. The lighting is balanced and crisp, set in a modern office environment. The color palette is professional and minimalist, reflecting the 'Corporate Hub' segment of the brand." src="https://lh3.googleusercontent.com/aida-public/AB6AXuATN6i_bqhewOaPBCJOqGk-7hxkNRdIkb59lBpkBBEBvoXJ6dvSwVKsrCUqJ1VWsFK7nZlJZed-XDkYG10BgoBsXEhvNicW7vhXDN8d_ofM1B7vUzkcE1Igx0o3Vb4XHzXpfUI_DMmpaBvp--t5dm_li98iBpHUl0TgaXjBv_fNP4JFpE-UUyDUktInhzpRTt2LIYhl8k4OHhevKlTXW660lhZ5C7_d7XIUSsw3hBpgx8uA8fgsc9Gp2vvY8GHT8mbv6A8PlZTYmaEq"/>
+<div>
+<p class="font-bold text-label-md">Deniz Y.</p>
+<p class="text-label-sm text-on-surface-variant">İK Direktrw</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA -->
+<section class="py-xl">
+<div class="max-w-container-max mx-auto px-8">
+<div class="relative bg-primary rounded-[40px] p-xl text-center overflow-hidden">
+<!-- Atmospheric pattern -->
+<div class="absolute inset-0 opacity-10 pointer-events-none">
+<div class="absolute top-0 left-0 w-full h-full" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 40px 40px;"></div>
+</div>
+<div class="relative z-10 max-w-2xl mx-auto space-y-md">
+<h2 class="text-headline-lg font-headline-lg text-on-primary">Uluslararası vđrenme Yolculuđunuza Baŗlayın</h2>
+<p class="text-body-lg font-body-lg text-on-primary opacity-80">Uzmanlarımız, İngiltere eđitimi veya robotik maceranızın her adımında size rehberlik etmeye hazır.</p>
+<div class="flex flex-col sm:flex-row justify-center gap-md pt-sm">
+<button class="bg-secondary text-on-secondary px-8 py-4 rounded-xl text-label-md font-label-md hover:scale-105 transition-transform active:scale-95">Bize Ulaŗın</button>
+<button class="bg-white text-primary px-8 py-4 rounded-xl text-label-md font-label-md hover:bg-surface-container transition-all">Danıŗmanlık Alın</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer Shell -->
+<section class="py-xl bg-white" id="faq-section">
+<div class="max-w-container-max mx-auto px-8">
+<div class="text-center mb-lg">
+<span class="text-secondary font-bold text-label-sm uppercase tracking-widest">BİLGİ MERKEZİ</span>
+<h2 class="text-headline-lg font-headline-lg mt-base">Sıkça Sorulan Sorular</h2>
+</div>
+<div class="max-w-3xl mx-auto space-y-md">
+<!-- FAQ Item 1 -->
+<div class="bg-surface-container-low rounded-2xl p-md border border-outline-variant/30">
+<details class="group">
+<summary class="flex justify-between items-center cursor-pointer list-none">
+<h4 class="text-headline-md font-headline-md">İngiltere'de eğitim için yaş sınırı var mı?</h4>
+<span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180">expand_more</span>
+</summary>
+<div class="mt-md">
+<p class="text-body-md text-on-surface-variant">Yaz okullarımız genellikle 8-17 yaş arası öğrencilere yöneliktir. Ancak üniversite hazırlık ve kurumsal eğitim programlarımız için yaş sınırları programın içeriğine göre değişiklik göstermektedir.</p>
+</div>
+</details>
+</div>
+<!-- FAQ Item 2 -->
+<div class="bg-surface-container-low rounded-2xl p-md border border-outline-variant/30">
+<details class="group">
+<summary class="flex justify-between items-center cursor-pointer list-none">
+<h4 class="text-headline-md font-headline-md">Robotik atölyeleri için ön bilgi gerekiyor mu?</h4>
+<span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180">expand_more</span>
+</summary>
+<div class="mt-md">
+<p class="text-body-md text-on-surface-variant">Hayır, başlangıç seviyesindeki atölyelerimiz için herhangi bir ön teknik bilgi gerekmemektedir. Uzman eğitmenlerimiz temelden başlayarak ileri seviyeye kadar rehberlik etmektedir.</p>
+</div>
+</details>
+</div>
+<!-- FAQ Item 3 -->
+<div class="bg-surface-container-low rounded-2xl p-md border border-outline-variant/30">
+<details class="group">
+<summary class="flex justify-between items-center cursor-pointer list-none">
+<h4 class="text-headline-md font-headline-md">Kayıt süreci nasıl işliyor?</h4>
+<span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180">expand_more</span>
+</summary>
+<div class="mt-md">
+<p class="text-body-md text-on-surface-variant">"Bize Ulaşın" butonu veya WhatsApp hattımız üzerinden ilk görüşmeyi başlatabilirsiniz. Danışmanlarımız sizin için en uygun programı belirledikten sonra gerekli evrak ve vize süreçlerinde tam destek sağlamaktadır.</p>
+</div>
+</details>
+</div>
+<!-- FAQ Item 4 -->
+<div class="bg-surface-container-low rounded-2xl p-md border border-outline-variant/30">
+<details class="group">
+<summary class="flex justify-between items-center cursor-pointer list-none">
+<h4 class="text-headline-md font-headline-md">Eğitimler sırasında Türkçe destek sağlanıyor mu?</h4>
+<span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180">expand_more</span>
+</summary>
+<div class="mt-md">
+<p class="text-body-md text-on-surface-variant">Evet, İngiltere merkezli ekibimiz çift dilli (Türkçe/İngilizce) destek sunarak hem öğrencilerin hem de ailelerin tüm süreçte kendilerini güvende hissetmelerini sağlar.</p>
+</div>
+</details>
+</div>
+</div>
+</div>
+</section><footer class="bg-surface-container-lowest py-xl">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-8 max-w-container-max mx-auto">
+<div class="space-y-sm">
+<span class="text-headline-md font-headline-md font-extrabold text-primary">Robonino</span>
+<p class="text-on-surface-variant text-label-md">Dwnya standartlarında İngiltere eđitimi ve yeniliki robotik programlama yoluyla geliŗimi destekliyoruz.</p>
+</div>
+<div class="space-y-sm">
+<h5 class="font-bold text-primary">Programlar</h5>
+<ul class="space-y-xs">
+<li><a class="text-on-surface-variant text-label-sm hover:text-secondary underline transition-all" href="#">İngiltere Okulları</a></li>
+<li><a class="text-on-surface-variant text-label-sm hover:text-secondary underline transition-all" href="#">STEM Programları</a></li>
+<li><a class="text-on-surface-variant text-label-sm hover:text-secondary underline transition-all" href="#">Kurumsal Merkez</a></li>
+</ul>
+</div>
+<div class="space-y-sm">
+<h5 class="font-bold text-primary">ŗirket</h5>
+<ul class="space-y-xs">
+<li><a class="text-on-surface-variant text-label-sm hover:text-secondary underline transition-all" href="#">Hakkımızda</a></li>
+<li><a class="text-on-surface-variant text-label-sm hover:text-secondary underline transition-all" href="#">İletiŗim</a></li>
+</ul>
+</div>
+<div class="space-y-sm">
+<h5 class="font-bold text-primary">Yardım Alın</h5>
+<a class="inline-flex items-center gap-xs bg-secondary/10 text-secondary px-4 py-2 rounded-lg text-label-sm font-bold hover:bg-secondary hover:text-white transition-all" href="#"><span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp Desteđi</a>
+</div>
+</div>
+<div class="max-w-container-max mx-auto px-8 mt-xl pt-lg border-t border-outline-variant/30 text-center">
+<p class="text-label-sm text-on-surface-variant opacity-60"> 2024 Robonino Uluslararası Eđitim. Twm hakları saklıdır.</p>
+</div>
+</footer>
+<script>
+        // Simple micro-interaction for navbar background transparency on scroll
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('shadow-sm');
+            } else {
+                header.classList.remove('shadow-sm');
+            }
+        });
+    </script>
+</body></html>

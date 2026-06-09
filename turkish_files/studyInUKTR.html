@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+
+<html lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>İngiltere'de Eğitim | Robonino</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary-fixed-variant": "#783200",
+                        "tertiary-fixed-dim": "#4cd7f6",
+                        "background": "#f7f9fb",
+                        "on-primary": "#ffffff",
+                        "inverse-on-surface": "#eff1f3",
+                        "on-secondary-container": "#5c2400",
+                        "error-container": "#ffdad6",
+                        "on-primary-container": "#7c839b",
+                        "surface-container-high": "#e6e8ea",
+                        "outline": "#76777d",
+                        "tertiary": "#000000",
+                        "surface-container-highest": "#e0e3e5",
+                        "secondary-fixed-dim": "#ffb690",
+                        "inverse-surface": "#2d3133",
+                        "tertiary-container": "#001f26",
+                        "outline-variant": "#c6c6cd",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-tint": "#565e74",
+                        "inverse-primary": "#bec6e0",
+                        "surface-variant": "#e0e3e5",
+                        "tertiary-fixed": "#acedff",
+                        "on-tertiary-fixed-variant": "#004e5c",
+                        "on-tertiary-fixed": "#001f26",
+                        "on-tertiary-container": "#0090a9",
+                        "on-surface-variant": "#45464d",
+                        "on-secondary-fixed": "#341100",
+                        "primary-fixed-dim": "#bec6e0",
+                        "secondary-fixed": "#ffdbca",
+                        "secondary-container": "#fd761a",
+                        "surface": "#f7f9fb",
+                        "secondary": "#9d4300",
+                        "primary-fixed": "#dae2fd",
+                        "surface-container": "#eceef0",
+                        "primary-container": "#131b2e",
+                        "on-primary-fixed-variant": "#3f465c",
+                        "surface-bright": "#f7f9fb",
+                        "surface-container-low": "#f2f4f6",
+                        "primary": "#000000",
+                        "on-surface": "#191c1e",
+                        "on-error": "#ffffff",
+                        "error": "#ba1a1a",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "on-background": "#191c1e",
+                        "surface-dim": "#d8dadc",
+                        "on-primary-fixed": "#131b2e"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "xs": "4px",
+                        "sm": "12px",
+                        "xl": "80px",
+                        "md": "24px",
+                        "base": "8px",
+                        "lg": "48px",
+                        "gutter": "24px",
+                        "container-max": "1200px"
+                    },
+                    "fontFamily": {
+                        "label-md": ["Plus Jakarta Sans"],
+                        "display-xl": ["Plus Jakarta Sans"],
+                        "body-lg": ["Plus Jakarta Sans"],
+                        "headline-lg-mobile": ["Plus Jakarta Sans"],
+                        "headline-md": ["Plus Jakarta Sans"],
+                        "headline-lg": ["Plus Jakarta Sans"],
+                        "label-sm": ["Plus Jakarta Sans"],
+                        "body-md": ["Plus Jakarta Sans"]
+                    },
+                    "fontSize": {
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}],
+                        "display-xl": ["60px", {"lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "headline-lg-mobile": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "headline-lg": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                        "label-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #f7f9fb; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .glass-card { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); }
+        .nav-sticky { transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="text-on-surface">
+<!-- Top Navigation Bar -->
+<nav class="bg-surface/80 dark:bg-surface-container-high/80 backdrop-blur-md docked full-width top-0 sticky z-50">
+<div class="flex justify-between items-center w-full px-8 py-4 max-w-container-max mx-auto">
+<div class="text-headline-md font-headline-md font-extrabold text-primary dark:text-inverse-primary tracking-tighter">
+                Robonino
+            </div>
+<div class="hidden md:flex gap-lg items-center">
+<a class="text-primary dark:text-inverse-primary font-bold border-b-2 border-secondary text-label-md font-label-md transition-colors duration-200" href="#">Study in UK</a>
+<a class="text-on-surface-variant dark:text-outline-variant font-medium hover:text-secondary dark:hover:text-secondary-fixed text-label-md font-label-md transition-colors duration-200" href="#">Robotics &amp; Coding</a>
+<a class="text-on-surface-variant dark:text-outline-variant font-medium hover:text-secondary dark:hover:text-secondary-fixed text-label-md font-label-md transition-colors duration-200" href="#">Corporate Events</a>
+</div>
+<div class="flex items-center gap-md">
+<button class="text-on-surface-variant hover:text-secondary font-label-md text-label-md transition-all">TR/EN</button>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-full font-label-md text-label-md hover:scale-105 active:scale-95 transition-all">
+                    Apply Now
+                </button>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative overflow-hidden pt-24 pb-32 md:pt-32 md:pb-48">
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-gradient-to-br from-surface to-surface-container-low opacity-90"></div>
+<img class="w-full h-full object-cover" data-alt="A wide angle architectural photograph of the Palace of Westminster and Big Ben in London during a golden hour sunset. The scene is bathed in soft, warm light that highlights the intricate Gothic details of the historic building. The atmosphere is prestigious and academic, reflecting a high-end educational consulting brand's aesthetic. The color palette features rich golden tones, deep blues from the sky, and crisp white highlights, creating a premium and visionary mood." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC7qImbvhkck5fPwrLWOdAeijSGexL10JiXUPzyzYkDVikleS8kEUUGpsMAy2mJ-VfLcU3RYtlhnE8WZQQRXexyHJKmJ7YESI_fmApdDR3PGJfqXawRsAD7nqsrunxQYjxCvzc_-IGW-_Zi3wjKCjlxLYnryqrY8hvTpvS54GAskhRYksEzq367_pzPk0VUrmj2gaCGdDBVi0BJ3gzjMy0yvhKNm6rwFiPwloKppie_KDI9_MCrIU9wLkZccnGmZUX2UBrn4x2GcZfj"/>
+</div>
+<div class="relative z-10 max-w-container-max mx-auto px-8">
+<div class="max-w-3xl">
+<div class="inline-flex items-center gap-xs bg-secondary-container/10 border border-secondary-container/20 px-3 py-1 rounded-full mb-base">
+<span class="material-symbols-outlined text-secondary text-[18px]">school</span>
+<span class="text-secondary font-label-sm text-label-sm">İngiltere'de Eğitim Rehberi</span>
+</div>
+<h1 class="font-display-xl text-display-xl text-primary mb-md leading-tight">
+                    İngiltere'de Dil Okulu ve Eğitim Danışmanlığı
+                </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-lg max-w-2xl">
+                    Çocuklar, gençler ve yetişkinler için İngiltere'nin en iyi okullarında unutulmaz bir eğitim deneyimi. Robonino uzmanlığı ile geleceğinizi şekillendirin.
+                </p>
+<div class="flex flex-wrap gap-md">
+<button class="bg-primary text-on-primary px-8 py-4 rounded-xl font-label-md text-label-md shadow-lg hover:shadow-xl transition-all active:scale-95">
+                        Ücretsiz Danışmanlık Alın
+                    </button>
+<button class="bg-surface-container-lowest text-primary border border-outline-variant px-8 py-4 rounded-xl font-label-md text-label-md hover:bg-surface-container-low transition-all">
+                        Programları Keşfet
+                    </button>
+</div>
+</div>
+</div>
+</header>
+<!-- Services Bento Grid -->
+<section class="py-xl bg-surface-container-low">
+<div class="max-w-container-max mx-auto px-8">
+<div class="text-center mb-lg">
+<h2 class="font-headline-lg text-headline-lg text-primary mb-base">Hizmetlerimiz</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Uçtan uca eğitim desteği ile yanınızdayız.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Service Card 1 -->
+<div class="bg-surface-container-lowest p-lg rounded-[24px] shadow-sm hover:shadow-md transition-all flex flex-col items-start border border-transparent hover:border-secondary-container/30">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center mb-md">
+<span class="material-symbols-outlined text-primary">account_balance</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-sm">Okul Yerleştirme</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Akademik hedeflerinize en uygun dil okulu ve üniversitelerin seçimi ve kayıt süreçleri.</p>
+</div>
+<!-- Service Card 2 -->
+<div class="bg-surface-container-lowest p-lg rounded-[24px] shadow-sm hover:shadow-md transition-all flex flex-col items-start border border-transparent hover:border-secondary-container/30">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center mb-md">
+<span class="material-symbols-outlined text-secondary">wb_sunny</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-sm">Yaz Okulları</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Çocuklar ve gençler için dil eğitimini sosyal aktivitelerle birleştiren prestijli kamplar.</p>
+</div>
+<!-- Service Card 3 -->
+<div class="bg-surface-container-lowest p-lg rounded-[24px] shadow-sm hover:shadow-md transition-all flex flex-col items-start border border-transparent hover:border-secondary-container/30">
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center mb-md">
+<span class="material-symbols-outlined text-on-tertiary-container">description</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-sm">Vize Danışmanlığı</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Karmaşık vize süreçlerinde uzman desteği ile sorunsuz ve hızlı başvuru takibi.</p>
+</div>
+<!-- Service Card 4 -->
+<div class="bg-surface-container-lowest p-lg rounded-[24px] shadow-sm hover:shadow-md transition-all flex flex-col items-start border border-transparent hover:border-secondary-container/30">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center mb-md">
+<span class="material-symbols-outlined text-on-surface-variant">home</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-sm">Konaklama Desteği</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Aile yanı, yurt veya paylaşımlı ev seçenekleriyle güvenli ve konforlu yaşam alanları.</p>
+</div>
+<!-- Service Card 5 -->
+<div class="bg-surface-container-lowest p-lg rounded-[24px] shadow-sm hover:shadow-md transition-all flex flex-col items-start border border-transparent hover:border-secondary-container/30">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed-dim flex items-center justify-center mb-md">
+<span class="material-symbols-outlined text-primary">flight_takeoff</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-sm">Havaalanı Transferleri</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">İngiltere'ye varıştan itibaren güvenli karşılama ve konaklama yerine ulaşım hizmeti.</p>
+</div>
+<!-- Service Card 6 -->
+<div class="bg-surface-container-lowest p-lg rounded-[24px] shadow-sm hover:shadow-md transition-all flex flex-col items-start border border-transparent hover:border-secondary-container/30">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed-dim flex items-center justify-center mb-md">
+<span class="material-symbols-outlined text-on-secondary-container">family_restroom</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-sm">Veli İletişimi</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Eğitim süresince öğrencilerin durumu hakkında ailelere düzenli raporlama ve 7/24 destek.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Destinations Section -->
+<section class="py-xl bg-surface-container-lowest">
+<div class="max-w-container-max mx-auto px-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-lg gap-md">
+<div class="max-w-xl">
+<h2 class="font-headline-lg text-headline-lg text-primary mb-base">Eğitim Şehirleri</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">İngiltere'nin tarihi atmosferi ve modern eğitim imkanlarını bir arada sunan en seçkin destinasyonlarını keşfedin.</p>
+</div>
+<a class="text-primary font-label-md flex items-center gap-xs hover:gap-md transition-all" href="#">Tüm Şehirleri Gör <span class="material-symbols-outlined">arrow_forward</span></a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter">
+<!-- Destination 1 -->
+<div class="group cursor-pointer">
+<div class="relative h-[400px] overflow-hidden rounded-[24px] mb-md shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="A cinematic night view of the London skyline featuring the Shard and Tower Bridge reflecting on the Thames River. The image conveys a modern, bustling metropolis that is both globally connected and historically grounded. High-key urban lighting creates a vibrant atmosphere. The style is professional and high-fidelity, matching a premium international education consulting brand with a focus on technological and academic leadership." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMxXvXONka1x7Fui1gRvc3f7wfMgKX3k8VwwYGtci5qOn1MIO1R8v2ov5I8cbKmaBBfT9lxA8syOxQXY2JqiXh_wqdBSzBhNuOUwlU6qnSakY51vmD3idm8vKmyP_pOCAPL6T8XdW30-mM_Ve78J8Zs8qgY7PB3shFUG-vkLt9imYMOCtni6Sfeg0hOeuMQWk1XHQeFybdFAevVM3bGuiYTwvhZjohALXvsv_x1ixcy36NWGVcrOrVX8pPEVZTvcYvOXrVAn_mQ6PH"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-md text-white">
+<h4 class="font-headline-md text-headline-md">Londra</h4>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Dünya finans ve kültür merkezi, her türlü imkanın kalbinde eğitim.</p>
+</div>
+<!-- Destination 2 -->
+<div class="group cursor-pointer">
+<div class="relative h-[400px] overflow-hidden rounded-[24px] mb-md shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="A serene morning view of the Brighton pier stretching into the calm English Channel under a clear blue sky. The seaside atmosphere is refreshing and welcoming, characterized by soft natural light and a pastel color palette of blues and whites. This image represents the relaxed yet vibrant student life in a coastal UK city, styled with a minimalist and premium aesthetic for an educational consultancy." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCOgqqTkww3iPMy_fBLcF7hR_e8tdWNQBqqal03Bc_FU89RiI2OrfXx-b78UNAEOfTXLyGUMRvV06escq_RaVvBi4E412_UJGVGgvUsdRysN-uvERO9hmdiQK3sGT_o5UgjzONAsRSF6eeYGCv6g8YErxIJTfJMkcsnEJ5XnuH96X8P0hDChQ9KoUyubK0EtY584dXTL8VTUStoK3wrv-pR8052xmdtoh5DdKaP3VJKj3m5T_5mQDfU0EK_h4Mw6wHFXq3h3QZfRUgH"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-md text-white">
+<h4 class="font-headline-md text-headline-md">Brighton</h4>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Deniz kıyısında, canlı ve kozmopolit bir öğrenci şehri atmosferi.</p>
+</div>
+<!-- Destination 3 -->
+<div class="group cursor-pointer">
+<div class="relative h-[400px] overflow-hidden rounded-[24px] mb-md shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="An atmospheric photograph of a historic Oxford University college courtyard with manicured green lawns and ancient stone buildings under a soft, overcast British sky. The setting is deeply academic and prestigious, reflecting centuries of educational excellence. The visual style is crisp and detailed, using a muted but sophisticated color palette of stone grays and lush greens, perfect for a high-end educational brand." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXQqbTneAFMfuZEn4TyDyHm7sRigdXnkByeT81CvTVmk9zQlom-hLuciya6Wi4ImZT9LcgwKRNY7w3sthrfU1rDHHyX0xETO__nnuG4zdkII1L3seBG96hB4CO0JRMb2NM_RbO8Cegq0Q1D1ygajfeHxhJIFuai64ZceBhUE6kHkf-vGtBjSHF0ajkGb_RTHvpHUmn-GWi5MQWy4EGCtBtHpQf2noaIUJdhrvX2POH8lzwTrIP0xZfL-swEU14WOq-d1BZPJ_13Loz"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-md text-white">
+<h4 class="font-headline-md text-headline-md">Oxford</h4>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Bilimin ve tarihin beşiği, dünyaca ünlü akademik gelenek.</p>
+</div>
+<!-- Destination 4 -->
+<div class="group cursor-pointer">
+<div class="relative h-[400px] overflow-hidden rounded-[24px] mb-md shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="A beautiful punting scene on the River Cam in Cambridge, with the historic King's College Chapel in the background. The lighting is bright and clear, emphasizing the peaceful and intellectual environment of the city. The composition is airy and modern, following a clean-cut and minimalist design philosophy suitable for a professional global education agency's digital interface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9n8R_dvTD7GDIHEHW9H9ARF77VhuBOdfh-hdzx9P3AlAKI8xNZMX8VaHjY3JC2sLZuVNfD2GrW_Gy9x5q5P9OzQvbOe09mpYB7oftpdFhX6-0IPPla930P5QYyQzvoXsoM8dtCxhXZczxwd-XMICJIzfBwgcXir5YU8jy1rYqOMkUHC7MU2Ym2vbGAq3stIFlnpgJtf3u4C0TsGF1yBRvoUawHrxw-rjS4fZRzzPB2mUhOxXeY7KzT5YzkW00uyMblMzME5xq8mrx"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-md text-white">
+<h4 class="font-headline-md text-headline-md">Cambridge</h4>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Nehir kıyısında ilham verici bir ortam ve teknoloji odağı.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Robonino Section -->
+<section class="py-xl bg-surface-container-high relative">
+<div class="max-w-container-max mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-lg items-center">
+<div class="relative">
+<div class="absolute -top-12 -left-12 w-48 h-48 bg-secondary/10 rounded-full blur-3xl"></div>
+<img class="relative z-10 w-full rounded-[32px] shadow-lg" data-alt="A lifestyle photograph of three diverse students in a bright, modern library setting in the UK, laughing and studying together. The lighting is high-key and natural, streaming through large windows. The overall mood is optimistic, collaborative, and professional. The image utilizes a clean and premium color palette with soft whites and blues to match the Robonino brand's international education aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXe3C3YbpCKEKmbHSlwGBWsNZwfnFCRgiN5v2VCwxo9lmZ5JgDYNEK1-m77PjjwqB4myugQDAGo_H7vSefwkOJGtqnY3nCAuAIT_RibfN9VGg0tJM8nJPyP_WOM67Dk-h0LxtFYZtDr-au8J5oks3tvjxH28VlZ9ff82yyMhAhVsea2xSx1kP7gvbIbKb_xJzy3apsdHB1Ohc15prgmJ4r67PZAdYPvFXk3kNVt0sbz5eK9XKxW90ywKirHxCQm6ZT_rHq7qaVti_E"/>
+<div class="absolute -bottom-8 -right-8 bg-surface-container-lowest p-lg rounded-2xl shadow-xl z-20 hidden md:block border border-outline-variant/20">
+<div class="flex items-center gap-md mb-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-on-secondary-container">verified</span>
+</div>
+<div>
+<p class="font-headline-md text-headline-md">1000+</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Mutlu Öğrenci</p>
+</div>
+</div>
+</div>
+</div>
+<div class="space-y-lg">
+<h2 class="font-headline-lg text-headline-lg text-primary leading-tight">Neden Robonino Tercih Edilmeli?</h2>
+<div class="space-y-md">
+<div class="flex gap-md items-start">
+<div class="mt-1 w-6 h-6 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-white text-[16px]">check</span>
+</div>
+<div>
+<h4 class="font-headline-md text-[18px] text-primary mb-xs">Kişiye Özel Danışmanlık</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Her öğrencinin hedefi farklıdır. Size en uygun programı akademik geçmişinize göre belirliyoruz.</p>
+</div>
+</div>
+<div class="flex gap-md items-start">
+<div class="mt-1 w-6 h-6 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-white text-[16px]">check</span>
+</div>
+<div>
+<h4 class="font-headline-md text-[18px] text-primary mb-xs">Yerinde Destek</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Sadece kayıt sürecinde değil, İngiltere'ye gittiğinizde de bir telefon uzağınızdayız.</p>
+</div>
+</div>
+<div class="flex gap-md items-start">
+<div class="mt-1 w-6 h-6 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-white text-[16px]">check</span>
+</div>
+<div>
+<h4 class="font-headline-md text-[18px] text-primary mb-xs">Prestijli Okul Ağı</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Accredited by British Council onaylı, İngiltere'nin en kaliteli eğitim kurumları ile çalışıyoruz.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-xl bg-primary text-on-primary">
+<div class="max-w-container-max mx-auto px-8 text-center">
+<h2 class="font-headline-lg text-headline-lg mb-md">Eğitim Yolculuğunuza Başlayın</h2>
+<p class="font-body-lg text-body-lg mb-lg opacity-80 max-w-2xl mx-auto">
+                Hayallerinizdeki eğitim için ilk adımı bugün atın. Uzman danışmanlarımızla tanışmak ve ücretsiz bilgi almak için formumuzu doldurun.
+            </p>
+<div class="flex flex-col md:flex-row gap-md justify-center items-center">
+<button class="bg-secondary-container text-on-secondary-container px-10 py-5 rounded-2xl font-label-md text-label-md hover:scale-105 transition-all shadow-lg active:scale-95">
+                    Hemen Başvurun
+                </button>
+<button class="bg-transparent border-2 border-on-primary/30 text-on-primary px-10 py-5 rounded-2xl font-label-md text-label-md hover:bg-on-primary/10 transition-all">
+                    WhatsApp Destek
+                </button>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-surface-container-lowest dark:bg-surface-container-high py-lg">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-8 py-lg max-w-container-max mx-auto">
+<div class="space-y-md">
+<div class="text-headline-md font-headline-md font-extrabold text-primary dark:text-inverse-primary">Robonino</div>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Global vizyon, yerel tecrübe ile İngiltere'de eğitimin kapılarını aralıyoruz.</p>
+</div>
+<div class="flex flex-col gap-sm">
+<h5 class="font-label-md text-label-md text-primary mb-sm">Hızlı Menü</h5>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-secondary underline transition-all" href="#">About Us</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-secondary underline transition-all" href="#">UK Schools</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-secondary underline transition-all" href="#">STEM Programs</a>
+</div>
+<div class="flex flex-col gap-sm">
+<h5 class="font-label-md text-label-md text-primary mb-sm">Kurumsal</h5>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-secondary underline transition-all" href="#">Corporate Hub</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-secondary underline transition-all" href="#">Contact</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-secondary underline transition-all" href="#">WhatsApp Support</a>
+</div>
+<div class="space-y-md">
+<h5 class="font-label-md text-label-md text-primary mb-sm">Bize Ulaşın</h5>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Email: info@robonino.com</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Ofis: Beşiktaş, İstanbul / London, UK</p>
+</div>
+</div>
+<div class="border-t border-outline-variant/10 mt-lg pt-md text-center px-8">
+<p class="font-label-sm text-label-sm text-on-surface-variant">© 2024 Robonino International Education. All rights reserved.</p>
+</div>
+</footer>
+<!-- Small Micro-interaction Script -->
+<script>
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 20) {
+                nav.classList.add('shadow-md');
+                nav.classList.remove('bg-transparent');
+            } else {
+                nav.classList.remove('shadow-md');
+            }
+        });
+    </script>
+</body></html>

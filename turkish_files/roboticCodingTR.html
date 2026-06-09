@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Robotik ve Kodlama | Robonino Uluslararası Eğitim</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        .spiral-path {
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 1000;
+            animation: draw 3s ease forwards;
+        }
+        @keyframes draw {
+            to { stroke-dashoffset: 0; }
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "tertiary-fixed": "#acedff",
+                      "secondary-container": "#fd761a",
+                      "outline-variant": "#c6c6cd",
+                      "on-primary-fixed": "#131b2e",
+                      "primary": "#000000",
+                      "secondary-fixed-dim": "#ffb690",
+                      "error": "#ba1a1a",
+                      "on-secondary": "#ffffff",
+                      "on-tertiary-fixed": "#001f26",
+                      "tertiary-container": "#001f26",
+                      "surface-container": "#eceef0",
+                      "inverse-surface": "#2d3133",
+                      "surface-container-lowest": "#ffffff",
+                      "tertiary-fixed-dim": "#4cd7f6",
+                      "surface-dim": "#d8dadc",
+                      "on-surface-variant": "#45464d",
+                      "surface-tint": "#565e74",
+                      "on-surface": "#191c1e",
+                      "background": "#f7f9fb",
+                      "on-secondary-container": "#5c2400",
+                      "on-secondary-fixed": "#341100",
+                      "primary-fixed": "#dae2fd",
+                      "on-tertiary": "#ffffff",
+                      "secondary": "#9d4300",
+                      "on-tertiary-fixed-variant": "#004e5c",
+                      "on-primary-container": "#7c839b",
+                      "on-tertiary-container": "#0090a9",
+                      "on-error-container": "#93000a",
+                      "surface-container-low": "#f2f4f6",
+                      "inverse-primary": "#bec6e0",
+                      "tertiary": "#000000",
+                      "on-primary-fixed-variant": "#3f465c",
+                      "surface-container-highest": "#e0e3e5",
+                      "on-background": "#191c1e",
+                      "secondary-fixed": "#ffdbca",
+                      "on-primary": "#ffffff",
+                      "surface-variant": "#e0e3e5",
+                      "primary-fixed-dim": "#bec6e0",
+                      "outline": "#76777d",
+                      "on-secondary-fixed-variant": "#783200",
+                      "primary-container": "#131b2e",
+                      "surface": "#f7f9fb",
+                      "error-container": "#ffdad6",
+                      "surface-container-high": "#e6e8ea",
+                      "surface-bright": "#f7f9fb",
+                      "inverse-on-surface": "#eff1f3",
+                      "on-error": "#ffffff"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "lg": "48px",
+                      "base": "8px",
+                      "container-max": "1200px",
+                      "xs": "4px",
+                      "xl": "80px",
+                      "sm": "12px",
+                      "md": "24px",
+                      "gutter": "24px"
+              },
+              "fontFamily": {
+                      "display-xl": ["Plus Jakarta Sans"],
+                      "headline-lg": ["Plus Jakarta Sans"],
+                      "label-sm": ["Plus Jakarta Sans"],
+                      "headline-lg-mobile": ["Plus Jakarta Sans"],
+                      "body-md": ["Plus Jakarta Sans"],
+                      "headline-md": ["Plus Jakarta Sans"],
+                      "body-lg": ["Plus Jakarta Sans"],
+                      "label-md": ["Plus Jakarta Sans"]
+              },
+              "fontSize": {
+                      "display-xl": ["60px", {"lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                      "headline-lg": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                      "label-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "700"}],
+                      "headline-lg-mobile": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                      "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                      "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                      "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                      "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}]
+              }
+            },
+          },
+        }
+    </script>
+</head>
+<body class="bg-background text-on-surface">
+<!-- TopNavBar -->
+<header class="bg-surface/80 dark:bg-surface-container-high/80 backdrop-blur-md docked full-width top-0 sticky z-50">
+<nav class="flex justify-between items-center w-full px-8 py-4 max-w-container-max mx-auto">
+<div class="text-headline-md font-headline-md font-extrabold text-primary tracking-tighter">Robonino</div>
+<div class="hidden md:flex space-x-md">
+<a class="text-on-surface-variant font-medium hover:text-secondary transition-colors duration-200 text-label-md font-label-md" href="#">İngiltere'de Eğitim</a>
+<a class="text-primary font-bold border-b-2 border-secondary text-label-md font-label-md" href="#">Robotik ve Kodlama</a>
+<a class="text-on-surface-variant font-medium hover:text-secondary transition-colors duration-200 text-label-md font-label-md" href="#">Kurumsal Etkinlikler</a>
+</div>
+<div class="flex items-center gap-sm">
+<button class="px-4 py-2 text-label-md font-label-md text-primary hover:text-secondary transition-colors">TR/EN</button>
+<button class="bg-primary-container text-white px-6 py-2 rounded-full font-label-md text-label-md active:scale-95 transition-transform duration-150">Hemen Başvur</button>
+</div>
+</nav>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-[819px] flex items-center overflow-hidden pt-xl">
+<div class="max-w-container-max mx-auto px-8 grid grid-cols-1 md:grid-cols-2 gap-lg items-center relative z-10">
+<div class="space-y-md">
+<span class="inline-block px-4 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm tracking-wider uppercase">Geleceğe Hazır Beceriler</span>
+<h1 class="text-display-xl font-display-xl text-primary leading-tight">Geleceğin Yenilikçilerini Robotik ve Kodlama ile Güçlendiriyoruz</h1>
+<p class="text-body-lg font-body-lg text-on-surface-variant max-w-lg">Dünyaca ünlü Young Engineers metodolojisi ile desteklenen, 4-18 yaş arası çocuklar için uygulamalı STEM eğitim programları.</p>
+<div class="flex flex-wrap gap-md pt-base">
+<button class="bg-primary-container text-white px-8 py-4 rounded-xl font-label-md text-label-md hover:bg-opacity-90 transition-all flex items-center gap-2 shadow-lg">Atölyeye Katıl <span class="material-symbols-outlined">arrow_forward</span></button>
+<button class="bg-surface-container-lowest text-primary border border-outline-variant px-8 py-4 rounded-xl font-label-md text-label-md hover:bg-surface-container-low transition-all">Ücretsiz Deneme Dersi Al</button>
+</div>
+</div>
+<div class="relative">
+<div class="rounded-3xl overflow-hidden shadow-2xl relative z-10 aspect-square md:aspect-auto md:h-[600px]">
+<img class="w-full h-full object-cover" data-alt="A diverse group of enthusiastic children in a bright, modern STEM classroom collaboratively building a complex robot with colorful LEGO-like bricks and gears. The lighting is soft and professional, emphasizing a high-end educational atmosphere. The color palette features clean whites, deep blues, and vibrant orange accents, reflecting a sophisticated and tech-forward Robonino brand identity. The mood is focused yet joyfully creative." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDj8VtFuW0LBycXBgfvYEOzKd-5hP4dXXv5XOkZBi5XTLQDlq1CHgTCCnqACA9KQAghXOpFycm7g1U1ofK4Q5uF8N1iVbIL_WeVxKpLDpbhmnV-BFljJC06nPBL8YGi9aboP0ecdQWzV5F2uSl2sZKmPsSGcj412EcMt1mxKC_nn18YQPJRqhurdeEbIuZLfsYtG9GFkWB9DAIkCf4mAEPRJP8WNXVkIXScReTPQDFdVf4Y3wyibL7LSlUnNbs-BjqXLSa3PpUWXemf"/>
+</div>
+<!-- Decorative Elements -->
+<div class="absolute -top-6 -right-6 w-32 h-32 bg-secondary-container rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
+<div class="absolute -bottom-10 -left-10 w-48 h-48 bg-tertiary-fixed rounded-full mix-blend-multiply filter blur-3xl opacity-30"></div>
+</div>
+</div>
+</section>
+<!-- Program Filter & Cards Section -->
+<section class="py-xl bg-surface-container-low" id="programs">
+<div class="max-w-container-max mx-auto px-8">
+<div class="text-center mb-xl">
+<h2 class="text-headline-lg font-headline-lg text-primary mb-md">Geleceği inşa etmeye hazır mısınız?</h2>
+<div class="flex flex-wrap justify-center gap-sm mt-md" id="filter-tabs">
+<button class="filter-btn active px-6 py-2 rounded-full font-label-md text-label-md bg-primary-container text-white transition-all" onclick="filterPrograms('all')">Tüm Yaşlar</button>
+<button class="filter-btn px-6 py-2 rounded-full font-label-md text-label-md bg-white text-on-surface-variant hover:bg-surface-container-highest transition-all" onclick="filterPrograms('preschool')">Okul Öncesi (4-6)</button>
+<button class="filter-btn px-6 py-2 rounded-full font-label-md text-label-md bg-white text-on-surface-variant hover:bg-surface-container-highest transition-all" onclick="filterPrograms('primary')">İlkokul (6-12)</button>
+<button class="filter-btn px-6 py-2 rounded-full font-label-md text-label-md bg-white text-on-surface-variant hover:bg-surface-container-highest transition-all" onclick="filterPrograms('teens')">Gençler (12+)</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter" id="program-grid">
+<!-- Preschool Programs -->
+<div class="program-card preschool glass-card p-lg rounded-[24px] hover:translate-y-[-4px] transition-transform duration-300">
+<div class="w-12 h-12 rounded-xl bg-secondary-container flex items-center justify-center text-white mb-md">
+<span class="material-symbols-outlined" data-icon="child_care">child_care</span>
+</div>
+<h3 class="text-headline-md font-headline-md text-primary mb-xs">Algo Buddy</h3>
+<p class="text-label-sm font-label-sm text-secondary uppercase tracking-wider mb-sm">Yaş 4-6 | 45-60 Dakika</p>
+<p class="text-body-md font-body-md text-on-surface-variant mb-md">Ekran olmadan erken çocukluk kodlaması. Oyun yoluyla mantık, mekansal farkındalık ve problem çözmeye odaklanır.</p>
+<button class="text-label-md font-label-md text-primary font-bold flex items-center gap-2 group">Daha Fazla Bilgi <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span></button>
+</div>
+<div class="program-card preschool glass-card p-lg rounded-[24px] hover:translate-y-[-4px] transition-transform duration-300">
+<div class="w-12 h-12 rounded-xl bg-secondary-container flex items-center justify-center text-white mb-md">
+<span class="material-symbols-outlined" data-icon="construction">construction</span>
+</div>
+<h3 class="text-headline-md font-headline-md text-primary mb-xs">Big Builders</h3>
+<p class="text-label-sm font-label-sm text-secondary uppercase tracking-wider mb-sm">Yaş 4-6 | 45-60 Dakika</p>
+<p class="text-body-md font-body-md text-on-surface-variant mb-md">Temel mühendislik prensiplerine giriş. Çocuklar motorlu modeller inşa eder ve mekaniği keşfederler.</p>
+<button class="text-label-md font-label-md text-primary font-bold flex items-center gap-2 group">Daha Fazla Bilgi <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span></button>
+</div>
+<!-- Primary Programs -->
+<div class="program-card primary glass-card p-lg rounded-[24px] hover:translate-y-[-4px] transition-transform duration-300">
+<div class="w-12 h-12 rounded-xl bg-primary-container flex items-center justify-center text-white mb-md">
+<span class="material-symbols-outlined" data-icon="extension">extension</span>
+</div>
+<h3 class="text-headline-md font-headline-md text-primary mb-xs">Bricks Challenge</h3>
+<p class="text-label-sm font-label-sm text-secondary uppercase tracking-wider mb-sm">Yaş 6-12 | 75-90 Dakika</p>
+<p class="text-body-md font-body-md text-on-surface-variant mb-md">Karmaşık mühendislik kavramlarını, fiziği ve klasik mekaniği öğretmek için LEGO kullanan amiral gemisi programımız.</p>
+<button class="text-label-md font-label-md text-primary font-bold flex items-center gap-2 group">Daha Fazla Bilgi <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span></button>
+</div>
+<div class="program-card primary glass-card p-lg rounded-[24px] hover:translate-y-[-4px] transition-transform duration-300">
+<div class="w-12 h-12 rounded-xl bg-primary-container flex items-center justify-center text-white mb-md">
+<span class="material-symbols-outlined" data-icon="computer">computer</span>
+</div>
+<h3 class="text-headline-md font-headline-md text-primary mb-xs">AlgoPlay</h3>
+<p class="text-label-sm font-label-sm text-secondary uppercase tracking-wider mb-sm">Yaş 7-12 | 75-90 Dakika</p>
+<p class="text-body-md font-body-md text-on-surface-variant mb-md">Çocukların fiziksel ve dijital arasında köprü kurarak robotlara komut vermek için 'kodlama bloklarını' kullandığı somut kodlama deneyimi.</p>
+<button class="text-label-md font-label-md text-primary font-bold flex items-center gap-2 group">Daha Fazla Bilgi <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span></button>
+</div>
+<!-- Teen Programs -->
+<div class="program-card teens glass-card p-lg rounded-[24px] hover:translate-y-[-4px] transition-transform duration-300">
+<div class="w-12 h-12 rounded-xl bg-tertiary-container flex items-center justify-center text-white mb-md">
+<span class="material-symbols-outlined" data-icon="code">code</span>
+</div>
+<h3 class="text-headline-md font-headline-md text-primary mb-xs">Robotik</h3>
+<p class="text-label-sm font-label-sm text-secondary uppercase tracking-wider mb-sm">Yaş 12+ | 90 Dakika</p>
+<p class="text-body-md font-body-md text-on-surface-variant mb-md">Profesyonel düzeydeki kitlerle ileri mekanik mühendisliği ve programlama. Küresel yarışmalara hazırlık.</p>
+<button class="text-label-md font-label-md text-primary font-bold flex items-center gap-2 group">Daha Fazla Bilgi <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span></button>
+</div>
+<div class="program-card teens glass-card p-lg rounded-[24px] hover:translate-y-[-4px] transition-transform duration-300">
+<div class="w-12 h-12 rounded-xl bg-tertiary-container flex items-center justify-center text-white mb-md">
+<span class="material-symbols-outlined" data-icon="terminal">terminal</span>
+</div>
+<h3 class="text-headline-md font-headline-md text-primary mb-xs">AlgoC</h3>
+<p class="text-label-sm font-label-sm text-secondary uppercase tracking-wider mb-sm">Yaş 12+ | 90 Dakika</p>
+<p class="text-body-md font-body-md text-on-surface-variant mb-md">Görsel bloklardan Python ve C++ gibi gerçek dünya uygulamalarına odaklanan metin tabanlı kodlama dillerine geçiş.</p>
+<button class="text-label-md font-label-md text-primary font-bold flex items-center gap-2 group">Daha Fazla Bilgi <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span></button>
+</div>
+</div>
+</div>
+</section>
+<!-- Spiral Method Section -->
+<section class="py-xl bg-white overflow-hidden">
+<div class="max-w-container-max mx-auto px-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-xl items-center">
+<div class="relative flex justify-center">
+<svg class="w-full max-w-md h-auto" fill="none" viewbox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+<path class="spiral-path" d="M200 200C200 150 240 110 290 110C340 110 380 150 380 200C380 277 317 340 240 340C163 340 100 277 100 200C100 123 163 60 240 60C317 60 380 123 380 200" stroke="#fd761a" stroke-linecap="round" stroke-width="4"></path>
+<circle cx="200" cy="200" fill="#131b2e" r="10"></circle>
+<circle cx="290" cy="110" fill="#131b2e" r="6"></circle>
+<circle cx="240" cy="340" fill="#131b2e" r="6"></circle>
+<circle cx="100" cy="200" fill="#131b2e" r="6"></circle>
+</svg>
+<div class="absolute inset-0 flex items-center justify-center">
+<span class="text-headline-md font-headline-md text-primary font-extrabold">EĞLENCELİ EĞİTİM</span>
+</div>
+</div>
+<div>
+<h2 class="text-headline-lg font-headline-lg text-primary mb-md">Geleceği inşa etmeye hazır mısınız?</h2>
+<p class="text-body-lg font-body-lg text-on-surface-variant mb-lg">Robotik büyüsünü iş başında görmek için ücretsiz bir deneme dersi planlayın veya atölyemizi ziyaret edin.</p>
+<div class="space-y-base">
+<div class="flex items-start gap-md">
+<div class="mt-1 w-8 h-8 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">sync</span>
+</div>
+<div>
+<h4 class="font-bold text-primary">Sürekli Tekrar</h4>
+<p class="text-body-md font-body-md text-on-surface-variant">Temel STEM ilkeleri, ustalığı sağlamak için her modülde yeniden ele alınır.</p>
+</div>
+</div>
+<div class="flex items-start gap-md">
+<div class="mt-1 w-8 h-8 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">trending_up</span>
+</div>
+<div>
+<h4 class="font-bold text-primary">Artan Karmaşıklık</h4>
+<p class="text-body-md font-body-md text-on-surface-variant">Öğrenciler basit mekanik modellerden karmaşık otonom robotiğe doğru ilerler.</p>
+</div>
+</div>
+<div class="flex items-start gap-md">
+<div class="mt-1 w-8 h-8 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">celebration</span>
+</div>
+<div>
+<h4 class="font-bold text-primary">Öğrenirken Eğlence</h4>
+<p class="text-body-md font-body-md text-on-surface-variant">Biz buna "Edutainment" diyoruz — çocuklar o kadar meşgul olurlar ki mühendislik öğrendiklerinin farkına bile varmazlar.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Franchise Trust Section -->
+<section class="py-xl bg-primary-container text-white">
+<div class="max-w-container-max mx-auto px-8 text-center">
+<div class="mb-md inline-block px-4 py-1 rounded-full bg-secondary-container text-white text-label-sm font-label-sm">Küresel Standart</div>
+<h2 class="text-headline-lg font-headline-lg mb-md">Geleceği inşa etmeye hazır mısınız?</h2>
+<p class="text-body-lg font-body-lg text-on-primary-container max-w-2xl mx-auto mb-lg">Robotik büyüsünü iş başında görmek için ücretsiz bir deneme dersi planlayın veya atölyemizi ziyaret edin.</p>
+<div class="flex justify-center items-center gap-xl grayscale opacity-70">
+<div class="h-16 w-32 flex items-center justify-center text-headline-md font-extrabold border-2 border-dashed border-white/20 rounded-xl">STEM.org</div>
+<div class="h-16 w-32 flex items-center justify-center text-headline-md font-extrabold border-2 border-dashed border-white/20 rounded-xl">LEGO®</div>
+<div class="h-16 w-32 flex items-center justify-center text-headline-md font-extrabold border-2 border-dashed border-white/20 rounded-xl">Young Engineers</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-xl">
+<div class="max-w-container-max mx-auto px-8">
+<div class="bg-surface-container-highest rounded-[40px] p-lg md:p-xl flex flex-col md:flex-row items-center justify-between gap-lg relative overflow-hidden">
+<div class="relative z-10 text-center md:text-left">
+<h2 class="text-headline-lg font-headline-lg text-primary mb-sm">Geleceği inşa etmeye hazır mısınız?</h2>
+<p class="text-body-lg font-body-lg text-on-surface-variant max-w-md">Robotik büyüsünü iş başında görmek için ücretsiz bir deneme dersi planlayın veya atölyemizi ziyaret edin.</p>
+</div>
+<div class="flex flex-col sm:flex-row gap-md relative z-10">
+<button class="bg-primary-container text-white px-8 py-4 rounded-xl font-label-md text-label-md shadow-xl hover:scale-105 transition-all">Ücretsiz Deneme Dersi Al</button>
+<button class="bg-white text-primary border border-outline-variant px-8 py-4 rounded-xl font-label-md text-label-md hover:bg-surface-container transition-all">WhatsApp'tan Bize Ulaşın</button>
+</div>
+<!-- Decorative background element -->
+<div class="absolute right-0 bottom-0 w-64 h-64 bg-secondary-container/10 rounded-full translate-x-1/2 translate-y-1/2"></div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-lowest dark:bg-surface-container-high border-t border-outline-variant/30">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-8 py-lg max-w-container-max mx-auto">
+<div class="col-span-1 md:col-span-1">
+<div class="text-headline-md font-headline-md font-extrabold text-primary mb-md">Robonino</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Gelecek nesil küresel liderler için eğitim ve teknolojiyi birleştiriyoruz.</p>
+</div>
+<div>
+<h4 class="text-label-sm font-label-sm font-bold text-primary mb-md uppercase">PROGRAMLARIMIZ</h4>
+<ul class="space-y-sm">
+<li><a class="text-on-surface-variant text-label-md font-label-md hover:text-secondary underline transition-all" href="#">Robotik ve Kodlama</a></li>
+<li><a class="text-on-surface-variant text-label-md font-label-md hover:text-secondary underline transition-all" href="#">İngiltere'de Eğitim</a></li>
+<li><a class="text-on-surface-variant text-label-md font-label-md hover:text-secondary underline transition-all" href="#">STEM Programları</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-label-sm font-label-sm font-bold text-primary mb-md uppercase">KURUMSAL</h4>
+<ul class="space-y-sm">
+<li><a class="text-on-surface-variant text-label-md font-label-md hover:text-secondary underline transition-all" href="#">Hakkımızda</a></li>
+<li><a class="text-on-surface-variant text-label-md font-label-md hover:text-secondary underline transition-all" href="#">İletişim</a></li>
+<li><a class="text-on-surface-variant text-label-md font-label-md hover:text-secondary underline transition-all" href="#">Kurumsal Merkez</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-label-sm font-label-sm font-bold text-primary mb-md uppercase">DESTEK</h4>
+<ul class="space-y-sm">
+<li><a class="text-secondary font-bold text-label-md font-label-md flex items-center gap-2" href="#"><span class="material-symbols-outlined text-[18px]">forum</span> WhatsApp Destek</a></li>
+<li class="text-on-surface-variant text-label-md font-label-md mt-md">İstanbul, Türkiye</li>
+</ul>
+</div>
+</div>
+<div class="max-w-container-max mx-auto px-8 py-md border-t border-outline-variant/10">
+<p class="text-label-sm font-label-sm text-on-surface-variant text-center md:text-left">© 2024 Robonino Uluslararası Eğitim. Tüm hakları saklıdır.</p>
+</div>
+</footer>
+<script>
+        function filterPrograms(category) {
+            // Update UI for buttons
+            const buttons = document.querySelectorAll('.filter-btn');
+            buttons.forEach(btn => {
+                btn.classList.remove('bg-primary-container', 'text-white', 'active');
+                btn.classList.add('bg-white', 'text-on-surface-variant');
+            });
+            
+            const activeBtn = event.currentTarget;
+            activeBtn.classList.remove('bg-white', 'text-on-surface-variant');
+            activeBtn.classList.add('bg-primary-container', 'text-white', 'active');
+
+            // Filter cards
+            const cards = document.querySelectorAll('.program-card');
+            cards.forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'scale(0.95)';
+                
+                setTimeout(() => {
+                    if (category === 'all') {
+                        card.classList.remove('hidden');
+                    } else if (card.classList.contains(category)) {
+                        card.classList.remove('hidden');
+                    } else {
+                        card.classList.add('hidden');
+                    }
+                    
+                    if (!card.classList.contains('hidden')) {
+                        card.style.opacity = '1';
+                        card.style.transform = 'scale(1)';
+                    }
+                }, 200);
+            });
+        }
+
+        // Simple observer for entrance animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    entry.target.classList.remove('opacity-0', 'translate-y-10');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.program-card').forEach(card => {
+            card.classList.add('opacity-0', 'translate-y-10', 'transition-all', 'duration-700');
+            observer.observe(card);
+        });
+    </script>
+</body></html>
