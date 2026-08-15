@@ -1,0 +1,595 @@
+{
+  "meta": {
+    "siteName": "Robonino"
+  },
+  "nav": {
+    "home": "Anasayfa",
+    "studyUk": "İngiltere'de Eğitim",
+    "robotics": "Robotik Kodlama",
+    "events": "Kurumsal Etkinlikler",
+    "about": "Hakkımızda",
+    "contact": "İletişim"
+  },
+  "header": {
+    "cta": "Ücretsiz Danışmanlık"
+  },
+  "footer": {
+    "newsletterTitle": "Program güncellemelerini ve erken kamp tarihlerini kaçırmayın",
+    "newsletterDesc": "Bültenimize katılın — okullar, STEM kampları ve etkinlikler hakkında en hızlı haberleri edinin.",
+    "emailPlaceholder": "E-posta adresi",
+    "subscribe": "Abone Ol",
+    "brandBlurb": "Çocukları, aileleri ve profesyonelleri öğrenme, yaratıcılık ve küresel deneyimlerle buluşturan güvenilir uluslararası eğitim ve inovasyon şirketi.",
+    "programsHeading": "Hizmetlerimiz",
+    "companyHeading": "Şirket",
+    "contactHeading": "İngiltere İletişim",
+    "languageHeading": "Dil",
+    "whatsapp": "WhatsApp'tan Yazın",
+    "address": "Londra, Birleşik Krallık",
+    "phone": "+44 20 7946 0912",
+    "email": "info@robonino.com",
+    "copyrightSuffix": "Robonino. Tüm hakları saklıdır.",
+    "photoCredits": "Şehir fotoğrafları:",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Şartları",
+    "links": {
+      "studyUk": "İngiltere'de Eğitim",
+      "robotics": "Robotik Kodlama",
+      "events": "Kurumsal Etkinlikler",
+      "about": "Hakkımızda",
+      "contact": "İletişim",
+      "home": "Anasayfa"
+    }
+  },
+  "home": {
+    "metaTitle": "Robonino — Öğrenmenin Üç Yüzü, Tek Adres: Robonino",
+    "metaDescription": "Robonino — uluslararası eğitim, robotik & kodlama ve kurumsal inovasyon etkinlikleri. İngiltere'de eğitim görün, STEM becerileri kazanın ve küresel deneyimlerle gelişin.",
+    "hero": {
+      "title": "Öğrenmenin Üç Farklı Yolu Tek Adreste buluşuyor",
+      "desc": "Çocuklara robotik kodlama, ailelere yurtdışında eğitim danışmanlığı, profesyonellere kurumsal atölyeler sunuyoruz — hepsi tek çatı altında.",
+      "ctaStudy": "İngiltere'de Eğitim",
+      "ctaRobotics": "Robotik Kodlama",
+      "ctaEvents": "Kurumsal Etkinlikler",
+      "imageAlt": "İngiltere'deki bir kampüste birlikte çalışan uluslararası öğrenciler",
+      "statNumber": "1.200+",
+      "statLabel": "Öğrenci ve aileye hizmet verildi"
+    },
+    "services": {
+      "eyebrow": "Neler Yapıyoruz",
+      "title": "Öğrenmeyi Deneyime Dönüştürüyoruz",
+      "desc": "İngiltere'deki sınıflardan robotik laboratuvarlarına ve toplantı odalarına kadar — Robonino gerçek beceriler kazandıran deneyimler tasarlar.",
+      "study": {
+        "badge": "İngiltere'de Eğitim",
+        "title": "İngiltere'de İngilizce Eğitimi",
+        "desc": "Çocuklar, gençler, yetişkinler ve aileler için İngiltere genelinde dil okulu organizasyonu.",
+        "features": ["Okul yerleştirme", "Yaz okulları", "Vize danışmanlığı", "Konaklama desteği", "Havalimanı transferleri", "Veli iletişimi"],
+        "cta": "Programları Keşfedin →"
+      },
+      "robotics": {
+        "badge": "Robotik Kodlama",
+        "title": "Çocuklar İçin Robotik Kodlama",
+        "desc": "Çocukların geleceğin becerilerini kazanmasına yardımcı olan yaratıcı STEM eğitim programları.",
+        "features": ["Robotik atölyeleri", "Kodlama dersleri", "STEM kulüpleri", "Okul programları", "Tatil kampları"],
+        "cta": "STEM'i Keşfedin →"
+      },
+      "events": {
+        "badge": "Kurumsal Etkinlikler",
+        "title": "Kurumsal ve Sosyal Etkinlikler",
+        "desc": "Profesyoneller için yaratıcı takım oluşturma ve inovasyon odaklı sosyal deneyimler.",
+        "features": ["Takım oluşturma", "Robotik yarışmaları", "İnovasyon atölyeleri", "Networking etkinlikleri", "Yaratıcı aktiviteler"],
+        "cta": "Etkinlik Planlayın →"
+      }
+    },
+    "why": {
+      "eyebrow": "Aileler ve Şirketler Neden Bizi Seçiyor",
+      "title": "Neden Robonino",
+      "items": [
+        { "title": "İngiltere Merkezli Destek", "desc": "İngiltere genelinde sahada gerçek bir yerel ekip." },
+        { "title": "Güvenilir Okul Ortakları", "desc": "Yalnızca onaylı dil okulları ve STEM ortakları." },
+        { "title": "Çocuk Güvenliği Odaklı", "desc": "Her programa entegre edilmiş koruma ve özen yükümlülüğü." },
+        { "title": "Türkçe & İngilizce İletişim", "desc": "Her aile ve ortak her iki dilde de destekleniyor." },
+        { "title": "Uluslararası Deneyim", "desc": "Türk aileleri İngiliz kurumlarıyla buluşturan uzun yıllara dayanan deneyim." },
+        { "title": "Profesyonel Organizasyon", "desc": "Evraklardan havalimanı karşılamaya kadar uçtan uca lojistik." }
+      ]
+    },
+    "destinations": {
+      "eyebrow": "Eğitim Göreceğiniz Şehirler",
+      "title": "Öne Çıkan Lokasyonlar",
+      "items": [
+        { "name": "Londra", "tag": "Başkent enerjisi" },
+        { "name": "Brighton", "tag": "Sahilde öğrenci hayatı" },
+        { "name": "Oxford", "tag": "Tarihi akademik miras" },
+        { "name": "Cambridge", "tag": "Dünya standartında kolejler" }
+      ]
+    },
+    "testimonials": {
+      "eyebrow": "Gerçek Hikayeler",
+      "title": "Aileler ve Ortaklarımız Ne Diyor",
+      "items": [
+        { "quote": "Robonino, kızımızın Brighton'daki yaz okulu yerleştirmesinin tamamında bize rehberlik etti — vizeler, misafir aile, her şey. Süreç boyunca kendimizi güvende hissettik.", "name": "Elif Yılmaz", "role": "Veli, İstanbul" },
+        { "quote": "Robotik kampı, oğlumun teknolojiye bakışını tamamen değiştirdi. Bir hafta içinde ilk gerçek robotunu inşa etti.", "name": "Mehmet Kaya", "role": "Veli" },
+        { "quote": "Liderlik ekibimizin toplantısı için Robonino'dan bir inovasyon atölyesi aldık — bugüne kadar düzenlediğimiz en iyi ekip etkinliklerinden biriydi.", "name": "Sarah Whitfield", "role": "İnsan Kaynakları Direktörü, Londra" }
+      ]
+    },
+    "cta": {
+      "title": "Uluslararası Öğrenme Yolculuğunuza Başlayın",
+      "desc": "Eğitim yerleştirmeleri, STEM programları veya bir sonraki kurumsal etkinliğiniz hakkında İngiltere merkezli ekibimizle konuşun.",
+      "primary": "Mesaj Gönderin",
+      "secondary": "Ücretsiz Görüşme Ayarlayın"
+    }
+  },
+  "studyUk": {
+    "metaTitle": "İngiltere'de İngilizce Eğitimi — Robonino",
+    "metaDescription": "Robonino ile İngiltere'de İngilizce eğitimi — okul yerleştirme, yaz okulları, vize danışmanlığı, konaklama ve çocuklar, gençler ve yetişkinler için tam aile desteği.",
+    "hero": {
+      "title": "İngiltere'de Öğrenin, Dünyaya Açılın",
+      "desc": "Doğru dil okulunu bulmaktan kayıt işlemlerine kadar, İngiltere'deki eğitim yolculuğunuzun her adımında yanınızdayız.",
+      "primaryCta": "Ücretsiz Danışmanlık Alın",
+      "secondaryCta": "Programları Görüntüleyin",
+      "imageAlt": "İngiltere'de bir dil okulu kampüsündeki öğrenciler"
+    },
+    "audiences": {
+      "eyebrow": "Her Yaş İçin Programlar",
+      "title": "Kimlere Yardımcı Oluyoruz",
+      "items": [
+        { "title": "Çocuklar (6–15)", "desc": "Yakın gözetim ve aile iletişimiyle eğlenceli, güvenli dil eğitimi programları." },
+        { "title": "Gençler (16+)", "desc": "Özgüven kazandıran ve üniversiteye hazır İngilizce sağlayan yaz okulları ve akademik dönemler." },
+        { "title": "Yetişkinler", "desc": "İş, eğitim veya kişisel gelişim için yoğun ve genel İngilizce kursları." },
+        { "title": "Aileler", "desc": "Ailelerin birlikte seyahat edip öğrenebilmesi için ortak yerleştirme ve konaklama." }
+      ]
+    },
+    "features": {
+      "eyebrow": "Uçtan Uca Hizmet",
+      "title": "Her Adım Bizden",
+      "items": [
+        { "title": "Okul Yerleştirme", "desc": "Onaylı İngiliz ortak okullarımız arasından yaşa, seviyeye ve hedeflere göre eşleştirme." },
+        { "title": "Yaz Okulları", "desc": "Yaz tatili boyunca yatılı ve gündüzlü programlar." },
+        { "title": "Vize Danışmanlığı", "desc": "İngiltere eğitim vizesi başvurularında adım adım destek." },
+        { "title": "Konaklama Desteği", "desc": "Misafir aileler, yurtlar veya aile konaklamaları — tümü güvenlik kontrolünden geçirilmiş." },
+        { "title": "Havalimanı Transferleri", "desc": "Öğrencilerin her seferinde güvenle varması için organize edilen karşılamalar." },
+        { "title": "Veli İletişimi", "desc": "Konaklama boyunca İngilizce ve Türkçe düzenli güncellemeler." }
+      ]
+    },
+    "destinations": {
+      "eyebrow": "Kampüs Lokasyonları",
+      "title": "İngiltere'nin Simgesel Şehirlerinde Eğitim",
+      "items": [
+        { "name": "Londra" },
+        { "name": "Brighton" },
+        { "name": "Oxford" },
+        { "name": "Cambridge" }
+      ]
+    },
+    "testimonial": {
+      "quote": "Oğlumuzun Brighton'daki yazı ona özgüven, altı farklı ülkeden arkadaşlar ve gerçekten kullandığı bir İngilizce kazandırdı. Robonino her detayı hallettiği için endişelenmemize gerek kalmadı.",
+      "name": "Ayşe Demir",
+      "role": "Veli, Ankara"
+    },
+    "cta": {
+      "title": "İngiltere Eğitim Deneyiminizi Planlamaya Hazır mısınız?",
+      "desc": "Hedeflerinizi bize anlatın, sizi doğru okul, şehir ve programla eşleştirelim.",
+      "primary": "Mesaj Gönderin",
+      "secondary": "Ücretsiz Görüşme Ayarlayın"
+    }
+  },
+  "robotics": {
+    "metaTitle": "Çocuklar İçin Robotik Kodlama — Robonino",
+    "metaDescription": "Robonino'dan çocuklar için Robotik Kodlama — geleceğe hazır beceriler kazandıran STEM atölyeleri, kodlama dersleri, okul programları ve tatil kampları.",
+    "hero": {
+      "eyebrow": "Robotik Kodlama",
+      "title": "Çocuklar İçin Robotik ve Kodlama Eğitimi",
+      "desc": "Genç Mühendislerin(Young Engineers) STEM odaklı programlarıyla, 4-18 yaş arası çocuklara sınıfta, okul sonrasında ve atölyelerde kalıcı robotik ve kodlama becerileri kazandırıyoruz",
+      "primaryCta": "Atölye Rezervasyonu Yapın",
+      "secondaryCta": "Programları İnceleyin",
+      "imageAlt": "LEGO robotik sınıfında çocuklar"
+    },
+    "tracks": {
+      "eyebrow": "PROGRAMLARIMIZ",
+      "title": "Genç Mühendisler Programlarıyla Tanışın",
+      "subTitle": "4-18 yaş arası her çocuk için, dünya çapında kanıtlanmış Genç Mühendisler müfredatıyla tasarlanmış sekiz farklı program.",
+      "items": [
+        { "title": "AlgoBuddy (4-6 yaş)", "desc": "Küçük coder'lar; büyük bloklarla veya ekran uygulamasıyla ilk kodlama adımlarını atar." },
+        { "title": "Big Builders (4-6 yaş)", "desc": "Esnek parçalarla 3D modeller kurarak doğa bilimlerini ve temel mühendisliği keşfeder." },
+        { "title": "Smartivo (4-6 yaş)", "desc": "Hikâye temelli görevlerle robotu hareket ettirir, ışıklandırır ve komutlarla hayata geçirir." },
+        { "title": "AlgoPlay (6-10 yaş)", "desc": "Algobrix yapı bloklarıyla model kurar, kod dizileri yazar ve robotu çalıştırır." },
+        { "title": "Bricks Challenge (6-10 yaş)", "desc": "Yapı bloklarıyla kuvvet, denge ve mekanik prensipleri deneyerek klasik mekaniği öğrenir." },
+        { "title": "Galileo Technic (7-10 yaş)", "desc": "Vites, hareket ve enerji gibi ileri mekanik kavramları karmaşık modeller inşa ederek keşfeder." },
+        { "title": "RoboToys (9-12 yaş)", "desc": "Gelişmiş robotlar inşa eder, kodlama komutlarıyla mantıksal düşünme becerilerini geliştirir." },
+        { "title": "AlgoC (13-18 yaş)", "desc": "Teens code real robotics projects in C with Arduino and get an intro to AI-driven behavior." }
+      ]
+    },
+    "features": {
+      "eyebrow": "Neler Dahil",
+      "title": "Her Ortama Uygun Formatlar",
+      "items": [
+        { "title": "Robotik Atölyeleri", "desc": "Gerçek robotlar inşa edip programlayan uygulamalı seanslar." },
+        { "title": "Kodlama Dersleri", "desc": "Blok kodlamadan gerçek dillere uzanan yapılandırılmış müfredat." },
+        { "title": "STEM Kulüpleri", "desc": "Zaman içinde bir proje portföyü oluşturan sürekli haftalık kulüpler." },
+        { "title": "Okul Programları", "desc": "Ortak okullara doğrudan getirilen müfredata uygun STEM eğitimi." },
+        { "title": "Tatil Kampları", "desc": "Okul tatillerinde tam günlük robotik ve kodlama kampları." }
+      ]
+    },
+    "gallery": {
+      "eyebrow": "Sınıfın İçinden",
+      "title": "Atölyelerimizden Kareler",
+      "items": [
+        { "label": "Robotik atölye masası" },
+        { "label": "Dizüstü bilgisayarda kod yazan çocuklar" },
+        { "label": "LEGO robotik kitleri" },
+        { "label": "Robotunu sunan takım" }
+      ]
+    },
+    "testimonial": {
+      "quote": "Kızım 'bilgisayarları sevmiyorum' derken dört hafta içinde kendi çizgi izleyen robotunu inşa eder hale geldi. Eğitmenler bunu bir oyun gibi hissettirdi.",
+      "name": "Zeynep Aksoy",
+      "role": "Veli, İzmir"
+    },
+    "cta": {
+      "title": "Çocuğunuza veya Okulunuza STEM'i Getirin",
+      "desc": "Atölyeler, okul ortaklıkları veya bir sonraki tatil kampımız hakkında bize sorun.",
+      "primary": "Mesaj Gönderin",
+      "secondary": "Ücretsiz Görüşme Ayarlayın"
+    }
+  },
+  "events": {
+    "metaTitle": "Kurumsal ve Sosyal Etkinlikler — Robonino",
+    "metaDescription": "Robonino'dan Kurumsal ve Sosyal Etkinlikler — şirketler ve profesyonel gruplar için takım oluşturma, robotik yarışmaları ve inovasyon atölyeleri.",
+    "hero": {
+      "eyebrow": "Kurumsal ve Sosyal Etkinlikler",
+      "title": "İnovasyon, Eğlence ve Ekip Ruhu Bir Arada",
+      "desc": "Genç Mühendisler'in kurumsal atölyeleriyle, ekibiniz Lego modellerini birlikte inşa ederken, birlikte keşfeder.",
+      "primaryCta": "Etkinliğinizi Planlayın",
+      "secondaryCta": "Formatları İnceleyin",
+      "imageAlt": "Devam eden bir kurumsal takım atölyesi"
+    },
+    "formats": {
+      "eyebrow": "Bir Format Seçin",
+      "title": "Her Takım İçin Formatlar",
+      "items": [
+        { "title": "Takım Oluşturma", "desc": "Gerçek iş birliği etrafında kurgulanan klasik ve yaratıcı zorluklar." },
+        { "title": "Robotik Yarışmaları", "desc": "Takımlar zamana karşı robot tasarlar ve yarıştırır." },
+        { "title": "İnovasyon Atölyeleri", "desc": "Fikirleri prototiplere dönüştüren moderatörlü seanslar." }
+      ]
+    },
+    "features": {
+      "eyebrow": "Neler Dahil",
+      "title": "Uçtan Uca Etkinlik Planlaması",
+      "items": [
+        { "title": "Mekan ve Lojistik", "desc": "Mekanı, ekipmanı ve programı biz temin edip yönetiyoruz." },
+        { "title": "Uzman Moderatörler", "desc": "Robotik ve atölye tasarımında deneyimli sunucular." },
+        { "title": "Özel Zorluklar", "desc": "Takımınızın büyüklüğüne ve hedeflerine göre uyarlanmış aktiviteler." },
+        { "title": "İkram Koordinasyonu", "desc": "Etkinliğinize uygun yiyecek ve içecek organizasyonu." },
+        { "title": "Etkinlik Sonrası Rapor", "desc": "Etkinlik sonrasında paylaşılan fotoğraflar, geri bildirimler ve çıkarımlar." }
+      ]
+    },
+    "gallery": {
+      "eyebrow": "Son Etkinlikler",
+      "title": "Geçmiş Seanslardan Kareler",
+      "items": [
+        { "label": "Takım robotik yarışması" },
+        { "label": "İnovasyon atölyesi" },
+        { "label": "Grup networking seansı" },
+        { "label": "Prototip sunumu" }
+      ]
+    },
+    "testimonial": {
+      "quote": "Liderlik toplantımız için Robonino'yu tercih ettik ve ekibimiz yıllardır bu kadar katılımcı olmamıştı. Robotik yarışması en sessiz meslektaşlarımızı bile öne çıkardı.",
+      "name": "James Carter",
+      "role": "Operasyon Direktörü, Londra"
+    },
+    "cta": {
+      "title": "Bir Sonraki Takım Etkinliğinizi Birlikte Tasarlayalım",
+      "desc": "Takım büyüklüğünüzü, hedeflerinizi ve tarihlerinizi bize iletin — size uygun bir format önerelim.",
+      "primary": "Mesaj Gönderin",
+      "secondary": "Ücretsiz Görüşme Ayarlayın"
+    }
+  },
+  "about": {
+    "metaTitle": "Robonino Hakkında",
+    "metaDescription": "Robonino Hakkında — aileleri ve profesyonelleri öğrenme, STEM ve küresel deneyimlerle buluşturan İngiltere merkezli uluslararası eğitim ve inovasyon şirketi.",
+    "hero": {
+      "eyebrow": "Robonino Hakkında",
+      "title": "Tek Marka, Üç Alanda Uzmanlık",
+      "desc": "Robonino, İngiltere merkezli uluslararası bir eğitim ve inovasyon şirketidir. Çocukların geleceğin becerilerini kazanmasına yardımcı oluyor, ailelere yurt dışı eğitim sürecinde rehberlik ediyor ve şirketler için inovasyon deneyimleri tasarlıyoruz — hepsi tek güvenilir, profesyonel marka altında."
+    },
+    "story": {
+      "title": "Hikayemiz",
+      "paragraph1": "Robonino, uluslararası eğitim ve kurumsal inovasyon alanlarında güvenilir ve profesyonel bir hizmet standardı sunmak amacıyla kurulmuştur.",
+      "paragraph2": "Bugün Robonino, dünya çapında 100'den fazla ülkede faaliyet gösteren ve Harvard Eğitim Fakültesi ile Avrupa Birliği Komisyonu tarafından tanınan Genç Mühendisler (Young Engineers) markasının resmî bayisidir. Aynı zamanda İngiltere merkezli eğitim danışmanlığı şirketi Education Advisers ile iş birliği içinde, ailelere okul ve üniversite süreçlerinde rehberlik etmektedir.",
+      "imageAlt": "Sahada çalışan Robonino ekibi"
+    },
+    "values": {
+      "eyebrow": "Bizi Yönlendiren Değerler",
+      "title": "Değerlerimiz",
+      "items": [
+        { "title": "Önce Güven", "desc": "Her ortak okul ve mekan bizzat denetlenir." },
+        { "title": "Çocuk Güvenliği", "desc": "Yürüttüğümüz her programda koruma ve özen yükümlülüğü." },
+        { "title": "Gerçek Ustalık", "desc": "Şablon değil, eğitimciler ve mühendisler tarafından tasarlanan programlar." },
+        { "title": "İki Dil", "desc": "Her zaman İngilizce ve Türkçe tam destek." }
+      ]
+    },
+    "team": {
+      "eyebrow": "Robonino'nun Arkasındaki İsimler",
+      "title": "Ekibimiz",
+      "members": [
+        { "id": "tolga", "name": "Tolga Düzenli", "role": "İngiltere Temsilcisi" },
+        { "id": "cagatay", "name": "Çağatay Düzenli", "role": "Türkiye Temsilcisi" }
+      ]
+    },
+    "cta": {
+      "title": "Bizimle Çalışmak İster misiniz?",
+      "desc": "İster bir aile, ister bir okul, ister bir şirket olun — bize her zaman ulaşabilirsiniz.",
+      "primary": "Bize Ulaşın"
+    }
+  },
+  "contact": {
+    "metaTitle": "Robonino ile İletişim",
+    "metaDescription": "Robonino ile İletişime Geçin — eğitim yerleştirmeleri, robotik & kodlama programları veya kurumsal etkinlikler hakkında İngiltere merkezli ekibimize ulaşın.",
+    "hero": {
+      "eyebrow": "Bize Ulaşın",
+      "title": "Sonraki Adımınızı Konuşalım",
+      "desc": "Eğitim, robotik programları veya kurumsal etkinlikler hakkında — sorularınızı bekliyoruz."
+    },
+    "form": {
+      "fullName": "Ad Soyad",
+      "fullNamePlaceholder": "Adınız",
+      "email": "E-posta",
+      "emailPlaceholder": "siz@eposta.com",
+      "phone": "Telefon / WhatsApp",
+      "phonePlaceholder": "+90 ...",
+      "interest": "İlgilendiğiniz konu",
+      "interestOptions": ["İngiltere'de Eğitim", "Robotik Kodlama", "Kurumsal Etkinlikler", "Diğer"],
+      "message": "Mesaj",
+      "messagePlaceholder": "Aradığınız şeyi bize kısaca anlatın...",
+      "submit": "Mesaj Gönder",
+      "sending": "Gönderiliyor...",
+      "success": "Teşekkürler — mesajınızı aldık ve bir iş günü içinde yanıt vereceğiz.",
+      "error": "Bir şeyler ters gitti. Lütfen tekrar deneyin veya sağdaki bilgilerden bize doğrudan ulaşın."
+    },
+    "info": {
+      "officeTitle": "İngiltere Ofisi",
+      "officeAddressLines": ["", "London", "Birleşik Krallık"],
+      "directTitle": "Doğrudan İletişim",
+      "phone": "+44",
+      "email": "info@robonino.com",
+      "whatsapp": "WhatsApp'tan Yazın",
+      "mapLabel": "[Harita: London ofisi]"
+    }
+  },
+  "privacy": {
+    "metaTitle": "Gizlilik Politikası — Robonino",
+    "metaDescription": "Robonino'nun robotik & kodlama eğitimi, okul danışmanlığı ve kurumsal atölye hizmetlerinde kişisel verilerinizi nasıl topladığı, kullandığı ve koruduğu.",
+    "title": "Gizlilik Politikası",
+    "lastUpdated": "Son güncelleme: 13 Ağustos 2026",
+    "intro": "Robonino (\"Robonino\", \"biz\" veya \"bizim\") olarak gizliliğinize önem veriyor ve bizimle paylaştığınız kişisel verileri korumayı taahhüt ediyoruz. Bu Gizlilik Politikası, web sitemizi robonino.com ziyaret ettiğinizde veya robotik & kodlama eğitimi, yurtdışı okul danışmanlığı ve kurumsal atölye hizmetlerimizden yararlandığınızda bilgilerinizi nasıl topladığımızı, kullandığımızı, sakladığımızı ve koruduğumuzu açıklar.",
+    "sections": [
+      {
+        "heading": "1. Kimiz",
+        "blocks": ["Robonino\nLondra, Ingiltere\nE-posta: info@robonino.com"]
+      },
+      {
+        "heading": "2. Topladığımız Bilgiler",
+        "blocks": [
+          "Aşağıdaki türde bilgileri toplayabiliriz:",
+          [
+            "İletişim bilgileri: ad soyad, e-posta adresi, telefon numarası, posta adresi",
+            "Talep/başvuru bilgileri: iletişim formları, danışmanlık talepleri veya kayıt formları aracılığıyla iletilen bilgiler",
+            "Çocuk/öğrenci bilgileri: okul danışmanlığı veya eğitim hizmetleriyle ilgili olduğunda ad, yaş, okul bilgileri ve akademik bilgiler (veli/vasi onayı ile toplanır)",
+            "Ödeme bilgileri: üçüncü taraf ödeme sağlayıcıları aracılığıyla güvenli şekilde işlenir; kart bilgilerinizin tamamını saklamıyoruz",
+            "Teknik veriler: IP adresi, tarayıcı türü, cihaz bilgileri ve çerezler (bkz. Bölüm 7)",
+            "İletişim kayıtları: hizmetlerimizle ilgili e-postalar, mesajlar veya görüşme notları"
+          ]
+        ]
+      },
+      {
+        "heading": "3. Bilgilerinizi Nasıl Kullanıyoruz",
+        "blocks": [
+          "Bilgilerinizi şu amaçlarla kullanıyoruz:",
+          [
+            "Eğitim programlarımızı, okul danışmanlığı hizmetimizi ve kurumsal atölyelerimizi yürütmek",
+            "Taleplerinize yanıt vermek ve danışmanlık sağlamak",
+            "Kayıt, başvuru ve rezervasyon işlemlerini gerçekleştirmek",
+            "Güncellemeler, onaylar ve hizmetle ilgili bilgileri iletmek",
+            "Web sitemizi ve hizmetlerimizi geliştirmek",
+            "Yasal yükümlülüklere uymak",
+            "Onay verdiğiniz takdirde pazarlama iletişimleri göndermek (dilediğiniz zaman abonelikten çıkabilirsiniz)"
+          ]
+        ]
+      },
+      {
+        "heading": "4. İşlemenin Hukuki Dayanağı",
+        "blocks": [
+          "Bulunduğunuz konuma bağlı olarak kişisel verilerinizi şu dayanaklarla işleriz:",
+          [
+            "Açık rızanız",
+            "Bir sözleşmenin ifası (örn. bir programa kayıt olmanız)",
+            "Meşru menfaatlerimiz (örn. hizmetlerimizi geliştirmek)",
+            "Yasal yükümlülüklere uyum"
+          ]
+        ]
+      },
+      {
+        "heading": "5. Bilgilerinizin Paylaşımı",
+        "blocks": [
+          "Kişisel verilerinizi satmıyoruz. Bilgileri şu taraflarla paylaşabiliriz:",
+          [
+            "Talep edilen hizmetin sunulmasında doğrudan yer alan güvenilir iş ortakları (örn. anlaşmalı okullar, üniversiteler veya Education Advisers gibi eğitim danışmanlığı ortakları)",
+            "Operasyonlarımızı destekleyen hizmet sağlayıcılar (örn. ödeme işlemcileri, sunucu/hosting hizmetleri, e-posta platformları)",
+            "Yasaların gerektirdiği hallerde yetkili resmi kurumlar"
+          ],
+          "Tüm üçüncü taraflar, verilerinizi yürürlükteki mevzuata uygun şekilde korumakla yükümlüdür."
+        ]
+      },
+      {
+        "heading": "6. Uluslararası Veri Aktarımı",
+        "blocks": [
+          "Birden fazla ülkede (İngiltere ve Türkiye dahil) faaliyet gösterdiğimiz için verileriniz bulunduğunuz ülke dışında işlenebilir ve aktarılabilir. Bu durumlarda, yürürlükteki veri koruma mevzuatına uygun gerekli güvenlik önlemlerini alıyoruz."
+        ]
+      },
+      {
+        "heading": "7. Çerezler",
+        "blocks": [
+          "Web sitemiz, gezinme deneyiminizi iyileştirmek, site trafiğini analiz etmek ve içerikleri kişiselleştirmek amacıyla çerezler ve benzeri teknolojiler kullanır. Çerez tercihlerinizi tarayıcı ayarlarınızdan yönetebilirsiniz. [Varsa ayrı bir Çerez Politikası/onay bandına bağlantı ekleyin.]"
+        ]
+      },
+      {
+        "heading": "8. Verilerin Saklanması",
+        "blocks": [
+          "Kişisel verileri, bu politikada belirtilen amaçları gerçekleştirmek için gerekli olduğu sürece veya yasaların öngördüğü süre boyunca saklarız."
+        ]
+      },
+      {
+        "heading": "9. Haklarınız",
+        "blocks": [
+          "Bulunduğunuz konuma bağlı olarak aşağıdaki haklara sahip olabilirsiniz:",
+          [
+            "Hakkınızda tuttuğumuz kişisel verilere erişme",
+            "Hatalı verilerin düzeltilmesini talep etme",
+            "Verilerinizin silinmesini talep etme",
+            "Belirli işleme faaliyetlerine itiraz etme veya kısıtlanmasını talep etme",
+            "Rızanızı istediğiniz zaman geri çekme",
+            "Veri taşınabilirliği talep etme",
+            "İlgili veri koruma otoritesine şikayette bulunma"
+          ],
+          "Bu haklarınızı kullanmak için bizimle info@robonino.com adresinden iletişime geçebilirsiniz."
+        ]
+      },
+      {
+        "heading": "10. Çocukların Gizliliği",
+        "blocks": [
+          "Hizmetlerimizin bir kısmı çocuklara yöneliktir (örn. robotik eğitimi, okul danışmanlığı). Çocuklara ait kişisel verileri yalnızca veli veya yasal vasinin doğrulanmış onayı ile topluyor ve toplamayı hizmetin sunulması için gerekli olanla sınırlı tutuyoruz."
+        ]
+      },
+      {
+        "heading": "11. Veri Güvenliği",
+        "blocks": [
+          "Kişisel verilerinizi yetkisiz erişime, kayba veya kötüye kullanıma karşı korumak için makul teknik ve idari önlemler alıyoruz. Ancak internet üzerinden hiçbir aktarım yönteminin tamamen güvenli olmadığını hatırlatmak isteriz."
+        ]
+      },
+      {
+        "heading": "12. Bu Politikadaki Değişiklikler",
+        "blocks": [
+          "Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Değişiklikler, güncellenmiş \"Son güncelleme\" tarihiyle birlikte bu sayfada yayınlanacaktır."
+        ]
+      },
+      {
+        "heading": "13. Bize Ulaşın",
+        "blocks": [
+          "Bu Gizlilik Politikası veya verilerinizi nasıl işlediğimiz hakkında sorularınız varsa, bizimle iletişime geçin:\n\nRobonino\ninfo@robonino.com"
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "metaTitle": "Kullanım Koşulları — Robonino",
+    "metaDescription": "Robonino web sitesini ve robotik & kodlama eğitimi, okul danışmanlığı ve kurumsal atölye hizmetlerimizi kullanımınızı düzenleyen kullanım koşulları.",
+    "title": "Kullanım Koşulları",
+    "lastUpdated": "Son güncelleme: 13 Ağustos 2026",
+    "intro": "Robonino (\"Robonino\", \"biz\" veya \"bizim\") tarafından işletilen robonino.com web sitesine (\"Web Sitesi\") hoş geldiniz. Web Sitemizi veya robotik & kodlama eğitimi, yurtdışı okul danışmanlığı ve kurumsal atölye hizmetlerimizi kullanarak bu Kullanım Koşullarını (\"Koşullar\") kabul etmiş sayılırsınız. Bu koşulları kabul etmiyorsanız, lütfen Web Sitemizi veya hizmetlerimizi kullanmayınız.",
+    "sections": [
+      {
+        "heading": "1. Hakkımızda",
+        "blocks": ["Robonino\nLondra, Ingiltere\nE-posta: info@robonino.com"]
+      },
+      {
+        "heading": "2. Hizmetlerimiz",
+        "blocks": [
+          "Robonino şu hizmetleri sunar:",
+          [
+            "Robotik ve Kodlama Eğitimi — çocuklar ve gençler için zenginleştirme programları (Young Engineers bayisi olarak)",
+            "Okul Danışmanlığı ve Eğitim Danışmanlığı — üçüncü taraf eğitim danışmanlığı ortaklarıyla birlikte yurtdışı okullar, dil kursları ve eğitim fırsatları konusunda rehberlik",
+            "Kurumsal ve Profesyonel Atölyeler — kurumlar için takım oluşturma ve beceri geliştirme atölyeleri"
+          ],
+          "Hizmet kapsamı, fiyatlandırma ve program detayları bölgeye göre değişebilir ve önceden haber verilmeksizin değiştirilebilir."
+        ]
+      },
+      {
+        "heading": "3. Uygunluk",
+        "blocks": [
+          "Bazı hizmetlerimiz çocuklara yönelik olup, kayıt işleminin veli veya yasal vasi tarafından yapılmasını gerektirir. Bir çocuğu kaydettirmenizle, onun velisi/vasisi olduğunuzu veya onlar adına hareket etmeye yetkili olduğunuzu beyan etmiş olursunuz."
+        ]
+      },
+      {
+        "heading": "4. Kayıt, Rezervasyon ve Ödeme",
+        "blocks": [
+          [
+            "Kayıt veya rezervasyon, gerekli ödemenin alınması ve tarafımızdan yazılı onay verilmesiyle kesinleşir.",
+            "Fiyatlar geçerli para biriminde belirtilir ve değişikliğe tabi olabilir; rezervasyon sırasında onaylanan fiyat o rezervasyon için geçerli olacaktır.",
+            "Ödeme koşulları, ön ödeme ve varsa taksit seçenekleri kayıt sırasında belirtilecektir.",
+            "Kendi takdirimize bağlı olarak bir rezervasyonu reddetme veya iptal etme hakkını saklı tutarız; bu durumda bildirimde bulunulur ve varsa yapılan ödeme, uygulanabilir olduğu ölçüde iade edilir."
+          ]
+        ]
+      },
+      {
+        "heading": "5. İptal ve İade",
+        "blocks": [
+          [
+            "İptal ve iade koşulları programa göre değişir ve kayıt sırasında bildirilir.",
+            "[Belirli iptal süreleri, iade oranları ve iade edilmeyecek kalemleri buraya ekleyin.]",
+            "Aksi belirtilmedikçe, Robonino üçüncü taraf hizmetlerle (örn. okul başvuru ücretleri, vize ücretleri) ilgili iadelerden sorumlu değildir."
+          ]
+        ]
+      },
+      {
+        "heading": "6. Üçüncü Taraf Hizmetler ve İş Ortakları",
+        "blocks": [
+          "Okul danışmanlığı ve üniversite danışmanlığı dahil bazı hizmetler, üçüncü taraf kuruluşlarla (örn. Education Advisers ve bağlı hizmetleri veya program lisans sahibi olarak Young Engineers) iş birliği içinde sunulmaktadır. Bu ortakların kalite standartlarını karşılamasını sağlamaya özen gösteriyoruz; ancak okul veya üniversite kabul kararları dahil olmak üzere üçüncü taraf kurumların bağımsız eylem, ihmal veya kararlarından sorumlu değiliz."
+        ]
+      },
+      {
+        "heading": "7. Fikri Mülkiyet",
+        "blocks": [
+          "Bu Web Sitesindeki tüm içerik — metinler, görseller, logolar, müfredat materyalleri ve tasarım dahil — Robonino'ya ait veya lisanslıdır ve telif hakkı ile diğer fikri mülkiyet yasalarıyla korunmaktadır. Önceden yazılı izin almadan bu içerikleri kopyalayamaz, çoğaltamaz veya dağıtamazsınız."
+        ]
+      },
+      {
+        "heading": "8. Kullanıcı Davranışı",
+        "blocks": [
+          "Web Sitemizi veya hizmetlerimizi kullanırken aşağıdakileri yapmamayı kabul edersiniz:",
+          [
+            "Yanlış veya yanıltıcı bilgi vermek",
+            "Web Sitesini yasa dışı bir amaçla kullanmak",
+            "Sistemlerimize yetkisiz erişim sağlamaya çalışmak",
+            "Web Sitesinin düzgün çalışmasına müdahale etmek"
+          ]
+        ]
+      },
+      {
+        "heading": "9. Sorumluluğun Sınırlandırılması",
+        "blocks": [
+          "Yürürlükteki yasaların izin verdiği azami ölçüde, Robonino, Web Sitemizi veya hizmetlerimizi kullanmanızdan kaynaklanan dolaylı, arızi veya sonuç niteliğindeki zararlardan sorumlu tutulamaz. Hizmetlerimizle ilgili herhangi bir talebe ilişkin toplam sorumluluğumuz, ilgili hizmet için ödediğiniz tutarı aşmayacaktır.",
+          "Bu Koşullardaki hiçbir hüküm, yürürlükteki yasalar uyarınca sınırlandırılamayan veya hariç tutulamayan sorumlulukları (örn. ihmal veya dolandırıcılık nedeniyle ölüm veya kişisel yaralanmaya ilişkin sorumluluk) sınırlamaz veya hariç tutmaz."
+        ]
+      },
+      {
+        "heading": "10. Programlarda Sağlık, Güvenlik ve Davranış",
+        "blocks": [
+          "Katılımcılar ve veliler/vasiler, her program için sağlanan sağlık, güvenlik ve davranış kurallarına uymayı kabul eder. Kendisini veya başkalarını tehlikeye atacak davranışlarda bulunan bir katılımcıyı, uygulanabilir olduğu durumlarda iade yapmaksızın programdan çıkarma hakkını saklı tutarız."
+        ]
+      },
+      {
+        "heading": "11. Gizlilik",
+        "blocks": [
+          "Web Sitemizi ve hizmetlerimizi kullanımınız, kişisel verilerinizi nasıl topladığımızı ve kullandığımızı açıklayan Gizlilik Politikamıza da tabidir."
+        ]
+      },
+      {
+        "heading": "12. Bu Koşullardaki Değişiklikler",
+        "blocks": [
+          "Bu Koşulları zaman zaman güncelleyebiliriz. Değişiklikler yayınlandıktan sonra Web Sitemizi veya hizmetlerimizi kullanmaya devam etmeniz, güncellenmiş Koşulları kabul ettiğiniz anlamına gelir."
+        ]
+      },
+      {
+        "heading": "13. Uygulanacak Hukuk",
+        "blocks": [
+          "Bu Koşullar, [YARGI YETKİSİ, örn. İngiltere ve Galler / Türkiye Cumhuriyeti] yasalarına tabidir. Herhangi bir uyuşmazlık, [YARGI YETKİSİ] mahkemelerinin münhasır yetkisine tabi olacaktır."
+        ]
+      },
+      {
+        "heading": "14. Bize Ulaşın",
+        "blocks": [
+          "Bu Koşullar hakkında sorularınız varsa, bizimle iletişime geçin:\n\ninfo@robonino.com\nLondra, Ingiltere"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,595 @@
+{
+  "meta": {
+    "siteName": "Robonino"
+  },
+  "nav": {
+    "home": "Home",
+    "studyUk": "Study in UK",
+    "robotics": "Robotics & Coding",
+    "events": "Corporate Events",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "header": {
+    "cta": "Book Consultation"
+  },
+  "footer": {
+    "newsletterTitle": "Get program updates & early camp dates",
+    "newsletterDesc": "Join our newsletter — news on schools, STEM camps and events, in English or Turkish.",
+    "emailPlaceholder": "Email address",
+    "subscribe": "Subscribe",
+    "brandBlurb": "Trusted international education & innovation company — connecting children, families and professionals with learning, creativity and global experiences.",
+    "programsHeading": "Programs",
+    "companyHeading": "Company",
+    "contactHeading": "UK Contact",
+    "languageHeading": "Language",
+    "whatsapp": "WhatsApp Us",
+    "address": "128 Kings Road, Brighton, BN1 2FA, United Kingdom",
+    "phone": "+44 20 7946 0912",
+    "email": "info@robonino.com",
+    "copyrightSuffix": "Robonino. All rights reserved.",
+    "photoCredits": "Destination photos:",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "links": {
+      "studyUk": "Study in UK",
+      "robotics": "Robotics & Coding",
+      "events": "Corporate Events",
+      "about": "About Us",
+      "contact": "Contact",
+      "home": "Home"
+    }
+  },
+  "home": {
+    "metaTitle": "Robonino — Three Paths to Growth, One Trusted Name",
+    "metaDescription": "Robonino — international education, robotics & coding, and corporate innovation events. Study in the UK, build STEM skills, and grow through global experiences.",
+    "hero": {
+      "title": "Three Paths to Growth, One Trusted Name",
+      "desc": "Robotics coding for kids, school placement abroad for families, and hands-on workshops for professionals — all under one name you can trust.",
+      "ctaStudy": "Study in UK",
+      "ctaRobotics": "Robotics & Coding",
+      "ctaEvents": "Corporate Events",
+      "imageAlt": "International students collaborating outdoors on a UK campus",
+      "statNumber": "1,200+",
+      "statLabel": "Students & families served"
+    },
+    "services": {
+      "eyebrow": "What We Do",
+      "title": "Three Paths, One Trusted Brand",
+      "desc": "From classrooms in the UK to robotics labs and boardrooms — Robonino designs experiences that build real skills.",
+      "study": {
+        "badge": "Study in UK",
+        "title": "Study English in the UK",
+        "desc": "Language school organisation for children, teenagers, adults and families across the UK.",
+        "features": ["School placement", "Summer schools", "Visa guidance", "Accommodation support", "Airport transfers", "Parent communication"],
+        "cta": "Explore Programs →"
+      },
+      "robotics": {
+        "badge": "Robotics & Coding",
+        "title": "Robotics & Coding for Kids",
+        "desc": "Creative STEM education programs helping children build the skills of the future.",
+        "features": ["Robotics workshops", "Coding lessons", "STEM clubs", "School programs", "Holiday camps"],
+        "cta": "Discover STEM →"
+      },
+      "events": {
+        "badge": "Corporate Events",
+        "title": "Corporate & Social Events",
+        "desc": "Creative team-building and innovation-focused social experiences for professionals.",
+        "features": ["Team building", "Robotics challenges", "Innovation workshops", "Networking events", "Creative activities"],
+        "cta": "Plan an Event →"
+      }
+    },
+    "why": {
+      "eyebrow": "Why Families & Companies Choose Us",
+      "title": "Why Robonino",
+      "items": [
+        { "title": "UK-Based Support", "desc": "A real local team on the ground across England." },
+        { "title": "Trusted School Partners", "desc": "Vetted language schools and STEM partners only." },
+        { "title": "Child Safety Focused", "desc": "Safeguarding and duty-of-care built into every program." },
+        { "title": "Turkish & English Communication", "desc": "Every family and partner is supported in both languages." },
+        { "title": "International Experience", "desc": "Years of connecting Turkish families with UK institutions." },
+        { "title": "Professional Organisation", "desc": "End-to-end logistics, from paperwork to airport pickup." }
+      ]
+    },
+    "destinations": {
+      "eyebrow": "Where You'll Study",
+      "title": "Featured Destinations",
+      "items": [
+        { "name": "London", "tag": "Capital city energy" },
+        { "name": "Brighton", "tag": "Seaside student life" },
+        { "name": "Oxford", "tag": "Historic academia" },
+        { "name": "Cambridge", "tag": "World-class colleges" }
+      ]
+    },
+    "testimonials": {
+      "eyebrow": "Real Stories",
+      "title": "What Families & Partners Say",
+      "items": [
+        { "quote": "Robonino guided our daughter's whole summer school placement in Brighton — visas, host family, everything. We felt cared for the entire way.", "name": "Elif Yılmaz", "role": "Parent, Istanbul" },
+        { "quote": "The robotics camp completely changed how my son sees technology. He built his first real robot in a week.", "name": "Mehmet Kaya", "role": "Parent & Student Family" },
+        { "quote": "We booked a Robonino innovation workshop for our leadership offsite — genuinely one of the best team events we've run.", "name": "Sarah Whitfield", "role": "Head of People, London" }
+      ]
+    },
+    "cta": {
+      "title": "Start Your International Learning Journey",
+      "desc": "Talk to our UK-based team about study placements, STEM programs, or your next corporate event.",
+      "primary": "Send a Message",
+      "secondary": "Book a Free Call"
+    }
+  },
+  "studyUk": {
+    "metaTitle": "Study English in the UK — Robonino",
+    "metaDescription": "Study English in the UK with Robonino — school placement, summer schools, visa guidance, accommodation and full family support for children, teens and adults.",
+    "hero": {
+      "title": "Study in the UK, Open Doors to the World",
+      "desc": "From finding the right language school to handling enrollment, we're with you at every step of your journey to the UK.",
+      "primaryCta": "Get a Free Consultation",
+      "secondaryCta": "View Programs",
+      "imageAlt": "Students on a UK language school campus"
+    },
+    "audiences": {
+      "eyebrow": "Programs For Every Age",
+      "title": "Who We Help",
+      "items": [
+        { "title": "Children (8–12)", "desc": "Fun, safe immersion programs with close supervision and family communication." },
+        { "title": "Teenagers (13–17)", "desc": "Summer schools and academic terms that build confidence and university-ready English." },
+        { "title": "Adults", "desc": "Intensive and general English courses for work, study, or personal growth." },
+        { "title": "Families", "desc": "Joint placements and accommodation so families can travel and learn together." }
+      ]
+    },
+    "features": {
+      "eyebrow": "End-To-End Service",
+      "title": "Everything Handled, Every Step",
+      "items": [
+        { "title": "School Placement", "desc": "Matched to age, level and goals among our vetted UK partner schools." },
+        { "title": "Summer Schools", "desc": "Residential and day programs across the summer holidays." },
+        { "title": "Visa Guidance", "desc": "Step-by-step support through UK study visa applications." },
+        { "title": "Accommodation Support", "desc": "Host families, residences or family stays — all safety-checked." },
+        { "title": "Airport Transfers", "desc": "Arranged pickups so students arrive safely, every time." },
+        { "title": "Parent Communication", "desc": "Regular updates in English and Turkish throughout the stay." }
+      ]
+    },
+    "destinations": {
+      "eyebrow": "Campus Locations",
+      "title": "Study In Iconic UK Cities",
+      "items": [
+        { "name": "London" },
+        { "name": "Brighton" },
+        { "name": "Oxford" },
+        { "name": "Cambridge" }
+      ]
+    },
+    "testimonial": {
+      "quote": "Our son's summer in Brighton gave him confidence, friends from six countries, and English he actually uses. Robonino handled every detail so we didn't have to worry.",
+      "name": "Ayşe Demir",
+      "role": "Parent, Ankara"
+    },
+    "cta": {
+      "title": "Ready to Plan Your UK Study Experience?",
+      "desc": "Tell us about your goals and we'll match you with the right school, city and program.",
+      "primary": "Send a Message",
+      "secondary": "Book a Free Call"
+    }
+  },
+  "robotics": {
+    "metaTitle": "Robotics & Coding for Kids — Robonino",
+    "metaDescription": "Robotics & Coding for Kids by Robonino — STEM workshops, coding lessons, school programs and holiday camps that build future-ready skills.",
+    "hero": {
+      "eyebrow": "Robotics & Coding",
+      "title": "Robotics & Coding for Kids",
+      "desc": "Creative STEM education programs that turn curiosity into real engineering, coding and problem-solving skills — in the classroom, after school, or on holiday.",
+      "primaryCta": "Book a Workshop",
+      "secondaryCta": "See Programs",
+      "imageAlt": "Children in a LEGO robotics classroom"
+    },
+    "tracks": {
+      "eyebrow": "OUR PROGRAMS",
+      "title": "Meet the Young Engineers Programs",
+      "subTitle": "Eight programs for kids aged 4 to 18, built on the globally proven Young Engineers curriculum.",
+      "items": [
+        { "title": "AlgoBuddy (4-6 years)", "desc": "Little coders take their first steps into programming with tangible blocks or a screen app." },
+        { "title": "Big Builders (4-6 years)", "desc": "Kids build 3D models with flexible parts while discovering science and basic engineering." },
+        { "title": "Smartivo (4-6 years)", "desc": "Story-based missions bring a robot to life through movement, light, and simple commands." },
+        { "title": "AlgoPlay (6-10 years)", "desc": "Kids build models with Algobrix blocks, write code sequences, and bring their robot to life." },
+        { "title": "Bricks Challenge (6-10 years)", "desc": "Kids explore forces, balance, and mechanics hands-on by building with construction blocks." },
+        { "title": "Galileo Technic (7-10 years)", "desc": "Advanced mechanical concepts like gears, motion, and energy come to life through complex builds." },
+        { "title": "RoboToys (9-12 years)", "desc": "Kids build advanced robots and apply coding commands to sharpen logical thinking." },
+        { "title": "AlgoC (13-18 years)", "desc": "Teens code real robotics projects in C with Arduino and get an intro to AI-driven behavior." }
+      ]
+    },
+    "features": {
+      "eyebrow": "What's Included",
+      "title": "Formats That Fit Every Setting",
+      "items": [
+        { "title": "Robotics Workshops", "desc": "Hands-on sessions building and programming real robots." },
+        { "title": "Coding Lessons", "desc": "Structured curriculum from block coding to real languages." },
+        { "title": "STEM Clubs", "desc": "Ongoing weekly clubs that build a portfolio of projects over time." },
+        { "title": "School Programs", "desc": "Curriculum-aligned STEM brought directly into partner schools." },
+        { "title": "Holiday Camps", "desc": "Full-day robotics & coding camps during school breaks." }
+      ]
+    },
+    "gallery": {
+      "eyebrow": "Inside The Classroom",
+      "title": "A Look at Our Workshops",
+      "items": [
+        { "label": "Robotics workshop table" },
+        { "label": "Kids coding on laptops" },
+        { "label": "LEGO robotics kits" },
+        { "label": "Team presenting a robot" }
+      ]
+    },
+    "testimonial": {
+      "quote": "My daughter went from 'I don't like computers' to building her own line-following robot in four weeks. The instructors made it feel like play.",
+      "name": "Zeynep Aksoy",
+      "role": "Parent, Izmir"
+    },
+    "cta": {
+      "title": "Bring STEM to Your Child or School",
+      "desc": "Ask about workshops, school partnerships, or our next holiday camp.",
+      "primary": "Send a Message",
+      "secondary": "Book a Free Call"
+    }
+  },
+  "events": {
+    "metaTitle": "Corporate & Social Events — Robonino",
+    "metaDescription": "Corporate & Social Events by Robonino — team building, robotics challenges and innovation workshops for companies and professional groups.",
+    "hero": {
+      "eyebrow": "Corporate & Social Events",
+      "title": "Innovation-Driven Team Experiences",
+      "desc": "Creative team-building and social experiences for professionals — built around robotics, problem-solving and genuine connection.",
+      "primaryCta": "Plan Your Event",
+      "secondaryCta": "See Formats",
+      "imageAlt": "Corporate team workshop in progress"
+    },
+    "formats": {
+      "eyebrow": "Choose a Format",
+      "title": "Formats For Every Team",
+      "items": [
+        { "title": "Team Building", "desc": "Classic and creative challenges built around real collaboration." },
+        { "title": "Robotics Challenges", "desc": "Teams design and race robots against the clock." },
+        { "title": "Innovation Workshops", "desc": "Facilitated sessions turning ideas into prototypes." }
+      ]
+    },
+    "features": {
+      "eyebrow": "What's Included",
+      "title": "Full-Service Event Planning",
+      "items": [
+        { "title": "Venue & Logistics", "desc": "We source and manage the space, equipment and schedule." },
+        { "title": "Expert Facilitators", "desc": "Experienced hosts trained in robotics and workshop design." },
+        { "title": "Custom Challenges", "desc": "Activities tailored to your team size and objectives." },
+        { "title": "Catering Coordination", "desc": "Food and refreshments arranged to match your event." },
+        { "title": "Post-Event Report", "desc": "Photos, feedback and takeaways shared after the event." }
+      ]
+    },
+    "gallery": {
+      "eyebrow": "Recent Events",
+      "title": "A Look at Past Sessions",
+      "items": [
+        { "label": "Team robotics challenge" },
+        { "label": "Innovation workshop" },
+        { "label": "Group networking session" },
+        { "label": "Prototype presentation" }
+      ]
+    },
+    "testimonial": {
+      "quote": "We booked Robonino for our leadership offsite and it was the most engaged our team has been in years. The robotics challenge got even our quietest colleagues leading.",
+      "name": "James Carter",
+      "role": "Operations Director, London"
+    },
+    "cta": {
+      "title": "Let's Design Your Next Team Event",
+      "desc": "Tell us your team size, goals and dates — we'll propose a format that fits.",
+      "primary": "Send a Message",
+      "secondary": "Book a Free Call"
+    }
+  },
+  "about": {
+    "metaTitle": "About Robonino",
+    "metaDescription": "About Robonino — a UK-based international education & innovation company connecting families and professionals with learning, STEM and global experiences.",
+    "hero": {
+      "eyebrow": "About Robonino",
+      "title": "One Brand, Three Areas of Expertise",
+      "desc": "Robonino is a UK-based international education and innovation company. We help children build future skills, guide families through study abroad, and design innovation experiences for companies — all under one trusted, professional brand."
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "Robonino was founded to offer families and organizations a reliable, professional alternative in a market of fragmented and inconsistent providers in international education and innovation.",
+      "paragraph2": "Today, Robonino is the official franchisee of Young Engineers, a global education brand active in over 100 countries and recognized by the Harvard Graduate School of Education and the European Commission. We are also proud partners of Education Advisers, a UK-based education consultancy, guiding families through school and university placement.",
+      "imageAlt": "Robonino team working on-site"
+    },
+    "values": {
+      "eyebrow": "What Drives Us",
+      "title": "Our Values",
+      "items": [
+        { "title": "Trust First", "desc": "Every partner school and venue is personally vetted." },
+        { "title": "Child Safety", "desc": "Safeguarding and duty-of-care in every program we run." },
+        { "title": "Real Craft", "desc": "Programs designed by educators and engineers, not templates." },
+        { "title": "Two Languages", "desc": "Full support in English and Turkish, always." }
+      ]
+    },
+    "team": {
+      "eyebrow": "The People Behind Robonino",
+      "title": "Our Team",
+      "members": [
+        { "id": "tolga", "name": "Tolga Duzenli", "role": "United Kingdom Representative" },
+        { "id": "cagatay", "name": "Cagatay Duzenli", "role": "Turkey Representative" }
+      ]
+    },
+    "cta": {
+      "title": "Want to Work With Us?",
+      "desc": "Whether you're a family, a school, or a company — we'd love to hear from you.",
+      "primary": "Get in Touch"
+    }
+  },
+  "contact": {
+    "metaTitle": "Contact Robonino",
+    "metaDescription": "Contact Robonino — reach our UK-based team about study placements, robotics & coding programs, or corporate events.",
+    "hero": {
+      "eyebrow": "Get In Touch",
+      "title": "Let's Talk About Your Next Step",
+      "desc": "Questions about education, robotics programs, or corporate events? We're here to help."
+    },
+    "form": {
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "phone": "Phone / WhatsApp",
+      "phonePlaceholder": "+44 ...",
+      "interest": "I'm interested in",
+      "interestOptions": ["Study in UK", "Robotics & Coding", "Corporate Events", "Something else"],
+      "message": "Message",
+      "messagePlaceholder": "Tell us a bit about what you're looking for...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thanks — we've received your message and will reply within one business day.",
+      "error": "Something went wrong. Please try again, or reach us directly using the details on the right."
+    },
+    "info": {
+      "officeTitle": "UK Office",
+      "officeAddressLines": ["", "London", "United Kingdom"],
+      "directTitle": "Direct Contact",
+      "phone": "+44",
+      "email": "info@robonino.com",
+      "whatsapp": "Chat on WhatsApp",
+      "mapLabel": "[Map: London office]"
+    }
+  },
+  "privacy": {
+    "metaTitle": "Privacy Policy — Robonino",
+    "metaDescription": "How Robonino collects, uses, stores and protects your personal data across our robotics & coding education, school placement consultancy and corporate workshops.",
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: 13 August 2026",
+    "intro": "Robonino (\"Robonino,\" \"we,\" \"us,\" or \"our\") respects your privacy and is committed to protecting the personal data you share with us. This Privacy Policy explains how we collect, use, store, and protect your information when you visit our website https://www.robonino.com or use our services, including robotics & coding education, school placement consultancy, and corporate workshops.",
+    "sections": [
+      {
+        "heading": "1. Who We Are",
+        "blocks": ["Robonino\nLondon, UK\nEmail: info@robonino.com"]
+      },
+      {
+        "heading": "2. Information We Collect",
+        "blocks": [
+          "We may collect the following types of information:",
+          [
+            "Contact details: name, email address, phone number, postal address",
+            "Account/enquiry information: details submitted through contact forms, consultation requests, or enrollment forms",
+            "Child/student information: name, age, school details, and academic information, where relevant to school placement or education services (collected with parental/guardian consent)",
+            "Payment information: processed securely through third-party payment providers; we do not store full card details",
+            "Technical data: IP address, browser type, device information, and cookies (see Section 7)",
+            "Communication records: emails, messages, or call notes related to our services"
+          ]
+        ]
+      },
+      {
+        "heading": "3. How We Use Your Information",
+        "blocks": [
+          "We use your information to:",
+          [
+            "Provide and manage our educational programs, school placement consultancy, and corporate workshops",
+            "Respond to enquiries and provide consultations",
+            "Process enrollments, applications, and bookings",
+            "Communicate updates, confirmations, and relevant service information",
+            "Improve our website and services",
+            "Comply with legal obligations",
+            "Send marketing communications, where you have opted in (you may unsubscribe at any time)"
+          ]
+        ]
+      },
+      {
+        "heading": "4. Legal Basis for Processing",
+        "blocks": [
+          "Depending on your location, we process personal data based on:",
+          [
+            "Your consent",
+            "Performance of a contract (e.g., enrolling in a program or service)",
+            "Our legitimate interests (e.g., improving our services)",
+            "Compliance with legal obligations"
+          ]
+        ]
+      },
+      {
+        "heading": "5. Sharing Your Information",
+        "blocks": [
+          "We do not sell your personal data. We may share information with:",
+          [
+            "Trusted partner organizations directly involved in delivering the requested service (e.g., partner schools, universities, or education consultancy partners, such as Education Advisers)",
+            "Service providers who support our operations (e.g., payment processors, IT hosting, email platforms)",
+            "Legal or regulatory authorities, where required by law"
+          ],
+          "All third parties are required to protect your data in accordance with applicable law."
+        ]
+      },
+      {
+        "heading": "6. International Data Transfers",
+        "blocks": [
+          "As we operate across multiple countries (including the UK and Turkey), your data may be transferred and processed outside your home country. Where this occurs, we take steps to ensure appropriate safeguards are in place, consistent with applicable data protection law."
+        ]
+      },
+      {
+        "heading": "7. Cookies",
+        "blocks": [
+          "Our website uses cookies and similar technologies to improve your browsing experience, analyze site traffic, and personalize content. You can control cookie preferences through your browser settings. [Add a link to a separate Cookie Policy/consent banner if applicable.]"
+        ]
+      },
+      {
+        "heading": "8. Data Retention",
+        "blocks": [
+          "We retain personal data only as long as necessary to fulfill the purposes described in this policy, or as required by law."
+        ]
+      },
+      {
+        "heading": "9. Your Rights",
+        "blocks": [
+          "Depending on your location, you may have the right to:",
+          [
+            "Access the personal data we hold about you",
+            "Request correction of inaccurate data",
+            "Request deletion of your data",
+            "Object to or restrict certain processing",
+            "Withdraw consent at any time",
+            "Request data portability",
+            "Lodge a complaint with a relevant data protection authority"
+          ],
+          "To exercise these rights, contact us at info@robonino.com."
+        ]
+      },
+      {
+        "heading": "10. Children's Privacy",
+        "blocks": [
+          "Some of our services are directed at children (e.g., robotics education, school placement). We only collect children's personal data with the verified consent of a parent or legal guardian, and we limit collection to what is necessary to deliver the service."
+        ]
+      },
+      {
+        "heading": "11. Data Security",
+        "blocks": [
+          "We implement reasonable technical and organizational measures to protect your personal data against unauthorized access, loss, or misuse. However, no method of transmission over the internet is completely secure."
+        ]
+      },
+      {
+        "heading": "12. Changes to This Policy",
+        "blocks": [
+          "We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated \"Last updated\" date."
+        ]
+      },
+      {
+        "heading": "13. Contact Us",
+        "blocks": [
+          "If you have questions about this Privacy Policy or how we handle your data, please contact us at:\n\nRobonino\ninfo@robonino.com"
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "metaTitle": "Terms & Conditions — Robonino",
+    "metaDescription": "The terms and conditions that govern your use of the Robonino website and our robotics & coding education, school placement consultancy and corporate workshop services.",
+    "title": "Terms & Conditions",
+    "lastUpdated": "Last updated: 13 August 2026",
+    "intro": "Welcome to https://www.robonino.com (the \"Website\"), operated by Robonino (\"Robonino,\" \"we,\" \"us,\" or \"our\"). By accessing or using our Website or services — including robotics & coding education, school placement consultancy, and corporate workshops — you agree to be bound by these Terms & Conditions (\"Terms\"). If you do not agree, please do not use our Website or services.",
+    "sections": [
+      {
+        "heading": "1. About Us",
+        "blocks": ["Robonino\nLondon, UK\nEmail: info@robonino.com"]
+      },
+      {
+        "heading": "2. Our Services",
+        "blocks": [
+          "Robonino provides:",
+          [
+            "Robotics & Coding Education — enrichment programs for children and teens (as a Young Engineers franchisee)",
+            "School Placement & Education Consultancy — guidance on schools, language courses, and study opportunities abroad, in partnership with third-party education consultancy providers",
+            "Corporate & Professional Workshops — team-building and skills workshops for organizations"
+          ],
+          "Service availability, pricing, and program details may vary by location and are subject to change."
+        ]
+      },
+      {
+        "heading": "3. Eligibility",
+        "blocks": [
+          "Some services are designed for children and require enrollment by a parent or legal guardian. By enrolling a minor, you confirm you are their parent or legal guardian, or otherwise authorized to act on their behalf."
+        ]
+      },
+      {
+        "heading": "4. Enrollment, Bookings & Payment",
+        "blocks": [
+          [
+            "Enrollment or booking is confirmed only upon receipt of any required payment and written confirmation from us.",
+            "Prices are listed in the applicable currency and may be subject to change; the price confirmed at the time of booking will apply to that booking.",
+            "Payment terms, deposits, and installment options (if any) will be specified at the time of enrollment.",
+            "We reserve the right to decline or cancel a booking, at our discretion, with notice and a refund of any payment made where applicable."
+          ]
+        ]
+      },
+      {
+        "heading": "5. Cancellations & Refunds",
+        "blocks": [
+          [
+            "Cancellation and refund terms vary by program and will be communicated at the time of enrollment.",
+            "[Add specific cancellation windows, refund percentages, and non-refundable items here.]",
+            "Robonino is not responsible for refunds relating to third-party services (e.g., school application fees, visa fees) unless otherwise stated."
+          ]
+        ]
+      },
+      {
+        "heading": "6. Third-Party Services & Partners",
+        "blocks": [
+          "Some services, including school placement and university consultancy, are delivered in partnership with third-party organizations (such as Education Advisers and its affiliated services, or Young Engineers as program licensor). We work to ensure these partners meet quality standards, but we are not liable for the independent acts, omissions, or decisions of third-party institutions, including school or university admissions decisions."
+        ]
+      },
+      {
+        "heading": "7. Intellectual Property",
+        "blocks": [
+          "All content on this Website — including text, graphics, logos, curriculum materials, and design — is owned by or licensed to Robonino and is protected by copyright and other intellectual property laws. You may not copy, reproduce, or distribute this content without prior written permission."
+        ]
+      },
+      {
+        "heading": "8. User Conduct",
+        "blocks": [
+          "When using our Website or services, you agree not to:",
+          [
+            "Provide false or misleading information",
+            "Use the Website for any unlawful purpose",
+            "Attempt to gain unauthorized access to our systems",
+            "Interfere with the proper functioning of the Website"
+          ]
+        ]
+      },
+      {
+        "heading": "9. Limitation of Liability",
+        "blocks": [
+          "To the fullest extent permitted by law, Robonino shall not be liable for any indirect, incidental, or consequential damages arising from your use of our Website or services. Our total liability for any claim relating to our services shall not exceed the amount paid by you for the relevant service.",
+          "Nothing in these Terms limits or excludes liability that cannot be limited or excluded under applicable law (e.g., liability for death or personal injury caused by negligence, or fraud)."
+        ]
+      },
+      {
+        "heading": "10. Health, Safety & Conduct at Programs",
+        "blocks": [
+          "Participants and parents/guardians agree to follow the health, safety, and conduct guidelines provided for each program. We reserve the right to remove a participant from a program in cases of behavior that endangers themselves or others, without refund, where applicable."
+        ]
+      },
+      {
+        "heading": "11. Privacy",
+        "blocks": [
+          "Your use of our Website and services is also governed by our Privacy Policy, which explains how we collect and use your personal data."
+        ]
+      },
+      {
+        "heading": "12. Changes to These Terms",
+        "blocks": [
+          "We may update these Terms from time to time. Continued use of our Website or services after changes are posted constitutes acceptance of the updated Terms."
+        ]
+      },
+      {
+        "heading": "13. Governing Law",
+        "blocks": [
+          "These Terms are governed by the laws of [JURISDICTION, e.g., England and Wales / Republic of Turkey], without regard to conflict of law principles. Any disputes shall be subject to the exclusive jurisdiction of the courts of [JURISDICTION]."
+        ]
+      },
+      {
+        "heading": "14. Contact Us",
+        "blocks": [
+          "If you have any questions about these Terms, please contact us at:\n\ninfo@robonino.com\nLondon, UK"
+        ]
+      }
+    ]
+  }
+}

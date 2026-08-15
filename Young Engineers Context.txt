@@ -1,0 +1,347 @@
+Young Engineers Context
+
+Website: https://youngengineers.org/
+Learning by making is the name of the game
+About Young Engineers: Founded in 2008, Young Engineers operates Engineering after-school activities in over 100 countries. With thousands of happy students around the world, Young Engineers has been recognized by the Harvard School of Education and the European Union Commission.
+
+Study Programs are here: https://youngengineers.org/enrichment-programs/
+
+Algo Buddy: Making Coding Simple
+Ages: 4-6
+Lesson duration: 45 minutes
+Number of Lessons: 36
+AlgoBuddy, the exciting program that introduces children to the fascinating world of coding. Using our system for little coders, we inspire young minds to develop algorithmic thinking, programming languages and problem solving skills.
+Children will practice programming by commanding the AlgoBuddy to perform various exciting tasks based on their daily lives through our uniquely designed tangible coding blocks or screen coding app of Algobrix.
+Overview of AlgoBuddy Curriculum:
+ 
+
+Coding literacy is one of the most important cognitive skills for the 21st century.
+Young Engineers strives to provide a playful coding education starting from early childhood education and building children’s cognitive skills to meet complex challenges as they grow older.
+We have created qualitative coding frameworks that rely on children’s common knowledge, and encourages them to practice planning, decision-making, and practical compromises through playing with AlgoBuddy.
+
+With the AlgoBuddy program, every kindergarten-aged child acts as a little coding engineer, controlling AlgoBuddy to move, light up, respond to the environment, and engage with varied and unique content, providing an exciting framework for AlgoBuddy to accomplish various tasks.
+
+AlgoBuddy Program Objectives
+Acquaint students with the world of coding.
+Get familiar with coding terminology.
+Introduction to algorithmic thinking.
+Develop quantitative assessment skills.
+Read graphic/numeric instructions.
+Encourage problem-solving.
+Encourage playing in teams.
+
+
+Children Will Discover
+ Command Sequencing
+ Conditions and Sensors
+ Algorithms of everyday automated devices
+ Forever and Random operators
+ Loops
+ Multithreading
+
+ ================
+
+Big builders:
+
+Ages: 4-6
+Lesson duration: 45 minutes
+Number of Lessons: 36
+
+Young Engineers believes and reinforces education through play. Our unique Big Builders enrichment program introduces preschoolers to science concepts through hands-on, experiential learning. Students get a set designed specifically for the Big Builders program and construct 3D models using flexible parts.This enrichment program will expose our builders to engineering terminology. Students will become familiar with animal life cycles, natural sciences, basic engineering, technology, physics and concepts of space.
+
+In addition, playing with their co-builders will enhance their interpersonal, socio-linguistic, and communication skills, as well as boost their self-esteem. We hope that establishing this connection between knowledge and fun at such a young age will set our participants up for a lifetime of learning and creating.
+
+
+Big Builders Curriculum Overview:
+The Big Builders curriculum immerses young learners in a diverse educational journey. It delves into animal life cycles, from frogs to dogs, and the enchanting realm of marine creatures like shrimp and sea urchins. Students learn the values of teamwork from ants and explore the mechanics of various vehicles. They're introduced to polygons, the wonders of nature, including desert fruits and pollination, and foundational architectural concepts. The vastness of space is also covered, alongside insights into bird migrations, the art of camouflage, and sustainable wind energy. Concluding with an exploration of animal habitats and the dynamics of amusement park rides, the Big Builders curriculum promises a comprehensive and engaging learning experience about scientific and engineering concepts.
+Big Builders Objectives:
+Embed science, technology, engineering, and math concepts in exciting, hands-on activities from an early age.
+Enhance understanding of the world and care for the environment.
+Stimulate independent and creative thinking.
+Cultivate a strong sense of self-efficacy.
+Develop a sense of self-efficacy and problem-solving skills.
+Encourage team building, cooperation, and group play skills.
+
+Big Builders Models:
+ Animals
+ Vehicles
+ Transportation
+ Architecture
+ Amusement park rides
+
+==========
+
+Smartivo
+
+Ages: 4-6
+Lesson duration: 45 minutes
+Number of Lessons: 36
+
+Smartivo is an early coding program where young children explore the basics of programming through playful, story-based missions. Using either tangible coding blocks or GoAlgo App, kids bring robots to life-making them move, light up, and react to their commands. Each session combines logic and fun to build confidence and foundational coding skills like command sequencing, conditions, loops and multithreading in an age-appropriate way.
+
+
+
+Smartivo Curriculum Overview :
+The Smartivo curriculum introduces preschoolers to foundational coding concepts in a structured yet playful way.
+Each lesson is built around a themed mission that presents one or more coding principles. Sessions follow a consistent structure: a story-driven introduction using Adventure Boards, a guided coding task (using either tangible blocks or the GoAlgo app), and an execution phase where children observe how Smartivo responds.
+The program also includes extension parts that allow Smartivo to take on new roles and abilities, making activities more dynamic.
+Throughout the curriculum, children develop coding understanding, confidence in working with early tech, and essential collaboration skills for their future STEM journey.
+Smartivo Program Objectives:
+Introduce young learners to coding through fun, story-based missions.
+Develop logical thinking and problem-solving through interactive challenges.
+Strengthen quantitative assessment and pattern recognition skills.
+Improve understanding of graphic and numeric instructions.
+Encourage teamwork, communication, and collaboration
+
+Children Will Discover :
+Command sequencing
+Move, Wait, Light, and Sound Commands
+Conditions
+Loops
+Multithreading
+
+==============
+
+AlgoPlay
+Ages: 6-10
+Lesson duration: 75 minutes
+Number of Lessons: 36
+
+
+A revolutionary educational program that teaches children the fundamentals of programming and mechanical engineering using Algobrix Systems, consisting of coding boards, coding and function blocks. AlgoPlay introduces participants to the world of coding through a fun, educational experience.
+
+AlgoPlay Curriculum Overview:
+ 
+Young Engineers embraces the spiral learning technique, where each enrichment program is built upon the previous one.
+
+In the AlgoPlay curriculum, utilizing the coding language of Algobrix®, students first assemble a building block model. They then formulate various code sequences using tangible or screen function and parameter blocks. By activating the “play” block, the robot executes the coding sequence.
+When students combine function and parameter blocks, they instruct the robot with specific commands, like moving forward or activating a red light.
+
+Each lesson encompasses advanced programming tasks, such as algorithm planning, conditioning, loops, multithreading, debugging, race condition, sensor applications, and more.
+
+AlgoPlay prepares students with the essential skills to grasp the logic behind most modern coding languages.
+
+AlgoPlay Program Objectives:
+ Introduce children to the realm of coding.
+ Build a fundamental understanding of software engineering terminology.
+ Inspire children to understand and test scientific principles in mechanical engineering.
+ Develop algorithmic thinking and logical reasoning skills.
+ Encourage teamwork and collaboration.
+ Foster interpersonal abilities like problem solving, creativity and independent thinking.
+
+
+AlgoPlay Models
+Gadgets and games
+Amusement park rides
+Various types of transportation machines
+Modern robots to execute common tasks
+
+==============
+Bricks Challenge
+
+Ages: 6-10
+Lesson duration: 75 minutes
+Number of Lessons: 36
+
+Bricks Challenge Program
+
+At Young Engineers, we believe in fostering creativity, critical thinking, and a love for learning in every child. Our programs are designed to make STEM exciting and accessible, led by our dedicated instructors who are not just teachers, but mentors passionate about inspiring young minds.
+
+Bricks Challenge is an educational program that introduces children to the principles of STEM and basic subjects of classical mechanics through the use of building blocks and mechanical parts.
+
+In each session, the day’s model and the day’s engineering principles are introduced. To make the topic more relatable, an interactive story related to the subject is optionally narrated. The children then construct their models, enhance them for further experimentation, and sometimes modify them for competitions. The session concludes with reinforcing questions to solidify the children’s grasp of the concepts they’ve learned.
+
+Bricks Challenge Curriculum
+  
+The program combines STEM education with spatial recognition, fostering a comprehensive understanding of both theoretical concepts and practical applications of mechanical engineering fundamentals. While learning these principles, children are also introduced to important scientists and inventors in history, like Archimedes and Leonardo Da Vinci. We use their stories to inspire and educate young minds.
+
+Bricks Challenge students learn about numerous different topics of classical mechanics, including laws of physics, forces, energy, torque, leverage, load distribution, symmetry, centrifugal force, axis turns, functioning of complex mechanisms, mechanical advantage devices and transmissions.
+
+Each lesson takes children further into the world of STEM, equipping them with knowledge and skills for their exciting journey ahead.
+
+Bricks Challenge Objectives:
+Learn key principles of engineering and physics.
+Introduce children to the fundamentals of classical mechanics.
+Develop ability to analyze engineering processes.
+Cultivate critical problem-solving and creative thinking skills.
+Nurture a love for science and discovery.
+Expand interpersonal communication skills.
+Encourage team building, cooperation, and group play skills.
+
+
+Bricks Challenge Models:
+Amusement park rides
+Various types of transportation machines
+Cranes
+Drawing machines
+Elevators
+Modern machinery
+
+==============
+
+Galileo Technic
+
+Ages: 7-10
+Lesson duration: 75 minutes
+Number of lessons: 36
+
+Galileo Technic is an advanced program that delves deep into comprehensive mechanical engineering principles, allowing students to explore new engineering terms through building complex models from manual cars to oscillating fans.
+
+Each lesson introduces a distinct machine or concept that embodies specific mechanical principles and their applications in real-world scenarios.
+
+The program offers children an advanced exploration of science, technology, engineering and math (STEM) concepts by building on their prior knowledge, enhancing their problem solving and creative thinking skills through hands-on building. With Galileo Technic, children are not just learning; they are stepping into an exciting lifelong journey of scientific discovery and innovation.
+
+Galileo Technic Curriculum:
+
+Children will unravel the workings of gear shifting, gearbox mechanisms, and transmission ratios, and delve deep into diverse motion forms ranging from circular to linear, elliptical, and oscillatory movements. The curriculum extends its reach to explore concepts such as asymmetry, angular momentum, and the science behind gyroscopes. Furthermore, students investigate the multifaceted role of universal joints in rotating axles and their applications as devices. Essential topics like mechanical force control, kinematic chains, and elastic force are also covered. This exploration is accentuated by understanding mechanical automation, steering mechanisms, and the interplay between potential and kinetic energies. Overall, the program not only provides foundational knowledge but also ignites a lifelong passion for mechanics.
+
+Galileo Technic Objectives:
+Introduce children to advanced mechanical concepts like kinematic chains, oscillation mechanisms, advanced gear systems and more.
+Provide general knowledge of laws of physics and various natural phenomena
+Develop the ability to analyze engineering processes.
+Acquire engineering implementation skills.
+Provide general knowledge of physics laws and various natural phenomena.
+Foster independent and creative thinking.
+Improve communication and interpersonal skills.
+Enhance spatial recognition and STEM integration.
+
+
+Galileo Technic Models:
+ Air crafts
+ Various types of transportation machines
+ Cranes
+ Gadgets and games
+ Moving animal and figures
+ Simple Machines
+
+================
+
+RoboToys
+
+Ages: 9-12
+Lesson duration: 75 minutes
+Number of Lessons: 36
+
+
+RoboToys is a program designed to introduce children the principles of robotics, basic mechanics, coding and robotic-mechanical design through tangible and screen coding language.
+
+The goal of the program is to provide children with the basic skills to become robotic makers.
+
+The program will cover subjects in robotic-mechanical planning while using respectively coding subjects.
+
+During the program, children will build various advanced robots and apply common coding commands that will give them the basis for further increasing their algorithmic and logical thinking skills.
+
+Through RoboToys, children embark on a thrilling journey into robotics, where imagination meets engineering.
+
+RoboToys Program Objectives:
+ Introduce children to world of robotics.
+ Experience building advanced mechanical robots.
+ Present the principles of machinery and mechanical engineering concepts.
+ Acquaint basic to advanced programming concepts.
+ Foster algorithmic and logical thinking, teamwork and problem solving skills.
+ Develop creativity and communication abilities.
+
+
+RoboToys Models:
+ Amusement park rides
+ Various types of transportation machines
+ Solar System and Space
+ Sport games for group challenges
+ Simple machines
+ Funny robot characters
+
+===============
+
+AlgoC
+
+Ages: 13-18
+Lesson duration: 90 minutes
+Number of Lessons: 36
+
+Welcome to the AlgoC Program, a hands-on learning experience designed to equip students with essential coding, robotics, coding with AI, and problem-solving skills. This program focuses on C programming, the foundational language used in robotics, automation, and embedded systems. Through real-world challenges and interactive lessons, children will build, code, and innovate—preparing for a technology-driven future.
+
+
+AlgoC Curriculum Overview
+The AlgoC Robotics Program introduces students to robotics and coding using the C programming language. Through the AlgoC language and Arduino IDE, students explore key concepts such as loops, functions, sensor integration, and multithreading in a hands-on, engaging environment.
+Working in pairs, students build and program robots to complete real-world challenges, developing critical thinking, creativity, and problem-solving skills. The program also introduces the basics of coding with AI, helping students understand how to structure code that drives intelligent behavior in machines.
+At key points, students practice with Practivo—a dedicated training robot—allowing them to strengthen their skills and apply their knowledge through focused exercises.
+AlgoC Program Objectives:
+Equip students with foundational knowledge of robotics components.
+Develop coding and logical thinking skills.
+Build a foundation in coding for intelligent, AI-based systems.
+Break down and solve complex tasks through algorithmic and computational thinking.
+Master core coding concepts in C (loops, conditions, functions).
+Encourage teamwork and collaboration.
+Cultivate critical thinking and problem-solving abilities
+
+AlgoC Models:
+Everyday Life & Home Devices
+Animal-Inspired & Character Robots
+Transportation & Motion Devices
+Games, Challenges & Simulations
+Smart Tech & Coding Concepts
+
+===========================
+
+Other Workshops Organized by Young Engineers Franchisees:
+
+Birthday Party Organisation
+
+An unforgettable and unique birthday party for your child that blends fun, creativity, and learning through building blocks!
+Nominal Duration: 120 minutes
+
+Birthday Parties
+Every birthday is a milestone, an annual reminder of growth, discovery, and the adventures that lie ahead. For your child’s next birthday, give them a day of collaborative discovery. Your child can choose one of our innovative models and, together with their friends, embark on a building journey. With our specialized kits, every child becomes a creator, an innovator, and a team player. Birthdays has never been this memorable!
+
+Birthdays Just Got More Exciting with Young Engineers!
+Our Birthday party includes interactive construction activities with engineering bricks, expert guidance from our trained instructors and warm up activities to create friendly competition, encourage interaction and a comfortable atmosphere. Our parties are designed for children aged 6-10.
+
+An unforgettable celebration full of learning, laughter, and fun!
+
+
+===========================
+Camp Programs
+With Young Engineers, learning continues even when schools are on holiday!
+
+Young Engineers camps are specially designed programs that operate during school breaks such as summer, winter, or Easter holidays for children in grades 1 to 5. Our various camp programs offer a diverse range of activities, from experiments to arts and crafts to building exciting models, uniquely combine STEM activities with interactive social games.
+
+Program designed specifically for children on the autistic spectrum that focuses on building bricks as a medium to enhance communication skills, social interactions and understanding of various concepts.
+Young Engineers Build Up program delivers a uniquely engaging educational experience through creative play. We empower children on the autism spectrum in grades 2-5, to enhance their gentle motor skills, planning, sequence and execution of complex products. We adapt our unique enrichment programs to fit the needs of our participants.
+
+Vision impairment
+Hearing impairment
+Limited mobility
+Pervasive development disorders (PDD)
+Attention deficit-hyperactivity disorder (ADHD)
+
+Young Engineers voluntarily runs many of our special needs workshops in rehabilitation hospitals and mental health facilities. If you represent such an establishment and would be interested in working with us, please write back to us.
+
+
+A hands-on, engaging workshop designed to foster innovation, creativity, and collaboration within organizations.
+
+===========================
+
+Professional (PRO) Teambuilding Activity
+PRO activity is designed for corporate team building. In this program, the participants will construct our exclusive models. Young Engineers instructors come to your office or business and collaborate with your employees for a fun and exciting day of learning and innovation. We provide all the materials necessary to build the models and activities. We work with companies of different sizes and purposes. The nominal duration is 120 minutes.
+
+
+===========================
+Parents and Children Workshop
+
+Build, Discover, and Learn Together!
+Since building blocks have been well known for generations, it has become a common ground between different age groups. This is why we have a variety of very successful programs for all ages. Our Parents and Children Day is not just an event; it’s an investment in quality time, bonding, and education through building one of our exclusive models. At Young Engineers, we provide the tools, the guidance, and the environment. All you need to bring is your enthusiasm and the spirit of discovery.
+
+
+===========================
+
+Creativity & Connection Program for Seniors
+Building blocks have been around since 1942, entertaining the young and the young at heart for generations.
+
+Many of us have experienced the joy of building blocks, which is why it remains one of the most popular toys even today.
+
+The special Golden Age activities bring this incredible pastime back to those who miss how fun it is to work and play with building blocks.The program is thoughtfully curated to cater to the unique needs and preferences of seniors aged 55+. At its core, the program signifies the importance of keeping seniors not only physically active but also mentally stimulated and socially connected. The participants will build a fascinating mechanical and motorized model while a certified instructor provides guidance. As we age, we work very hard to keep our motor skills as functional as possible. Working with small building block pieces helps keep fine and gross motor skills intact for citizens in their twilight years.
+
+
+Bonding Beyond Generations: Senior Citizens & Grandchildren Workshops
+Building blocks remain a timeless bridge connecting multiple generations.
+The Young Engineers have created a unique 90-minute experience for two of the most cherished age groups: the wise and experienced seniors and the vibrant, energetic grandchildren. Through these workshops, we aim to harness the potential of building blocks with instructor guidance, to foster understanding, learning, and most importantly, unforgettable moments between grandparents and their grandchildren.

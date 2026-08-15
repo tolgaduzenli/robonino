@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    margin: 0;
+    background: theme('colors.rn-bg');
+  }
+}
+
+.rn-icon {
+  font-family: 'Material Symbols Rounded';
+  font-variation-settings:
+    'FILL' 1,
+    'wght' 500,
+    'GRAD' 0,
+    'opsz' 24;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.rn-navlink {
+  transition: color 0.15s ease;
+}
+.rn-navlink:hover {
+  color: theme('colors.rn-orange') !important;
+}
+
+.rn-flink {
+  transition: color 0.15s ease;
+}
+.rn-flink:hover {
+  color: theme('colors.rn-orange') !important;
+}
+
+.rn-social:hover {
+  background: theme('colors.rn-orange') !important;
+}
+
+.rn-card {
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+.rn-card:hover {
+  transform: translateY(-6px);
+}
+
+.rn-btn-primary:hover {
+  filter: brightness(1.05);
+}
+
+.rn-cta-link:hover {
+  text-decoration: underline !important;
+}
+
+.rn-input:focus {
+  outline: none;
+  border-color: theme('colors.rn-teal') !important;
+}
+
+a {
+  color: theme('colors.rn-orange');
+}
+a:hover {
+  color: oklch(65% 0.15 50);
+}

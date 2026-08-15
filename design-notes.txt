@@ -1,0 +1,12 @@
+Turkce Site:
+
+- Eposta toplama kismi icin mailjet ile entegre olmamiz lazim
+
+- Instagram, linkedin sayfasi aciyoruz ve anasayfadaki ikonlara link veriyoruz
+
+Robotik kodlama sayfasi
+
+- Atölyelerimizden Kareler: Bu kisim icin instagramdan fotograf alabilirsek onlari koyalim
+
+
+Photo by <a href="https://unsplash.com/@marvelous?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marvin Meyer</a> on <a href="https://unsplash.com/photos/people-sitting-down-near-table-with-assorted-laptop-computers-SYTO3xs06fU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
