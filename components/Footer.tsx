@@ -1,5 +1,5 @@
+import Image from 'next/image';
 import Link from 'next/link';
-import { LogoMark } from './Logo';
 import { colors } from '@/lib/content/colors';
 import { socials } from '@/lib/content/nav';
 import { photoCredits } from '@/lib/content/credits';
@@ -45,9 +45,13 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary['foo
       <div className="mx-auto max-w-[1280px] px-7 pb-6 pt-14">
         <div className="flex flex-wrap justify-between gap-12">
           <div className="max-w-[340px] flex-[2_1_260px]" style={{ minWidth: 240 }}>
-            <div className="mb-4 flex items-center gap-2.5">
-              <LogoMark size={34} />
-              <span className="font-poppins text-xl font-extrabold text-white">Robonino</span>
+            <div className="mb-4">
+              <Image
+                src="/images/brand/robonino-logo-horizontal-white.svg"
+                alt="Robonino"
+                width={122}
+                height={34}
+              />
             </div>
             <p className="mb-5 text-[14.5px] leading-[1.7]" style={{ color: 'oklch(78% 0.015 258)' }}>
               {dict.brandBlurb}

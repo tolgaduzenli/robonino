@@ -1,9 +1,9 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { LogoMark } from './Logo';
 import { navItems } from '@/lib/content/nav';
 import { colors } from '@/lib/content/colors';
 import { getPath, getRouteKeyFromSlug, type NavKey } from '@/lib/i18n/routes';
@@ -69,14 +69,14 @@ export function Header({
       }}
     >
       <div className="mx-auto flex max-w-[1280px] flex-wrap items-center justify-between gap-5 px-7 py-3.5">
-        <Link href={`/${locale}`} className="flex flex-none items-center gap-2.5 no-underline">
-          <LogoMark />
-          <span
-            className="font-poppins text-[22px] font-extrabold tracking-tight"
-            style={{ color: colors.blueDark }}
-          >
-            Robonino
-          </span>
+        <Link href={`/${locale}`} className="flex flex-none items-center no-underline">
+          <Image
+            src="/images/brand/robonino-logo-horizontal.svg"
+            alt="Robonino"
+            width={143}
+            height={40}
+            priority
+          />
         </Link>
 
         {!isMobile && (
