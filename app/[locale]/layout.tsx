@@ -5,6 +5,7 @@ import { getDictionary } from '@/lib/i18n/dictionaries';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { SetHtmlLang } from '@/components/SetHtmlLang';
+import { socials } from '@/lib/content/nav';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.robonino.com';
 
@@ -65,8 +66,7 @@ export default function LocaleLayout({
       addressCountry: 'GB',
     },
     telephone: '',
-    email: 'info@robonino.com',
-    sameAs: [],
+    sameAs: socials.map((s) => s.href),
   };
 
   return (

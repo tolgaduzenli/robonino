@@ -63,23 +63,28 @@ export function ContactView({ locale }: { locale: Locale }) {
               </div>
             </div>
 
+            {/* "Direct Contact" card (email/phone/whatsapp) intentionally not rendered —
+                email is kept in the dictionary but not displayed to avoid harvested-address
+                spam; use the form above instead. Restore this block if phone/WhatsApp are
+                added back.
             <div className="rounded-[18px] bg-white p-6" style={{ boxShadow: '0 8px 24px oklch(30% 0.09 258 / 0.07)' }}>
               <div className="mb-3.5 font-poppins text-[15.5px] font-bold" style={{ color: colors.textDark }}>
                 {dict.info.directTitle}
               </div>
               <div className="flex flex-col gap-2.5 text-sm" style={{ color: colors.textMuted }}>
-                {/* <div>{dict.info.phone}</div> */}
+                <div>{dict.info.phone}</div>
                 <div>{dict.info.email}</div>
-                {/* <a
+                <a
                   href="https://wa.me/442079460912"
                   className="flex items-center gap-1.5 font-bold no-underline"
                   style={{ color: 'oklch(52% 0.14 150)' }}
                 >
                   <span className="h-2 w-2 rounded-full" style={{ background: colors.green }} />
                   {dict.info.whatsapp}
-                </a> */}
+                </a>
               </div>
             </div>
+            */}
 
             {/* <div
               className="flex items-center justify-center overflow-hidden rounded-[18px]"

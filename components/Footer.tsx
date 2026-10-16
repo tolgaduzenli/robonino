@@ -61,6 +61,8 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary['foo
                 <a
                   key={s.label}
                   href={s.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={s.label}
                   className="rn-social flex h-9 w-9 items-center justify-center rounded-[10px] text-[13px] font-bold text-white no-underline transition-colors"
                   style={{ background: 'oklch(32% 0.05 258)' }}
@@ -113,7 +115,7 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary['foo
               >
                 <span className="h-2 w-2 rounded-full" style={{ background: colors.green }} /> {dict.whatsapp}
               </a> */}
-              <div>{dict.email}</div>
+              {/* Email intentionally not displayed — use the contact form to avoid harvested-address spam. */}
             </div>
           </div>
 
