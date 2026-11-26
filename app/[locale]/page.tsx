@@ -9,6 +9,8 @@ import { SectionHeading } from '@/components/ui/SectionHeading';
 import { IconCard } from '@/components/ui/IconCard';
 import { ServiceCard } from '@/components/ui/ServiceCard';
 import { DestinationCard } from '@/components/ui/DestinationCard';
+import { PartnerSchoolChip } from '@/components/ui/PartnerSchoolCard';
+import { partnerSchools } from '@/lib/content/partnerSchools';
 import { TestimonialCard } from '@/components/ui/TestimonialCard';
 import { CTABand } from '@/components/ui/CTABand';
 import { FilledButton } from '@/components/ui/Button';
@@ -33,7 +35,9 @@ export async function generateMetadata({
 
 export default function HomePage({ params: { locale } }: { params: { locale: string } }) {
   if (!isLocale(locale)) return null;
-  const dict = getDictionary(locale as Locale).home;
+  const fullDict = getDictionary(locale as Locale);
+  const dict = fullDict.home;
+  const partnersDict = fullDict.partnerSchools;
   const services = [
     { ...dict.services.study, ...content.services[0] },
     { ...dict.services.robotics, ...content.services[1] },
@@ -167,6 +171,39 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
           ))}
         </div>
       </section>
+
+      {/* PARTNER SCHOOLS */}
+      {partnerSchools.length > 0 && (
+        <section
+          className="px-7 py-20"
+          style={{ background: 'linear-gradient(180deg, oklch(97% 0.008 258), oklch(99% 0.004 90))' }}
+        >
+          <div className="mx-auto max-w-[1280px]">
+            <SectionHeading
+              eyebrow={partnersDict.eyebrow}
+              title={partnersDict.homeTitle}
+              desc={partnersDict.homeDesc}
+              eyebrowColor={colors.teal}
+              maxWidth={640}
+            />
+            <div className="mb-10 grid gap-4" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))' }}>
+              {partnerSchools.map((school) => (
+                <PartnerSchoolChip
+                  key={school.id}
+                  school={school}
+                  city={partnersDict.items[school.index]?.city ?? ''}
+                  websiteLabel={partnersDict.visitWebsite}
+                />
+              ))}
+            </div>
+            <div className="flex justify-center">
+              <FilledButton href={`${getPath('studyUk', locale as Locale)}#partner-schools`} color={colors.blue}>
+                {partnersDict.homeCta}
+              </FilledButton>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* TESTIMONIALS */}
       {/* <section

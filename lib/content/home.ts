@@ -40,10 +40,9 @@ export const whyItems = [
   { cardBg: tint.orangeCard, iconWrapBg: tint.orangeIcon18, icon: 'business_center', iconColor: colors.orangeDark },
 ] as const;
 
-/** Order matches `destinations.items` in messages/{en,tr}.json: London, Brighton, Oxford, Cambridge. */
+/** Order matches `destinations.items` in messages/{en,tr}.json: London, Oxford, Cambridge. */
 export const destinations = [
   { image: '/images/destinations/london.jpg' },
-  { image: '/images/destinations/brighton.jpg' },
   { image: '/images/destinations/oxford.jpg' },
   { image: '/images/destinations/cambridge.jpg' },
 ] as const;

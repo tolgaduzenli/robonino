@@ -25,11 +25,15 @@ Edit the matching key in both `messages/en.json` and `messages/tr.json` — the 
 
 ## Contact form
 
-`components/ContactForm.tsx` posts to `app/api/contact/route.ts`, which validates the payload and currently just logs it. Wire in a real email provider (Resend, Postmark, etc.) or CRM webhook where the `TODO` is marked in that file.
+`components/ContactForm.tsx` posts to `app/api/contact/route.ts`, which emails each submission to `CONTACT_TO_EMAIL` through [Resend](https://resend.com). Spam is filtered by a hidden honeypot field, a minimum fill time and, optionally, Google reCAPTCHA v3. Copy `.env.example` to `.env.local` for local development; without `RESEND_API_KEY` submissions are only logged to the console. Set the same variables in the Vercel project for production.
+
+## Partner schools
+
+UK partner language schools are listed in `lib/content/partnerSchools.ts` (name, website, logo) with their location and description in `partnerSchools.items` in both message files. They appear on the Study UK page and the home page, each linking to the school's website. Entries marked `placeholder: true` show only in `npm run dev`, never in production.
 
 ## Images
 
-All photos are still pointing at Unsplash's CDN (as in the original design handoff). Swap these for licensed/self-hosted copies in `lib/content/*.ts` before going live — `next.config.mjs` already allows `images.unsplash.com` as a remote image source, so this is the only file that needs updating if you move the assets.
+Photos are self-hosted in `public/images/`. The Robotics workshop gallery still uses Unsplash placeholders (`lib/content/robotics.ts`), which is why `images.unsplash.com` is allowed in `next.config.mjs`. Photo credits required by Unsplash/Pixabay are listed in `lib/content/credits.ts` and shown in the footer.
 
 ## Deploying
 

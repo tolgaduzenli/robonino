@@ -8,6 +8,8 @@ import { colors } from '@/lib/content/colors';
 import { SectionHeading } from '@/components/ui/SectionHeading';
 import { IconCard, FeatureRow } from '@/components/ui/IconCard';
 import { DestinationCard } from '@/components/ui/DestinationCard';
+import { PartnerSchoolCard } from '@/components/ui/PartnerSchoolCard';
+import { partnerSchools } from '@/lib/content/partnerSchools';
 import { SingleTestimonial } from '@/components/ui/TestimonialCard';
 import { CTABand } from '@/components/ui/CTABand';
 import { FilledButton, OutlineButton } from '@/components/ui/Button';
@@ -26,7 +28,9 @@ export function studyUkMetadata(locale: Locale): Metadata {
 }
 
 export function StudyUkView({ locale }: { locale: Locale }) {
-  const dict = getDictionary(locale).studyUk;
+  const fullDict = getDictionary(locale);
+  const dict = fullDict.studyUk;
+  const partnersDict = fullDict.partnerSchools;
 
   return (
     <>
@@ -99,6 +103,32 @@ export function StudyUkView({ locale }: { locale: Locale }) {
           </div>
         </div>
       </section>
+
+      {partnerSchools.length > 0 && (
+        <section className="px-7 py-20" style={{ background: 'linear-gradient(180deg, oklch(97% 0.008 258), oklch(99% 0.004 90))' }}>
+          <div className="mx-auto max-w-[1280px]">
+            <SectionHeading
+              id="partner-schools"
+              eyebrow={partnersDict.eyebrow}
+              title={partnersDict.title}
+              desc={partnersDict.desc}
+              eyebrowColor={colors.teal}
+              maxWidth={680}
+            />
+            <div className="grid gap-[22px]" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))' }}>
+              {partnerSchools.map((school) => (
+                <PartnerSchoolCard
+                  key={school.id}
+                  school={school}
+                  city={partnersDict.items[school.index]?.city ?? ''}
+                  desc={partnersDict.items[school.index]?.desc ?? ''}
+                  websiteLabel={partnersDict.visitWebsite}
+                />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       <section className="mx-auto max-w-[1280px] px-7 py-20">
         <SectionHeading eyebrow={dict.destinations.eyebrow} title={dict.destinations.title} maxWidth={600} />

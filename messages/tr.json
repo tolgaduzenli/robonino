@@ -15,10 +15,10 @@
   },
   "footer": {
     "newsletterTitle": "Program güncellemelerini ve erken kamp tarihlerini kaçırmayın",
-    "newsletterDesc": "Bültenimize katılın — okullar, STEM kampları ve etkinlikler hakkında en hızlı haberleri edinin.",
+    "newsletterDesc": "Okullar, STEM kampları ve etkinliklerle ilgili haberleri e-postanıza gönderelim.",
     "emailPlaceholder": "E-posta adresi",
     "subscribe": "Abone Ol",
-    "brandBlurb": "Çocukları, aileleri ve profesyonelleri öğrenme, yaratıcılık ve küresel deneyimlerle buluşturan güvenilir uluslararası eğitim ve inovasyon şirketi.",
+    "brandBlurb": "İngiltere merkezli bir eğitim şirketiyiz. Çocuklara robotik kodlama öğretiyor, ailelere İngiltere'de dil okulu seçiminde yardımcı oluyor ve şirketlere ekip atölyeleri düzenliyoruz.",
     "programsHeading": "Hizmetlerimiz",
     "companyHeading": "Şirket",
     "contactHeading": "İngiltere İletişim",
@@ -41,11 +41,11 @@
     }
   },
   "home": {
-    "metaTitle": "Robonino — Öğrenmenin Üç Yüzü, Tek Adres: Robonino",
-    "metaDescription": "Robonino — uluslararası eğitim, robotik & kodlama ve kurumsal inovasyon etkinlikleri. İngiltere'de eğitim görün, STEM becerileri kazanın ve küresel deneyimlerle gelişin.",
+    "metaTitle": "Robonino | İngiltere'de Eğitim, Robotik Kodlama ve Kurumsal Atölyeler",
+    "metaDescription": "Robonino, ailelere İngiltere'de dil okulu seçiminde rehberlik eder, çocuklara Genç Mühendisler (Young Engineers) programıyla robotik kodlama öğretir ve şirketlere ekip atölyeleri düzenler.",
     "hero": {
-      "title": "Öğrenmenin Üç Farklı Yolu Tek Adreste buluşuyor",
-      "desc": "Çocuklara robotik kodlama, ailelere yurtdışında eğitim danışmanlığı, profesyonellere kurumsal atölyeler sunuyoruz — hepsi tek çatı altında.",
+      "title": "Robotik Kodlama, İngiltere'de Eğitim ve Kurumsal Atölyeler Tek Adreste",
+      "desc": "İngiltere'de yaşıyor, Türkçe ve İngilizce çalışıyoruz. Çocuğunuz Genç Mühendisler müfredatıyla robot kurmayı ve kodlamayı öğrenir; size de İngiltere'de doğru dil okulunu seçmekte ve başvuruda yardımcı oluruz.",
       "ctaStudy": "İngiltere'de Eğitim",
       "ctaRobotics": "Robotik Kodlama",
       "ctaEvents": "Kurumsal Etkinlikler",
@@ -56,7 +56,7 @@
     "services": {
       "eyebrow": "Neler Yapıyoruz",
       "title": "Öğrenmeyi Deneyime Dönüştürüyoruz",
-      "desc": "İngiltere'deki sınıflardan robotik laboratuvarlarına ve toplantı odalarına kadar — Robonino gerçek beceriler kazandıran deneyimler tasarlar.",
+      "desc": "İngiltere'deki dil okulları, çocuklar için robotik dersleri ve şirketler için atölyeler. Hepsini aynı ekip organize ediyor.",
       "study": {
         "badge": "İngiltere'de Eğitim",
         "title": "İngiltere'de İngilizce Eğitimi",
@@ -67,14 +67,14 @@
       "robotics": {
         "badge": "Robotik Kodlama",
         "title": "Çocuklar İçin Robotik Kodlama",
-        "desc": "Çocukların geleceğin becerilerini kazanmasına yardımcı olan yaratıcı STEM eğitim programları.",
+        "desc": "Çocuğunuzun robot kurarak ve kod yazarak öğrendiği uygulamalı STEM dersleri.",
         "features": ["Robotik atölyeleri", "Kodlama dersleri", "STEM kulüpleri", "Okul programları", "Tatil kampları"],
         "cta": "STEM'i Keşfedin →"
       },
       "events": {
         "badge": "Kurumsal Etkinlikler",
         "title": "Kurumsal ve Sosyal Etkinlikler",
-        "desc": "Profesyoneller için yaratıcı takım oluşturma ve inovasyon odaklı sosyal deneyimler.",
+        "desc": "Şirketler için robotik ve problem çözme üzerine kurulu ekip atölyeleri.",
         "features": ["Takım oluşturma", "Robotik yarışmaları", "İnovasyon atölyeleri", "Networking etkinlikleri", "Yaratıcı aktiviteler"],
         "cta": "Etkinlik Planlayın →"
       }
@@ -83,43 +83,57 @@
       "eyebrow": "Aileler ve Şirketler Neden Bizi Seçiyor",
       "title": "Neden Robonino",
       "items": [
-        { "title": "İngiltere Merkezli Destek", "desc": "İngiltere genelinde sahada gerçek bir yerel ekip." },
-        { "title": "Güvenilir Okul Ortakları", "desc": "Yalnızca onaylı dil okulları ve STEM ortakları." },
-        { "title": "Çocuk Güvenliği Odaklı", "desc": "Her programa entegre edilmiş koruma ve özen yükümlülüğü." },
-        { "title": "Türkçe & İngilizce İletişim", "desc": "Her aile ve ortak her iki dilde de destekleniyor." },
-        { "title": "Uluslararası Deneyim", "desc": "Türk aileleri İngiliz kurumlarıyla buluşturan uzun yıllara dayanan deneyim." },
-        { "title": "Profesyonel Organizasyon", "desc": "Evraklardan havalimanı karşılamaya kadar uçtan uca lojistik." }
+        { "title": "İngiltere Merkezli Destek", "desc": "Ekibimiz İngiltere'de yaşıyor; çocuğunuz buradayken yardım hep yakında." },
+        { "title": "Güvenilir Okul Ortakları", "desc": "Yalnızca kendimiz incelediğimiz dil okulları ve STEM ortaklarıyla çalışıyoruz." },
+        { "title": "Önce Çocuk Güvenliği", "desc": "Düzenlediğimiz her programda çocuk koruma ve gözetim esastır." },
+        { "title": "Türkçe & İngilizce İletişim", "desc": "Bizimle Türkçe ya da İngilizce, hangisi rahatsa o dilde konuşabilirsiniz." },
+        { "title": "Uluslararası Deneyim", "desc": "Yıllardır Türk ailelere İngiltere'deki okullar ve kurumlarla ilgili destek veriyoruz." },
+        { "title": "Profesyonel Organizasyon", "desc": "Evraklardan havalimanı karşılamasına kadar tüm organizasyonu biz üstleniyoruz." }
       ]
     },
     "destinations": {
       "eyebrow": "Eğitim Göreceğiniz Şehirler",
       "title": "Öne Çıkan Lokasyonlar",
       "items": [
-        { "name": "Londra", "tag": "Başkent enerjisi" },
-        { "name": "Brighton", "tag": "Sahilde öğrenci hayatı" },
-        { "name": "Oxford", "tag": "Tarihi akademik miras" },
-        { "name": "Cambridge", "tag": "Dünya standartında kolejler" }
+        { "name": "Londra", "tag": "Başkentte öğrencilik" },
+        { "name": "Oxford", "tag": "Tarihi üniversite şehri" },
+        { "name": "Cambridge", "tag": "Ünlü üniversite kolejleri" }
       ]
     },
     "testimonials": {
       "eyebrow": "Gerçek Hikayeler",
       "title": "Aileler ve Ortaklarımız Ne Diyor",
       "items": [
-        { "quote": "Robonino, kızımızın Brighton'daki yaz okulu yerleştirmesinin tamamında bize rehberlik etti — vizeler, misafir aile, her şey. Süreç boyunca kendimizi güvende hissettik.", "name": "Elif Yılmaz", "role": "Veli, İstanbul" },
+        { "quote": "Robonino, kızımızın yaz okulu yerleştirmesinin tamamında bize rehberlik etti — vizeler, misafir aile, her şey. Süreç boyunca kendimizi güvende hissettik.", "name": "Elif Yılmaz", "role": "Veli, İstanbul" },
         { "quote": "Robotik kampı, oğlumun teknolojiye bakışını tamamen değiştirdi. Bir hafta içinde ilk gerçek robotunu inşa etti.", "name": "Mehmet Kaya", "role": "Veli" },
         { "quote": "Liderlik ekibimizin toplantısı için Robonino'dan bir inovasyon atölyesi aldık — bugüne kadar düzenlediğimiz en iyi ekip etkinliklerinden biriydi.", "name": "Sarah Whitfield", "role": "İnsan Kaynakları Direktörü, Londra" }
       ]
     },
     "cta": {
-      "title": "Uluslararası Öğrenme Yolculuğunuza Başlayın",
-      "desc": "Eğitim yerleştirmeleri, STEM programları veya bir sonraki kurumsal etkinliğiniz hakkında İngiltere merkezli ekibimizle konuşun.",
+      "title": "Planlarınızı Bize Anlatın",
+      "desc": "İngiltere'deki dil okulları, robotik dersleri veya ekip etkinliği hakkında bize yazın. Türkçe ya da İngilizce yanıt veriyoruz.",
       "primary": "Mesaj Gönderin",
       "secondary": "Ücretsiz Görüşme Ayarlayın"
     }
   },
+  "partnerSchools": {
+    "eyebrow": "Partner Okullarımız",
+    "title": "Birlikte Çalıştığımız İngiltere Okulları ve Kolejleri",
+    "desc": "Bu okul ve kolejlerle doğrudan çalışıyoruz; size önermeden önce her birini yakından tanıyoruz.",
+    "homeTitle": "İngiltere'deki Partner Okullarımız",
+    "homeDesc": "Yatılı okuldan A level'a ve dil kurslarına kadar, çocuğunuzu yakından tanıdığımız ve doğrudan çalıştığımız okullara yerleştiriyoruz.",
+    "homeCta": "Partner okullarımızı inceleyin",
+    "visitWebsite": "Web sitesini ziyaret edin",
+    "items": [
+      { "city": "Hertfordshire", "desc": "Merakın takdir edildiği bir okul. Çocuğunuz burada zorluklardan çekinmemeyi, daha büyük düşünmeyi öğrenir ve karakteri her gün biraz daha güçlenir." },
+      { "city": "Londra, Birmingham ve Cambridge", "desc": "1973'ten beri GCSE (16 yaş sınavları) ve A level (üniversiteye hazırlık) eğitimi veren MPW, üç şehirdeki kolejlerinde her öğrenciye göre şekillenen programlar sunuyor." },
+      { "city": "Oxford", "desc": "Oxford şehir merkezinde iki kampüsü olan bir dil okulu ve özel eğitim koleji (tutorial college). Yurt dışından ve İngiltere'den gelen öğrencilerle, her birinin seviyesine ve hedefine göre çalışıyor." },
+      { "city": "İngiltere'nin farklı şehirleri", "desc": "Dil eğitimi, kültürel değişim, akademik programlar ve eğitim gezileri sunan uluslararası bir eğitim kurumu." }
+    ]
+  },
   "studyUk": {
-    "metaTitle": "İngiltere'de İngilizce Eğitimi — Robonino",
-    "metaDescription": "Robonino ile İngiltere'de İngilizce eğitimi — okul yerleştirme, yaz okulları, vize danışmanlığı, konaklama ve çocuklar, gençler ve yetişkinler için tam aile desteği.",
+    "metaTitle": "İngiltere'de İngilizce Eğitimi | Robonino",
+    "metaDescription": "Robonino; çocuklar, gençler, yetişkinler ve aileler için İngiltere'de dil okulu ve yaz okulu bulur, vize, konaklama ve havalimanı transferinde destek olur.",
     "hero": {
       "title": "İngiltere'de Öğrenin, Dünyaya Açılın",
       "desc": "Doğru dil okulunu bulmaktan kayıt işlemlerine kadar, İngiltere'deki eğitim yolculuğunuzun her adımında yanınızdayız.",
@@ -131,80 +145,79 @@
       "eyebrow": "Her Yaş İçin Programlar",
       "title": "Kimlere Yardımcı Oluyoruz",
       "items": [
-        { "title": "Çocuklar (6–15)", "desc": "Yakın gözetim ve aile iletişimiyle eğlenceli, güvenli dil eğitimi programları." },
-        { "title": "Gençler (16+)", "desc": "Özgüven kazandıran ve üniversiteye hazır İngilizce sağlayan yaz okulları ve akademik dönemler." },
+        { "title": "Çocuklar (6–15)", "desc": "Çocuğunuz gözetim altında, etkinliklerle İngilizce öğrenir; siz de düzenli olarak haber alırsınız." },
+        { "title": "Gençler (16+)", "desc": "Yaz okulları ve dönem kursları, gençleri üniversitede İngilizce eğitim almaya hazırlar." },
         { "title": "Yetişkinler", "desc": "İş, eğitim veya kişisel gelişim için yoğun ve genel İngilizce kursları." },
-        { "title": "Aileler", "desc": "Ailelerin birlikte seyahat edip öğrenebilmesi için ortak yerleştirme ve konaklama." }
+        { "title": "Aileler", "desc": "Ebeveynler ve çocuklar aynı haftalarda eğitim alıp birlikte konaklayabilir." }
       ]
     },
     "features": {
       "eyebrow": "Uçtan Uca Hizmet",
       "title": "Her Adım Bizden",
       "items": [
-        { "title": "Okul Yerleştirme", "desc": "Onaylı İngiliz ortak okullarımız arasından yaşa, seviyeye ve hedeflere göre eşleştirme." },
+        { "title": "Okul Yerleştirme", "desc": "Partner okullarımız arasından çocuğunuzun yaşına, seviyesine ve hedeflerine uygun olanı seçiyoruz." },
         { "title": "Yaz Okulları", "desc": "Yaz tatili boyunca yatılı ve gündüzlü programlar." },
         { "title": "Vize Danışmanlığı", "desc": "İngiltere eğitim vizesi başvurularında adım adım destek." },
-        { "title": "Konaklama Desteği", "desc": "Misafir aileler, yurtlar veya aile konaklamaları — tümü güvenlik kontrolünden geçirilmiş." },
-        { "title": "Havalimanı Transferleri", "desc": "Öğrencilerin her seferinde güvenle varması için organize edilen karşılamalar." },
-        { "title": "Veli İletişimi", "desc": "Konaklama boyunca İngilizce ve Türkçe düzenli güncellemeler." }
+        { "title": "Konaklama Desteği", "desc": "Misafir aileler, öğrenci yurtları veya aile konaklamaları; hepsi güvenlik açısından kontrol edilmiş." },
+        { "title": "Havalimanı Transferleri", "desc": "Havalimanı karşılamasını biz ayarlıyoruz; çocuğunuz yolunu tek başına bulmak zorunda kalmaz." },
+        { "title": "Veli İletişimi", "desc": "Çocuğunuz İngiltere'deyken size Türkçe ve İngilizce düzenli bilgi veriyoruz." }
       ]
     },
     "destinations": {
-      "eyebrow": "Kampüs Lokasyonları",
-      "title": "İngiltere'nin Simgesel Şehirlerinde Eğitim",
+      "eyebrow": "Şehirler",
+      "title": "Öğrencilerimizin Okuduğu Şehirler",
       "items": [
         { "name": "Londra" },
-        { "name": "Brighton" },
         { "name": "Oxford" },
         { "name": "Cambridge" }
       ]
     },
     "testimonial": {
-      "quote": "Oğlumuzun Brighton'daki yazı ona özgüven, altı farklı ülkeden arkadaşlar ve gerçekten kullandığı bir İngilizce kazandırdı. Robonino her detayı hallettiği için endişelenmemize gerek kalmadı.",
+      "quote": "Oğlumuzun İngiltere'deki yazı ona özgüven, altı farklı ülkeden arkadaşlar ve gerçekten kullandığı bir İngilizce kazandırdı. Robonino her detayı hallettiği için endişelenmemize gerek kalmadı.",
       "name": "Ayşe Demir",
       "role": "Veli, Ankara"
     },
     "cta": {
-      "title": "İngiltere Eğitim Deneyiminizi Planlamaya Hazır mısınız?",
-      "desc": "Hedeflerinizi bize anlatın, sizi doğru okul, şehir ve programla eşleştirelim.",
+      "title": "İngiltere'de Bir Kurs mu Planlıyorsunuz?",
+      "desc": "Çocuğunuzun yaşını, seviyesini ve hedeflerini bize anlatın; size uygun okul ve şehirleri önerelim.",
       "primary": "Mesaj Gönderin",
       "secondary": "Ücretsiz Görüşme Ayarlayın"
     }
   },
   "robotics": {
-    "metaTitle": "Çocuklar İçin Robotik Kodlama — Robonino",
-    "metaDescription": "Robonino'dan çocuklar için Robotik Kodlama — geleceğe hazır beceriler kazandıran STEM atölyeleri, kodlama dersleri, okul programları ve tatil kampları.",
+    "metaTitle": "Çocuklar İçin Robotik Kodlama | Robonino",
+    "metaDescription": "4-18 yaş arası çocuklar için Genç Mühendisler (Young Engineers) robotik kodlama dersleri: atölyeler, haftalık kulüpler, okul programları ve tatil kampları.",
     "hero": {
       "eyebrow": "Robotik Kodlama",
       "title": "Çocuklar İçin Robotik ve Kodlama Eğitimi",
-      "desc": "Genç Mühendislerin(Young Engineers) STEM odaklı programlarıyla, 4-18 yaş arası çocuklara sınıfta, okul sonrasında ve atölyelerde kalıcı robotik ve kodlama becerileri kazandırıyoruz",
+      "desc": "Genç Mühendisler (Young Engineers) programlarıyla 4-18 yaş arası çocuklara robotik ve kodlama öğretiyoruz. Çocuğunuz önce modelini kurar, sonra onu hareket ettiren kodu yazar. Dersler okulda, okul sonrasında ve tatillerde yapılır.",
       "primaryCta": "Atölye Rezervasyonu Yapın",
       "secondaryCta": "Programları İnceleyin",
       "imageAlt": "LEGO robotik sınıfında çocuklar"
     },
     "tracks": {
-      "eyebrow": "PROGRAMLARIMIZ",
+      "eyebrow": "Programlarımız",
       "title": "Genç Mühendisler Programlarıyla Tanışın",
-      "subTitle": "4-18 yaş arası her çocuk için, dünya çapında kanıtlanmış Genç Mühendisler müfredatıyla tasarlanmış sekiz farklı program.",
+      "subTitle": "4-18 yaş için sekiz program; hepsi 100'den fazla ülkede uygulanan Genç Mühendisler müfredatına dayanıyor.",
       "items": [
-        { "title": "AlgoBuddy (4-6 yaş)", "desc": "Küçük coder'lar; büyük bloklarla veya ekran uygulamasıyla ilk kodlama adımlarını atar." },
+        { "title": "AlgoBuddy (4-6 yaş)", "desc": "Küçükler ilk kodlama adımlarını büyük bloklarla ya da ekrandaki uygulamayla atar." },
         { "title": "Big Builders (4-6 yaş)", "desc": "Esnek parçalarla 3D modeller kurarak doğa bilimlerini ve temel mühendisliği keşfeder." },
-        { "title": "Smartivo (4-6 yaş)", "desc": "Hikâye temelli görevlerle robotu hareket ettirir, ışıklandırır ve komutlarla hayata geçirir." },
+        { "title": "Smartivo (4-6 yaş)", "desc": "Hikaye temelli görevlerde robota basit komutlar verir; onu hareket ettirir ve ışıklarını yakar." },
         { "title": "AlgoPlay (6-10 yaş)", "desc": "Algobrix yapı bloklarıyla model kurar, kod dizileri yazar ve robotu çalıştırır." },
-        { "title": "Bricks Challenge (6-10 yaş)", "desc": "Yapı bloklarıyla kuvvet, denge ve mekanik prensipleri deneyerek klasik mekaniği öğrenir." },
-        { "title": "Galileo Technic (7-10 yaş)", "desc": "Vites, hareket ve enerji gibi ileri mekanik kavramları karmaşık modeller inşa ederek keşfeder." },
-        { "title": "RoboToys (9-12 yaş)", "desc": "Gelişmiş robotlar inşa eder, kodlama komutlarıyla mantıksal düşünme becerilerini geliştirir." },
-        { "title": "AlgoC (13-18 yaş)", "desc": "Teens code real robotics projects in C with Arduino and get an intro to AI-driven behavior." }
+        { "title": "Bricks Challenge (6-10 yaş)", "desc": "Yapı bloklarıyla deneyler yaparak kuvvet, denge ve mekaniği öğrenir." },
+        { "title": "Galileo Technic (7-10 yaş)", "desc": "Dişliler, hareket ve enerji gibi kavramları daha karmaşık modeller kurarak öğrenir." },
+        { "title": "RoboToys (9-12 yaş)", "desc": "Daha gelişmiş robotlar kurup programlar; bu da mantıksal düşünmeyi güçlendirir." },
+        { "title": "AlgoC (13-18 yaş)", "desc": "Gençler Arduino ile C dilinde gerçek robotik projeler kodlar ve yapay zeka destekli davranışlara giriş yapar." }
       ]
     },
     "features": {
-      "eyebrow": "Neler Dahil",
-      "title": "Her Ortama Uygun Formatlar",
+      "eyebrow": "Nasıl Öğretiyoruz",
+      "title": "Dersler, Kulüpler ve Kamplar",
       "items": [
         { "title": "Robotik Atölyeleri", "desc": "Gerçek robotlar inşa edip programlayan uygulamalı seanslar." },
-        { "title": "Kodlama Dersleri", "desc": "Blok kodlamadan gerçek dillere uzanan yapılandırılmış müfredat." },
-        { "title": "STEM Kulüpleri", "desc": "Zaman içinde bir proje portföyü oluşturan sürekli haftalık kulüpler." },
-        { "title": "Okul Programları", "desc": "Ortak okullara doğrudan getirilen müfredata uygun STEM eğitimi." },
+        { "title": "Kodlama Dersleri", "desc": "Blok kodlamayla başlayıp metin tabanlı dillere geçen, adım adım ilerleyen bir müfredat." },
+        { "title": "STEM Kulüpleri", "desc": "Çocuğunuzun dönem boyunca tamamladığı projelerle bir portföy oluşturduğu haftalık kulüpler." },
+        { "title": "Okul Programları", "desc": "STEM derslerini okullara, kendi müfredatlarına uygun şekilde getiriyoruz." },
         { "title": "Tatil Kampları", "desc": "Okul tatillerinde tam günlük robotik ve kodlama kampları." }
       ]
     },
@@ -225,40 +238,40 @@
     },
     "cta": {
       "title": "Çocuğunuza veya Okulunuza STEM'i Getirin",
-      "desc": "Atölyeler, okul ortaklıkları veya bir sonraki tatil kampımız hakkında bize sorun.",
+      "desc": "Atölyeler, okul iş birlikleri veya bir sonraki tatil kampımız hakkında bize yazın.",
       "primary": "Mesaj Gönderin",
       "secondary": "Ücretsiz Görüşme Ayarlayın"
     }
   },
   "events": {
-    "metaTitle": "Kurumsal ve Sosyal Etkinlikler — Robonino",
-    "metaDescription": "Robonino'dan Kurumsal ve Sosyal Etkinlikler — şirketler ve profesyonel gruplar için takım oluşturma, robotik yarışmaları ve inovasyon atölyeleri.",
+    "metaTitle": "Kurumsal ve Sosyal Etkinlikler | Robonino",
+    "metaDescription": "Şirketler için ekip atölyeleri: robotik yarışmaları, inovasyon seansları ve yaratıcı aktiviteler. Mekanı, ikramı ve moderatörleri biz ayarlıyoruz.",
     "hero": {
       "eyebrow": "Kurumsal ve Sosyal Etkinlikler",
       "title": "İnovasyon, Eğlence ve Ekip Ruhu Bir Arada",
-      "desc": "Genç Mühendisler'in kurumsal atölyeleriyle, ekibiniz Lego modellerini birlikte inşa ederken, birlikte keşfeder.",
+      "desc": "Genç Mühendisler'in kurumsal atölyelerinde ekibiniz Lego modellerini birlikte kurar, zamana karşı problemleri birlikte çözer.",
       "primaryCta": "Etkinliğinizi Planlayın",
       "secondaryCta": "Formatları İnceleyin",
       "imageAlt": "Devam eden bir kurumsal takım atölyesi"
     },
     "formats": {
-      "eyebrow": "Bir Format Seçin",
-      "title": "Her Takım İçin Formatlar",
+      "eyebrow": "Formatlar",
+      "title": "Ekibinize Uygun Formatı Seçin",
       "items": [
-        { "title": "Takım Oluşturma", "desc": "Gerçek iş birliği etrafında kurgulanan klasik ve yaratıcı zorluklar." },
+        { "title": "Takım Oluşturma", "desc": "Ancak birlikte çalışılınca çözülebilen grup görevleri." },
         { "title": "Robotik Yarışmaları", "desc": "Takımlar zamana karşı robot tasarlar ve yarıştırır." },
-        { "title": "İnovasyon Atölyeleri", "desc": "Fikirleri prototiplere dönüştüren moderatörlü seanslar." }
+        { "title": "İnovasyon Atölyeleri", "desc": "Ekiplerin bir fikri çalışan bir prototipe dönüştürdüğü moderatörlü seanslar." }
       ]
     },
     "features": {
       "eyebrow": "Neler Dahil",
-      "title": "Uçtan Uca Etkinlik Planlaması",
+      "title": "Etkinliğin Tamamını Biz Organize Ediyoruz",
       "items": [
         { "title": "Mekan ve Lojistik", "desc": "Mekanı, ekipmanı ve programı biz temin edip yönetiyoruz." },
         { "title": "Uzman Moderatörler", "desc": "Robotik ve atölye tasarımında deneyimli sunucular." },
-        { "title": "Özel Zorluklar", "desc": "Takımınızın büyüklüğüne ve hedeflerine göre uyarlanmış aktiviteler." },
-        { "title": "İkram Koordinasyonu", "desc": "Etkinliğinize uygun yiyecek ve içecek organizasyonu." },
-        { "title": "Etkinlik Sonrası Rapor", "desc": "Etkinlik sonrasında paylaşılan fotoğraflar, geri bildirimler ve çıkarımlar." }
+        { "title": "Size Özel Görevler", "desc": "Takımınızın büyüklüğüne ve hedeflerine göre uyarlanmış aktiviteler." },
+        { "title": "İkram Koordinasyonu", "desc": "Gün boyunca yiyecek ve içecekleri biz ayarlıyoruz." },
+        { "title": "Etkinlik Sonrası Rapor", "desc": "Etkinlikten sonra fotoğrafları, geri bildirimleri ve öne çıkan noktaları sizinle paylaşıyoruz." }
       ]
     },
     "gallery": {
@@ -278,33 +291,33 @@
     },
     "cta": {
       "title": "Bir Sonraki Takım Etkinliğinizi Birlikte Tasarlayalım",
-      "desc": "Takım büyüklüğünüzü, hedeflerinizi ve tarihlerinizi bize iletin — size uygun bir format önerelim.",
+      "desc": "Takım büyüklüğünüzü, hedeflerinizi ve uygun tarihlerinizi bize iletin; size uygun bir format önerelim.",
       "primary": "Mesaj Gönderin",
       "secondary": "Ücretsiz Görüşme Ayarlayın"
     }
   },
   "about": {
     "metaTitle": "Robonino Hakkında",
-    "metaDescription": "Robonino Hakkında — aileleri ve profesyonelleri öğrenme, STEM ve küresel deneyimlerle buluşturan İngiltere merkezli uluslararası eğitim ve inovasyon şirketi.",
+    "metaDescription": "Robonino, İngiltere merkezli bir eğitim şirketidir: robotik kodlamada Genç Mühendisler (Young Engineers) franchise'ı, ailelere İngiltere'de okul danışmanlığı ve şirketlere ekip atölyeleri.",
     "hero": {
       "eyebrow": "Robonino Hakkında",
-      "title": "Tek Marka, Üç Alanda Uzmanlık",
-      "desc": "Robonino, İngiltere merkezli uluslararası bir eğitim ve inovasyon şirketidir. Çocukların geleceğin becerilerini kazanmasına yardımcı oluyor, ailelere yurt dışı eğitim sürecinde rehberlik ediyor ve şirketler için inovasyon deneyimleri tasarlıyoruz — hepsi tek güvenilir, profesyonel marka altında."
+      "title": "İngiltere'de Kurulduk, İki Dilde Çalışıyoruz",
+      "desc": "Robonino, İngiltere merkezli bir eğitim ve inovasyon şirketidir. Çocuklara robotik kodlama öğretiyor, ailelere yurt dışı eğitim sürecinde rehberlik ediyor ve şirketler için atölyeler tasarlıyoruz."
     },
     "story": {
       "title": "Hikayemiz",
-      "paragraph1": "Robonino, uluslararası eğitim ve kurumsal inovasyon alanlarında güvenilir ve profesyonel bir hizmet standardı sunmak amacıyla kurulmuştur.",
-      "paragraph2": "Bugün Robonino, dünya çapında 100'den fazla ülkede faaliyet gösteren ve Harvard Eğitim Fakültesi ile Avrupa Birliği Komisyonu tarafından tanınan Genç Mühendisler (Young Engineers) markasının resmî bayisidir. Aynı zamanda İngiltere merkezli eğitim danışmanlığı şirketi Education Advisers ile iş birliği içinde, ailelere okul ve üniversite süreçlerinde rehberlik etmektedir.",
+      "paragraph1": "Robonino'yu, uluslararası eğitim ve kurumsal inovasyon alanında aileler ve şirketler güvenilir, profesyonel bir hizmete tek adresten ulaşabilsin diye kurduk.",
+      "paragraph2": "Robonino, Genç Mühendisler'in (Young Engineers) resmi franchise'ıdır. Genç Mühendisler, 100'den fazla ülkede faaliyet gösteren ve Harvard Eğitim Fakültesi ile Avrupa Komisyonu tarafından tanınan bir eğitim markasıdır. Ayrıca İngiltere merkezli eğitim danışmanlığı şirketi Education Advisers ile birlikte ailelere okul ve üniversite süreçlerinde rehberlik ediyoruz.",
       "imageAlt": "Sahada çalışan Robonino ekibi"
     },
     "values": {
-      "eyebrow": "Bizi Yönlendiren Değerler",
+      "eyebrow": "Nasıl Çalışıyoruz",
       "title": "Değerlerimiz",
       "items": [
-        { "title": "Önce Güven", "desc": "Her ortak okul ve mekan bizzat denetlenir." },
-        { "title": "Çocuk Güvenliği", "desc": "Yürüttüğümüz her programda koruma ve özen yükümlülüğü." },
-        { "title": "Gerçek Ustalık", "desc": "Şablon değil, eğitimciler ve mühendisler tarafından tasarlanan programlar." },
-        { "title": "İki Dil", "desc": "Her zaman İngilizce ve Türkçe tam destek." }
+        { "title": "Önce Güven", "desc": "Her partner okulu ve mekanı kendimiz inceliyoruz." },
+        { "title": "Çocuk Güvenliği", "desc": "Yürüttüğümüz her programda çocuk koruma ve gözetim esastır." },
+        { "title": "Eğitimcilerin Tasarımı", "desc": "Programlarımızı eğitimciler ve mühendisler tasarlıyor." },
+        { "title": "İki Dil", "desc": "Türkçe ve İngilizce tam destek alırsınız." }
       ]
     },
     "team": {
@@ -317,17 +330,17 @@
     },
     "cta": {
       "title": "Bizimle Çalışmak İster misiniz?",
-      "desc": "İster bir aile, ister bir okul, ister bir şirket olun — bize her zaman ulaşabilirsiniz.",
+      "desc": "İster aile, ister okul, ister şirket olun; sizden haber almaktan memnuniyet duyarız.",
       "primary": "Bize Ulaşın"
     }
   },
   "contact": {
     "metaTitle": "Robonino ile İletişim",
-    "metaDescription": "Robonino ile İletişime Geçin — eğitim yerleştirmeleri, robotik & kodlama programları veya kurumsal etkinlikler hakkında İngiltere merkezli ekibimize ulaşın.",
+    "metaDescription": "İngiltere'deki dil okulları, robotik kodlama dersleri veya kurumsal etkinlikler hakkında Robonino'nun İngiltere ekibine ulaşın.",
     "hero": {
       "eyebrow": "Bize Ulaşın",
       "title": "Sonraki Adımınızı Konuşalım",
-      "desc": "Eğitim, robotik programları veya kurumsal etkinlikler hakkında — sorularınızı bekliyoruz."
+      "desc": "İngiltere'deki dil okulları, robotik dersleri veya ekip etkinlikleri hakkında bize yazın. Bir iş günü içinde dönüş yapıyoruz."
     },
     "form": {
       "fullName": "Ad Soyad",
@@ -342,8 +355,8 @@
       "messagePlaceholder": "Aradığınız şeyi bize kısaca anlatın...",
       "submit": "Mesaj Gönder",
       "sending": "Gönderiliyor...",
-      "success": "Teşekkürler — mesajınızı aldık ve bir iş günü içinde yanıt vereceğiz.",
-      "error": "Bir şeyler ters gitti. Lütfen tekrar deneyin veya sağdaki bilgilerden bize doğrudan ulaşın."
+      "success": "Teşekkürler, mesajınızı aldık. Bir iş günü içinde yanıt vereceğiz.",
+      "error": "Bir sorun oluştu. Lütfen birkaç dakika sonra tekrar deneyin ya da bize Instagram veya LinkedIn üzerinden yazın."
     },
     "info": {
       "officeTitle": "İngiltere Ofisi",

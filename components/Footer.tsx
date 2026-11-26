@@ -7,40 +7,49 @@ import { getPath } from '@/lib/i18n/routes';
 import type { Dictionary } from '@/lib/i18n/dictionaries';
 import type { Locale } from '@/lib/i18n/config';
 
+/**
+ * The newsletter band has no backend yet (planned: Mailjet). Hidden until
+ * that's wired up so visitors can't "subscribe" into nothing. Its copy is
+ * still kept in messages/{en,tr}.json under `footer.newsletter*`.
+ */
+const SHOW_NEWSLETTER = false;
+
 export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary['footer'] }) {
   const year = new Date().getFullYear();
 
   return (
     <footer className="font-nunito" style={{ background: colors.footer, color: 'oklch(88% 0.01 258)' }}>
-      <div
-        className="px-7 py-11"
-        style={{ background: `linear-gradient(120deg, ${colors.blue}, oklch(45% 0.12 195))` }}
-      >
-        <div className="mx-auto flex max-w-[1280px] flex-wrap items-center justify-between gap-6">
-          <div className="max-w-[420px]">
-            <div className="mb-2 font-poppins text-[22px] font-extrabold text-white">
-              {dict.newsletterTitle}
+      {SHOW_NEWSLETTER && (
+        <div
+          className="px-7 py-11"
+          style={{ background: `linear-gradient(120deg, ${colors.blue}, oklch(45% 0.12 195))` }}
+        >
+          <div className="mx-auto flex max-w-[1280px] flex-wrap items-center justify-between gap-6">
+            <div className="max-w-[420px]">
+              <div className="mb-2 font-poppins text-[22px] font-extrabold text-white">
+                {dict.newsletterTitle}
+              </div>
+              <p className="m-0 text-[14.5px]" style={{ color: 'oklch(88% 0.02 258)' }}>
+                {dict.newsletterDesc}
+              </p>
             </div>
-            <p className="m-0 text-[14.5px]" style={{ color: 'oklch(88% 0.02 258)' }}>
-              {dict.newsletterDesc}
-            </p>
-          </div>
-          <div className="flex max-w-[440px] flex-1 flex-wrap gap-2.5" style={{ flexBasis: 320 }}>
-            <input
-              type="email"
-              placeholder={dict.emailPlaceholder}
-              className="min-w-[180px] flex-1 rounded-[10px] border-none px-4 py-3.5 font-nunito text-[15px]"
-              style={{ color: 'oklch(22% 0.02 258)' }}
-            />
-            <button
-              className="whitespace-nowrap rounded-[10px] border-none px-6 font-poppins text-[15px] font-bold text-white"
-              style={{ background: colors.orange }}
-            >
-              {dict.subscribe}
-            </button>
+            <div className="flex max-w-[440px] flex-1 flex-wrap gap-2.5" style={{ flexBasis: 320 }}>
+              <input
+                type="email"
+                placeholder={dict.emailPlaceholder}
+                className="min-w-[180px] flex-1 rounded-[10px] border-none px-4 py-3.5 font-nunito text-[15px]"
+                style={{ color: 'oklch(22% 0.02 258)' }}
+              />
+              <button
+                className="whitespace-nowrap rounded-[10px] border-none px-6 font-poppins text-[15px] font-bold text-white"
+                style={{ background: colors.orange }}
+              >
+                {dict.subscribe}
+              </button>
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
       <div className="mx-auto max-w-[1280px] px-7 pb-6 pt-14">
         <div className="flex flex-wrap justify-between gap-12">

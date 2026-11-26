@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { locales, defaultLocale, isLocale, type Locale } from '@/lib/i18n/config';
+import { defaultLocale, isLocale, type Locale } from '@/lib/i18n/config';
 
 const LOCALE_COOKIE = 'NEXT_LOCALE';
 
@@ -96,7 +96,3 @@ export default function middleware(request: NextRequest) {
 export const config = {
   matcher: ['/((?!_next|api).*)'],
 };
-
-// Referenced so the `locales` import isn't flagged as unused when only
-// the type is consumed above in some TS configurations.
-void locales;
