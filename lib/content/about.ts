@@ -11,7 +11,8 @@ export const values = [
   { iconBg: tint.blueIcon14, icon: 'translate', iconColor: colors.blue },
 ] as const;
 
-export const team = [
+/** Set `hidden: true` to take a member off the About page without deleting their copy/photo. */
+export const team: { id: string; photo: string; hidden?: boolean }[] = [
   { id: 'tolga', photo: '/images/team/tolga.jpg' },
-  { id: 'cagatay', photo: '/images/team/cagatay.jpeg' },
-] as const;
+  { id: 'cagatay', photo: '/images/team/cagatay.jpeg', hidden: true },
+];
