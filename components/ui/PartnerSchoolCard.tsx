@@ -66,7 +66,7 @@ export function PartnerSchoolCard({
           </span>
         </Link>
       )}
-      <a
+      {/* <a
         href={school.website}
         target="_blank"
         rel="noopener noreferrer"
@@ -77,7 +77,7 @@ export function PartnerSchoolCard({
         <span className="rn-icon" style={{ fontSize: 16 }}>
           open_in_new
         </span>
-      </a>
+      </a> */}
       </div>
     </div>
   );

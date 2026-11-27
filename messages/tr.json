@@ -357,7 +357,7 @@
         },
         {
           "label": "Programlar",
-          "value": "GCSE, A level, Foundation"
+          "value": "GCSE, A level, üniversiteye hazırlık"
         },
         {
           "label": "Ders seçeneği",
@@ -404,12 +404,12 @@
           "desc": "Her okuldan öğrenciye açık, sınav öncesi yoğun tekrar haftaları. Sınav değerlendiricisi öğretmenlerle eksik konuların tespiti, çıkmış soru pratiği ve sınav tekniği. 30 A level ve 16 GCSE dersinde, üç kolejde de açılıyor."
         },
         {
-          "title": "MPW University Foundation",
+          "title": "Üniversiteye Hazırlık Yılı (MPW University Foundation)",
           "ages": "17 yaş ve üzeri · Londra",
           "desc": "Kendi ülkesinde liseyi bitirmiş uluslararası öğrenciler için İngiltere'de üniversiteye hazırlık yılı. İşletme ve Ekonomi, Mühendislik, Beşeri Bilimler, Fen ya da Spor Bilimi ve Psikoloji alanlarından biri, akademik İngilizce desteğiyle birlikte okunuyor."
         },
         {
-          "title": "UAL Foundation Diploma",
+          "title": "Sanat ve Tasarım Hazırlık Diploması (UAL)",
           "ages": "Sanat ve Tasarım · Londra",
           "desc": "Sanat ve tasarım alanında İngiltere'nin önde gelen üniversitelerine hazırlanan öğrenciler için University of the Arts London (UAL) diploması. Portfolyo hazırlığı programın merkezinde."
         }
@@ -502,7 +502,7 @@
         },
         {
           "label": "Programlar",
-          "value": "İngilizce, GCSE, A level, Foundation"
+          "value": "İngilizce, GCSE, A level, üniversiteye hazırlık"
         },
         {
           "label": "Akademik sınıflar",
@@ -518,7 +518,7 @@
         },
         {
           "label": "ISI denetimi",
-          "value": "Exceeds expectations (2026)"
+          "value": "Beklentileri aşıyor (2026)"
         }
       ],
       "programmes": [
@@ -543,7 +543,7 @@
           "desc": "İngiltere'nin 16 yaş sınavları için, her derse haftada 3 ya da 4,5 saat. Sınıflar en fazla 6, çoğunlukla 3–4 kişi; her öğrencinin haftalık görüştüğü kişisel bir tutor'u var."
         },
         {
-          "title": "University Foundation in Business",
+          "title": "İşletme Alanında Üniversiteye Hazırlık",
           "ages": "1 akademik yıl",
           "desc": "Akademik İngilizce, matematik, ekonomi, işletme ve çalışma becerileri modülleri. Başarılı öğrencilere, Oxford Brookes dahil İngiltere'de yaklaşık 20 üniversitenin işletme, yönetim ve finans lisans programlarına geçiş garantisi."
         },
@@ -574,7 +574,7 @@
         },
         {
           "title": "İngiltere'de üniversiteye köprü",
-          "desc": "Lise diploması İngiltere'de doğrudan kabul görmeyen öğrenciler için tek yıllık yoğun A level ya da Foundation programı. Üniversite seçimi, kişisel beyan ve mülakat hazırlığı programın parçası."
+          "desc": "Lise diploması İngiltere'de doğrudan kabul görmeyen öğrenciler için tek yıllık yoğun A level ya da üniversiteye hazırlık programı. Üniversite seçimi, kişisel beyan ve mülakat hazırlığı programın parçası."
         },
         {
           "title": "Akademik İngilizce desteği dahil",
@@ -600,10 +600,10 @@
       "summerSchool": {
         "eyebrow": "Yaz Okulu 2027",
         "title": "Oxford'da 12 Haftalık Yaz",
-        "intro": "OISC yaklaşık 20 yıldır Oxford'da yaz programı düzenliyor ve bugüne kadar 30.000'den fazla öğrenci ağırladı; geçen yaz 36 farklı ülkeden öğrenci katıldı. Pek çok okulun aksine 14 yaş altındaki çocukları da kabul ediyor, yetişkinlere de açık. Çocuğunuz kendi yaşındaki ve seviyesindeki öğrencilerle aynı sınıfta olur; haziran ortasından eylül ortasına kadar istediği pazartesi başlayıp 1 haftadan 8 haftaya, isterse daha uzun kalabilir.",
+        "intro": "OISC yaklaşık 20 yıldır Oxford'da yaz programı düzenliyor ve bugüne kadar 30.000'den fazla öğrenci ağırladı; geçen yaz 36 farklı ülkeden öğrenci katıldı. Pek çok okulun aksine 14 yaş altındaki çocukları da kabul ediyor, yetişkinlere de açık. Çocuğunuz kendi yaşındaki ve seviyesindeki öğrencilerle aynı sınıfta olur; haziran ortasından eylül ortasına kadar istediği pazartesi başlayıp 1 haftadan 8 haftaya, isterse daha uzun kalabilir. İki program var: İngilizce ve Kültür (English Language & Culture) ile buna akademik dersleri ekleyen İngilizce, Kültür ve Akademik Hazırlık (English, Culture & Academic Enrichment).",
         "courses": [
           {
-            "title": "English Language & Culture",
+            "title": "İngilizce ve Kültür",
             "ages": "Her yaş",
             "level": "Her seviye",
             "length": "1–8 hafta+",
@@ -611,12 +611,12 @@
             "desc": "Haftada 20 ders (15 saat) İngilizce, hafta içi her gün Oxford'da sosyal ve kültürel aktivite, her hafta sonu tam gün gezi. Küçük yaştakiler için etkileşimli dersler, yetişkinler için akademik İngilizce ve IELTS seçenekleri."
           },
           {
-            "title": "English, Culture & Academic Enrichment",
+            "title": "İngilizce, Kültür ve Akademik Hazırlık",
             "ages": "Her yaş",
             "level": "Her seviye",
             "length": "1–8 hafta+",
             "dates": "Haziran ortası – eylül ortası 2027; her pazartesi başlangıç",
-            "desc": "İlk programın tamamına ek olarak haftada 10 ders (7,5 saat) A level, IB ya da (I)GCSE hazırlığı. Çocuğunuz her hafta 1–2 ders seçer; dersler 3–4 kişilik gruplarda ya da birebir yapılır."
+            "desc": "İngilizce ve Kültür programının tamamına ek olarak haftada 10 ders (7,5 saat) A level, IB ya da (I)GCSE hazırlığı. Çocuğunuz her hafta 1–2 ders seçer; dersler 3–4 kişilik gruplarda ya da birebir yapılır."
           }
         ],
         "includesTitle": "Yaz programında neler var",
@@ -631,8 +631,8 @@
       },
       "accreditations": [
         {
-          "name": "ISI: “Exceeds expectations”",
-          "detail": "İngiltere'nin bağımsız okul denetim kurumu ISI, Nisan 2026'daki üç günlük denetiminde OISC'yi arka arkaya 8. kez en yüksek not olan “beklentileri aşıyor” ile değerlendirdi; raporda çocuk koruma, pastoral bakım ve esnek ders düzeni öne çıkıyor. ISI, İngiltere Vize ve Göçmenlik Dairesi (UKVI) tarafından yetkilendirilmiş bir denetim kurumu."
+          "name": "ISI: “Beklentileri Aşıyor”",
+          "detail": "İngiltere'nin bağımsız okul denetim kurumu ISI, Nisan 2026'daki üç günlük denetiminde OISC'yi arka arkaya 8. kez en yüksek not olan “beklentileri aşıyor” (exceeds expectations) ile değerlendirdi; raporda çocuk koruma, pastoral bakım ve esnek ders düzeni öne çıkıyor. ISI, İngiltere Vize ve Göçmenlik Dairesi (UKVI) tarafından yetkilendirilmiş bir denetim kurumu."
         },
         {
           "name": "COBIS",
@@ -708,22 +708,22 @@
           "desc": "KET, PET, FCE, CAE ve CPE sınavlarına hazırlık; Ocak, Nisan, Haziran ve Eylül başlangıçlı. EF okullarının çoğu yetkili sınav merkezi olduğundan sınava kursun yapıldığı okulda girilir."
         },
         {
-          "title": "EF Academic Year Abroad",
+          "title": "Yurt Dışında Akademik Yıl (Academic Year Abroad)",
           "ages": "6, 9 veya 11 ay",
           "desc": "İngiltere'de bir yıl ya da bir dönem boyunca İngilizce. Genel veya yoğun tempoda; isteyen öğrenci IELTS ya da Cambridge sınavıyla bitirir. Ocak, Nisan, Haziran ve Eylül başlangıçlı."
         },
         {
-          "title": "University Foundation Year",
+          "title": "Üniversiteye Hazırlık Yılı (Foundation Year)",
           "ages": "Lise sonrası · IELTS 5.0",
-          "desc": "İngiltere'de 13 yıldan az okul eğitimi alan uluslararası öğrenciler, lisansa başlamadan önce bir hazırlık yılı okur. 9 ay (Eylül'de 11 ay); İşletme, Fen ve Mühendislik, Beşeri Bilimler ve Hukuk, Tıp ve Eczacılık ya da Sanat ve Mimarlık alanlarından biriyle. Oxford ve Manchester'da."
+          "desc": "İngiltere'de 13 yıldan az okul eğitimi alan uluslararası öğrenciler, lisansa başlamadan önce bir hazırlık yılı (Foundation Year) okur. 9 ay (Eylül'de 11 ay); İşletme, Fen ve Mühendislik, Beşeri Bilimler ve Hukuk, Tıp ve Eczacılık ya da Sanat ve Mimarlık alanlarından biriyle. Oxford ve Manchester'da."
         },
         {
-          "title": "Pre-master's ve Pre-MBA",
+          "title": "Yüksek Lisans ve MBA Hazırlık (Pre-master's)",
           "ages": "Lisans sonrası · IELTS 6.0",
           "desc": "İngiltere'de yüksek lisans ya da MBA için 6 aylık hazırlık: akademik İngilizce, IELTS, araştırma yöntemleri ve alan dersleri. EF'e göre başarılı mezunlar partner üniversitelerden birinde kabul garantisi alıyor."
         },
         {
-          "title": "Pre-PhD",
+          "title": "Doktora Hazırlık (Pre-PhD)",
           "ages": "Yüksek lisans sonrası · IELTS 6.0",
           "desc": "Doktora başvurusuna 6 aylık hazırlık: tez önerisi, akademik yayın ve ileri araştırma yöntemleri, doktoralı öğretmenlerle. Başarılı mezunlara partner üniversitelerden birinde doktora kabul garantisi veriliyor."
         }
@@ -731,7 +731,7 @@
       "highlights": [
         {
           "title": "12 yıllık lise sonrası İngiltere'de lisansa geçiş",
-          "desc": "İngiltere'de üniversiteye doğrudan başvuru için genellikle 13 yıllık okul eğitimi aranıyor. University Foundation Year, Türkiye'de liseyi bitiren çocuğunuz için bu eksik yılı tamamlıyor. EF'in açıkladığı sonuçlara göre mezunların tamamı lisans programına yerleşti; %25'i İngiltere'nin ilk 20 üniversitesine girdi."
+          "desc": "İngiltere'de üniversiteye doğrudan başvuru için genellikle 13 yıllık okul eğitimi aranıyor. Üniversiteye Hazırlık Yılı (University Foundation Year), Türkiye'de liseyi bitiren çocuğunuz için bu eksik yılı tamamlıyor. EF'in açıkladığı sonuçlara göre mezunların tamamı lisans programına yerleşti; %25'i İngiltere'nin ilk 20 üniversitesine girdi."
         },
         {
           "title": "Mezunlar nereye gidiyor",
@@ -860,7 +860,9 @@
       "items": [
         { "name": "Londra" },
         { "name": "Oxford" },
-        { "name": "Cambridge" }
+        { "name": "Cambridge" },
+        { "name": "Brighton" },
+        { "name": "Bournemouth" }
       ]
     },
     "testimonial": {

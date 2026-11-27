@@ -49,12 +49,18 @@ export function schoolMetadata(locale: Locale, school: School): Metadata {
  */
 function galleryClass(i: number, count: number) {
   const classes: string[] = [];
-  if (i === 0 && count > 2) classes.push('sm:col-span-2 sm:row-span-2 sm:!aspect-auto');
-  if (i === count - 1 && count > 2) {
-    const cells = count + 3;
-    if (cells % 2) classes.push('sm:col-span-2 sm:!aspect-[8/3]');
-    const lgSpan = cells % 4 ? 1 + (4 - (cells % 4)) : 1;
-    classes.push({ 1: 'lg:col-span-1 lg:!aspect-[4/3]', 2: 'lg:col-span-2 lg:!aspect-[8/3]', 3: 'lg:col-span-3 lg:!aspect-[4/1]', 4: 'lg:col-span-4 lg:!aspect-[16/3]' }[lgSpan]!);
+  if (count <= 2) return '';
+  const cells = count + 3; // the first photo takes 4 cells
+  if (i === 0) classes.push('sm:col-span-2 sm:row-span-2 sm:!aspect-auto');
+  // 2 columns: stretch the last photo if the last row has a gap
+  if (i === count - 1 && cells % 2) classes.push('sm:col-span-2 sm:!aspect-[8/3]');
+  // 4 columns: fill the last row
+  const r = cells % 4;
+  if (r === 2 && i >= count - 2) classes.push('lg:col-span-2 lg:!aspect-[8/3]');
+  else if (i === count - 1) {
+    if (r === 3) classes.push('lg:col-span-2 lg:!aspect-[8/3]');
+    else if (r === 1) classes.push('lg:col-span-4 lg:!aspect-[16/3]');
+    else classes.push('lg:col-span-1 lg:!aspect-[4/3]');
   }
   return classes.join(' ');
 }

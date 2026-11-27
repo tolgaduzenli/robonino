@@ -20,9 +20,11 @@ export const features = [
   { iconBg: tint.tealIcon18, icon: 'chat', iconColor: colors.tealDark },
 ] as const;
 
-/** Order matches `destinations.items` in messages/{en,tr}.json: London, Oxford, Cambridge. */
+/** Order matches `studyUk.destinations.items` in messages/{en,tr}.json: London, Oxford, Cambridge, Brighton, Bournemouth (the last two through EF). */
 export const destinations = [
   { image: '/images/destinations/london.jpg' },
   { image: '/images/destinations/oxford.jpg' },
   { image: '/images/destinations/cambridge.jpg' },
+  { image: '/images/destinations/brighton.jpg' },
+  { image: '/images/destinations/bournemouth.jpg' },
 ] as const;

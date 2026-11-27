@@ -860,7 +860,9 @@
       "items": [
         { "name": "London" },
         { "name": "Oxford" },
-        { "name": "Cambridge" }
+        { "name": "Cambridge" },
+        { "name": "Brighton" },
+        { "name": "Bournemouth" }
       ]
     },
     "testimonial": {

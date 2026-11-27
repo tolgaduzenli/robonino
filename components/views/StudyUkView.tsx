@@ -134,7 +134,7 @@ export function StudyUkView({ locale }: { locale: Locale }) {
 
       <section className="mx-auto max-w-[1280px] px-7 py-20">
         <SectionHeading eyebrow={dict.destinations.eyebrow} title={dict.destinations.title} maxWidth={600} />
-        <div className="grid gap-[22px]" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))' }}>
+        <div className="grid gap-[22px]" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))' }}>
           {dict.destinations.items.map((d, i) => (
             <DestinationCard key={d.name} image={content.destinations[i].image} name={d.name} />
           ))}
