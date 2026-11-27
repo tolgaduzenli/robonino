@@ -27,4 +27,10 @@ export const photoCredits = [
     sourceUrl:
       'https://unsplash.com/photos/people-sitting-down-near-table-with-assorted-laptop-computers-SYTO3xs06fU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
   },
+  {
+    name: 'Richard Fullbrook',
+    profileUrl: 'https://unsplash.com/@reel_rebellion?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+    source: 'Unsplash',
+    sourceUrl: 'https://unsplash.com/photos/c1DKRBJtSdI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+  },
 ] as const;

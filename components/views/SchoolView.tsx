@@ -291,6 +291,48 @@ export function SchoolView({ locale, school }: { locale: Locale; school: School 
         <SummerSchoolSection summer={page.summerSchool} labels={t} contactHref={contactHref} contactLabel={t.contactCta} />
       )}
 
+      {/* ACCREDITATIONS */}
+      {page.accreditations && page.accreditations.length > 0 && (
+        <section className="px-7 py-20">
+          <div className="mx-auto max-w-[1280px] rounded-[24px] px-8 py-12" style={{ background: tint.blueCard }}>
+            <SectionHeading eyebrow={t.accreditationsEyebrow} title={t.accreditationsTitle} desc={t.accreditationsDesc} eyebrowColor={colors.teal} maxWidth={680} />
+            <div className="grid gap-[18px] md:grid-cols-2">
+              {page.accreditations.map((a) => (
+                <div key={a.name} className="flex gap-4 rounded-[16px] bg-white p-6" style={{ boxShadow: '0 6px 18px oklch(30% 0.09 258 / 0.06)' }}>
+                  <div className="flex-none">
+                    <IconTile icon="verified" bg={tint.tealIcon18} color={colors.tealDark} size={44} iconSize={24} />
+                  </div>
+                  <div>
+                    <div className="mb-1 font-poppins text-[16px] font-bold" style={{ color: colors.textDark }}>
+                      {a.name}
+                    </div>
+                    <p className="m-0 text-[14.5px] leading-relaxed" style={{ color: colors.textMuted }}>
+                      {a.detail}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            {school.reportsUrl && (
+              <div className="mt-8 flex justify-center">
+                <a
+                  href={school.reportsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 rounded-[10px] border-[1.5px] bg-white px-5 py-3 font-poppins text-sm font-semibold no-underline transition-colors hover:bg-[oklch(97%_0.02_258)]"
+                  style={{ color: colors.blue, borderColor: 'oklch(87% 0.01 258)' }}
+                >
+                  {t.accreditationsLink}
+                  <span className="rn-icon" style={{ fontSize: 16 }}>
+                    open_in_new
+                  </span>
+                </a>
+              </div>
+            )}
+          </div>
+        </section>
+      )}
+
       {/* GALLERY */}
       {((school.gallery?.length ?? 0) > 0 || isDev) && (
         <section className="px-7 pb-20">

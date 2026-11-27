@@ -18,6 +18,8 @@ export type SchoolPageCopy = {
   facts: { label: string; value: string }[];
   programmes: { title: string; ages?: string; desc: string }[];
   highlights: { title: string; desc: string }[];
+  /** Accreditations, inspections and memberships, as the school itself states them. Shown after the overview. */
+  accreditations?: { name: string; detail: string }[];
   /** Optional summer school section. Hidden when absent or when it has no courses. */
   summerSchool?: {
     eyebrow: string;

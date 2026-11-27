@@ -97,7 +97,9 @@
       "items": [
         { "name": "Londra", "tag": "Başkentte öğrencilik" },
         { "name": "Oxford", "tag": "Tarihi üniversite şehri" },
-        { "name": "Cambridge", "tag": "Ünlü üniversite kolejleri" }
+        { "name": "Cambridge", "tag": "Ünlü üniversite kolejleri" },
+        { "name": "Brighton", "tag": "Deniz kenarında öğrencilik" },
+        { "name": "Bournemouth", "tag": "Kumsal ve yaz kampları" }
       ]
     },
     "testimonials": {
@@ -149,8 +151,12 @@
     "summerAges": "Yaş",
     "summerLevel": "Min. İngilizce",
     "summerLength": "Süre",
-    "summerDates": "2027 tarihleri",
+    "summerDates": "Tarihler",
     "summerNote": "Fiyat ve kontenjan bilgisi için bize ulaşabilirsiniz.",
+    "accreditationsEyebrow": "Kalite Güvencesi",
+    "accreditationsTitle": "Akreditasyonlar ve Denetimler",
+    "accreditationsDesc": "Okulun bağımsız kurumlardan aldığı akreditasyonlar, üyelikler ve son denetim sonuçları. Bilgiler okulun kendi açıklamalarına dayanıyor.",
+    "accreditationsLink": "Raporları okulun sitesinde inceleyin",
     "learnMore": "Detaylı bilgi",
     "cta": {
       "title": "{school} Çocuğunuza Uygun mu?",
@@ -160,6 +166,20 @@
   "schoolPages": {
     "haileybury": {
       "tagline": "Londra'ya yakın Hertford'da, 11–18 yaş kız ve erkek öğrencilere merak, cesaret ve karakter odaklı eğitim veren bir yatılı okul.",
+      "accreditations": [
+        {
+          "name": "ISI (Independent Schools Inspectorate)",
+          "detail": "İngiltere'de bağımsız okulları denetleyen resmi kurum. Ekim 2025 denetiminde Haileybury tüm standartları karşıladı; akademik ve ders dışı zenginleştirme programı “önemli bir güçlü yön” (a significant strength) olarak değerlendirildi."
+        },
+        {
+          "name": "IB Diploma Programme",
+          "detail": "Lisede Uluslararası Bakalorya (IB) Diploması veriliyor. Okulun açıkladığı 2026 sonuçlarına göre IB öğrencilerinin ortalaması 38,1 puan; dünya ortalaması 30,88."
+        },
+        {
+          "name": "HMC ve ISC",
+          "detail": "İngiltere'nin önde gelen bağımsız okullarını bir araya getiren Headmasters' and Headmistresses' Conference (HMC) ve Independent Schools Council (ISC), okulun bağlı olduğu kuruluşlar arasında."
+        }
+      ],
       "intro": [
         "Haileybury, Londra'ya yakın Hertford'da 200 hektarlık bir kampüse yayılan karma bir yatılı okul. Sloganı “Fly High. Fly Fast.” (Yükseğe uç, hızlı uç) ve okulun anlayışı da bu sözü yansıtıyor: çocuğunuz burada zor işlerden kaçmamayı, fikirlerini bir adım öteye taşımayı ve daha büyük düşünmeyi öğrenir.",
         "Okul, akademik başarıyı karakter gelişiminden ayrı görmüyor. Nezaket, empati, dürüstlük ve başkalarına hizmet gündelik hayatın parçası. İngiltere'den ve dünyanın farklı ülkelerinden gelen öğrenciler aynı yatılı evlerde yaşıyor, birlikte ve birbirlerinden öğreniyor.",
@@ -302,6 +322,24 @@
     },
     "mpw": {
       "tagline": "1973'ten beri Londra, Birmingham ve Cambridge'de, her öğrenciye göre şekillenen GCSE ve A level programları sunan bağımsız bir kolej.",
+      "accreditations": [
+        {
+          "name": "ISI (Independent Schools Inspectorate)",
+          "detail": "Üç kolej de ISI tarafından denetleniyor. MPW Londra (Mayıs 2025) ve MPW Birmingham (Ekim 2025) denetim çerçevesindeki tüm standartları karşıladı; MPW Cambridge (Ekim 2023) tüm ISI standartlarını karşıladı."
+        },
+        {
+          "name": "Ofsted: “Outstanding”",
+          "detail": "İngiltere'nin resmi eğitim denetim kurumu Ofsted, MPW Cambridge'i (Kasım 2019) ve MPW Birmingham'ı (Şubat 2018) tüm alanlarda en yüksek not olan “Outstanding” (Mükemmel) ile değerlendirdi."
+        },
+        {
+          "name": "Eğitim Bakanlığı kaydı, ISA ve ISC",
+          "detail": "Kolejler İngiltere Eğitim Bakanlığı'na (Department for Education) bağımsız okul olarak kayıtlı; Independent Schools Association (ISA) üyesi ve Independent Schools Council (ISC) çatısı altında."
+        },
+        {
+          "name": "Grup genelinde en yüksek değerlendirme",
+          "detail": "MPW'nin ifadesiyle, İngiltere'de tüm kolejleri denetim raporlarının her alanında en yüksek değerlendirmeyi almış tek eğitim grubu."
+        }
+      ],
       "intro": [
         "MPW (Mander Portman Woodward), 1973'te Londra'da üç Cambridge Üniversitesi mezunu tarafından kuruldu. Bugün Londra, Birmingham ve Cambridge'de üç kolejiyle İngiltere'nin tanınmış bağımsız lise kolejlerinden biri. Okulun mottosu “Tailored, Not Uniform”: her öğrenci için ayrı ayarlanmış bir program, herkese aynı kalıp değil.",
         "MPW'de öğrenciler 40'tan fazla GCSE ve A level dersi arasından kendi kombinasyonlarını seçiyor. Program bir dönemden iki yıla kadar sürebiliyor; çocuğunuz okuldan yeni çıkmış da olabilir, notlarını yükseltmek için gelmiş de. Dersler sınav odaklı, sınıflar küçük, öğretmenlerin önemli bir kısmı aynı zamanda sınav değerlendiricisi.",
@@ -445,8 +483,344 @@
         ]
       }
     },
-    "oisc": { "tagline": "", "intro": [], "facts": [], "programmes": [], "highlights": [] },
-    "ef": { "tagline": "", "intro": [], "facts": [], "programmes": [], "highlights": [] }
+    "oisc": {
+      "tagline": "Oxford'un merkezinde, 2006'dan beri İngilizce, GCSE, A level ve üniversiteye hazırlık programları sunan özel öğretim koleji ve dil okulu.",
+      "intro": [
+        "Oxford International Study Centre (OISC), 2006'da kurulan bir özel öğretim koleji (tutorial college) ve dil okulu. Oxford şehir merkezindeki iki binasında İngilizce kurslarından GCSE, A level ve üniversiteye hazırlık programlarına kadar her seviyede eğitim veriyor.",
+        "İngilizce dersleri, Christ Church ile Belediye Binası arasındaki St Aldates binasında yapılıyor. 400 yılı aşkın, ahşap kirişli bu kırmızı bina geçmişte han ve banka olarak kullanılmış. Akademik öğrenciler ise 3 dakika yürüme mesafesindeki King Edward Street Akademik Merkezi'nde, dil okulunun kalabalığından uzak, sakin bir ortamda ders görüyor.",
+        "OISC'nin en belirgin özelliği küçük sınıflar: akademik derslerde bir sınıfta en fazla 6, çoğunlukla 3–4 öğrenci var ve birçok öğrenci birebir ders alıyor. Tüm İngilizce öğretmenleri CELTA sertifikalı, birçoğu DELTA sahibi; her hafta en az 25 farklı ülkeden öğrenci okulda.",
+        "İngiltere'nin bağımsız okul denetim kurumu ISI, Nisan 2026'daki denetiminde OISC'yi arka arkaya 8. kez en yüksek not olan “beklentileri aşıyor” (exceeds expectations) ile değerlendirdi."
+      ],
+      "facts": [
+        {
+          "label": "Kuruluş",
+          "value": "2006"
+        },
+        {
+          "label": "Merkezler",
+          "value": "St Aldates ve King Edward Street"
+        },
+        {
+          "label": "Programlar",
+          "value": "İngilizce, GCSE, A level, Foundation"
+        },
+        {
+          "label": "Akademik sınıflar",
+          "value": "En fazla 6 kişi"
+        },
+        {
+          "label": "Yaş",
+          "value": "14 yaş altından yetişkine"
+        },
+        {
+          "label": "Konaklama",
+          "value": "Aile yanı veya öğrenci yurdu"
+        },
+        {
+          "label": "ISI denetimi",
+          "value": "Exceeds expectations (2026)"
+        }
+      ],
+      "programmes": [
+        {
+          "title": "Genel İngilizce ve IELTS",
+          "ages": "Yıl boyu · 1 hafta+",
+          "desc": "Haftada 20 ders (15 saat) standart ya da 30 ders (22,5 saat) yoğun program, A1'den C2'ye altı seviyede. Öğrenciler yaşa ve seviyeye göre gruplanır; kurs sonunda seviye sertifikası, uzun dönemli öğrenciler için IELTS."
+        },
+        {
+          "title": "Birebir İngilizce",
+          "ages": "Haftada 10, 20 veya 30 ders",
+          "desc": "Saatleri esnek, içeriği öğrencinin hedefine göre belirlenen birebir dersler. Grup dersleriyle birleştirilebilir: haftada 20 grup dersine 5, 10 ya da 15 birebir ders eklenir."
+        },
+        {
+          "title": "Tam Zamanlı A level",
+          "ages": "1 veya 2 yıl",
+          "desc": "Yaklaşık 30 ders arasından seçim; her derse haftada yaklaşık 6 saat. Uluslararası öğrencilere akademik İngilizce ve IELTS desteği dahil. Lise diploması İngiltere'de üniversiteye doğrudan kabul görmeyen öğrenciler için tek yıllık yoğun A level seçeneği de var."
+        },
+        {
+          "title": "Tam Zamanlı GCSE",
+          "ages": "1 veya 2 yıl",
+          "desc": "İngiltere'nin 16 yaş sınavları için, her derse haftada 3 ya da 4,5 saat. Sınıflar en fazla 6, çoğunlukla 3–4 kişi; her öğrencinin haftalık görüştüğü kişisel bir tutor'u var."
+        },
+        {
+          "title": "University Foundation in Business",
+          "ages": "1 akademik yıl",
+          "desc": "Akademik İngilizce, matematik, ekonomi, işletme ve çalışma becerileri modülleri. Başarılı öğrencilere, Oxford Brookes dahil İngiltere'de yaklaşık 20 üniversitenin işletme, yönetim ve finans lisans programlarına geçiş garantisi."
+        },
+        {
+          "title": "Oxford ve Cambridge Hazırlık",
+          "ages": "Yaz ve sonbahar",
+          "desc": "Tüm öğretmenleri Oxford ya da Cambridge mezunu. Birebir ya da 2–3 kişilik gruplarda alan dersleri, ELAT, TSA ve LNAT gibi giriş sınavlarına hazırlık, kişisel beyan (personal statement) geri bildirimi ve mülakat provası."
+        },
+        {
+          "title": "İngiliz Yatılı Okullarına Hazırlık",
+          "ages": "Okul yerleştirme desteği",
+          "desc": "İngilizceyle birlikte 3–5 akademik ders ve çalışma becerileri, haftada 20–25 ders. Küçük yaştakiler için sözel ve sözel olmayan akıl yürütme, Common Entrance ve ISET sınavlarına hazırlık; okul seçimi ve mülakat provası."
+        },
+        {
+          "title": "Paskalya Tekrar Kursu",
+          "ages": "21 Mart – 17 Nisan 2027",
+          "desc": "A level, (I)GCSE ve IB'de 30'dan fazla derste, en fazla 6 kişilik gruplarda ya da birebir. Haftada 2–3 ders; günde 6 saat akademik çalışma, günlük çalışma becerileri semineri ve program sonunda ayrıntılı rapor."
+        }
+      ],
+      "highlights": [
+        {
+          "title": "Çok küçük sınıflar",
+          "desc": "Akademik derslerde bir sınıfta en fazla 6, çoğunlukla 3–4 öğrenci; birçok öğrenci bazı derslerini birebir alıyor. Öğretmen çocuğunuzun nerede zorlandığını ilk haftadan görür."
+        },
+        {
+          "title": "Kişisel tutor ve aylık rapor",
+          "desc": "Tam zamanlı her öğrencinin haftalık görüştüğü bir tutor'u var; hem dersleri hem de iyi oluşu takip ediliyor. Veliler her ay ilerleme raporu alıyor."
+        },
+        {
+          "title": "İngiltere'de üniversiteye köprü",
+          "desc": "Lise diploması İngiltere'de doğrudan kabul görmeyen öğrenciler için tek yıllık yoğun A level ya da Foundation programı. Üniversite seçimi, kişisel beyan ve mülakat hazırlığı programın parçası."
+        },
+        {
+          "title": "Akademik İngilizce desteği dahil",
+          "desc": "GCSE ve A level okuyan uluslararası öğrenciler, alan derslerine paralel akademik İngilizce ve IELTS desteğini ek ücret olmadan alıyor."
+        },
+        {
+          "title": "Oxbridge mezunu öğretmenler",
+          "desc": "Oxford ve Cambridge başvurusuna hazırlanan öğrencilere ders veren tüm öğretmenler bu iki üniversitenin mezunu."
+        },
+        {
+          "title": "Özel eğitim desteği",
+          "desc": "Özel eğitim koordinatörü (SENCo) öğrenci ve velilerle her hafta görüşüyor; esnek sınav ve ders düzenlemeleri yapılabiliyor."
+        },
+        {
+          "title": "Haftalık zenginleştirme programı",
+          "desc": "Pazartesi öğleden sonraları konuk konuşmacılar, çalışma becerileri seminerleri ve Cotswold Vahşi Yaşam Parkı gibi geziler; öğle aralarında münazara, gitar ve el sanatları kulüpleri."
+        },
+        {
+          "title": "Denetlenen konaklama",
+          "desc": "Aileler sabıka kaydı kontrolünden geçiyor, düzenli çocuk koruma eğitimi alıyor ve yılda en az bir kez denetleniyor. Öğrenci yurdunda banyolu tek kişilik odalar, iki binaya da yürüme mesafesinde."
+        }
+      ],
+      "summerSchool": {
+        "eyebrow": "Yaz Okulu 2027",
+        "title": "Oxford'da 12 Haftalık Yaz",
+        "intro": "OISC yaklaşık 20 yıldır Oxford'da yaz programı düzenliyor ve bugüne kadar 30.000'den fazla öğrenci ağırladı; geçen yaz 36 farklı ülkeden öğrenci katıldı. Pek çok okulun aksine 14 yaş altındaki çocukları da kabul ediyor, yetişkinlere de açık. Çocuğunuz kendi yaşındaki ve seviyesindeki öğrencilerle aynı sınıfta olur; haziran ortasından eylül ortasına kadar istediği pazartesi başlayıp 1 haftadan 8 haftaya, isterse daha uzun kalabilir.",
+        "courses": [
+          {
+            "title": "English Language & Culture",
+            "ages": "Her yaş",
+            "level": "Her seviye",
+            "length": "1–8 hafta+",
+            "dates": "Haziran ortası – eylül ortası 2027; her pazartesi başlangıç",
+            "desc": "Haftada 20 ders (15 saat) İngilizce, hafta içi her gün Oxford'da sosyal ve kültürel aktivite, her hafta sonu tam gün gezi. Küçük yaştakiler için etkileşimli dersler, yetişkinler için akademik İngilizce ve IELTS seçenekleri."
+          },
+          {
+            "title": "English, Culture & Academic Enrichment",
+            "ages": "Her yaş",
+            "level": "Her seviye",
+            "length": "1–8 hafta+",
+            "dates": "Haziran ortası – eylül ortası 2027; her pazartesi başlangıç",
+            "desc": "İlk programın tamamına ek olarak haftada 10 ders (7,5 saat) A level, IB ya da (I)GCSE hazırlığı. Çocuğunuz her hafta 1–2 ders seçer; dersler 3–4 kişilik gruplarda ya da birebir yapılır."
+          }
+        ],
+        "includesTitle": "Yaz programında neler var",
+        "includes": [
+          "Haftada 20 ders İngilizce; yaşa ve seviyeye göre uluslararası sınıflar",
+          "Hafta içi her gün aktivite: punting (Oxford'un geleneksel sandal turu), müze ve galeri ziyaretleri, kolej gezileri, hazine avı",
+          "Hafta sonu tam gün geziler: Londra, Bath ve Stonehenge, Cambridge",
+          "Aile yanında konaklama (kahvaltı ve akşam yemeği dahil) ya da OISC'ye 2 dakika yürüme mesafesindeki öğrenci yurdunda banyolu tek kişilik oda (14 yaş ve üzeri)",
+          "İstek üzerine, yer durumuna göre 16 yaş ve üzeri için Oxford Üniversitesi kolejlerinde konaklama",
+          "İsteyenlere birebir Oxford ve Cambridge mülakat hazırlığı ya da yatılı okul giriş sınavı hazırlığı"
+        ]
+      },
+      "accreditations": [
+        {
+          "name": "ISI: “Exceeds expectations”",
+          "detail": "İngiltere'nin bağımsız okul denetim kurumu ISI, Nisan 2026'daki üç günlük denetiminde OISC'yi arka arkaya 8. kez en yüksek not olan “beklentileri aşıyor” ile değerlendirdi; raporda çocuk koruma, pastoral bakım ve esnek ders düzeni öne çıkıyor. ISI, İngiltere Vize ve Göçmenlik Dairesi (UKVI) tarafından yetkilendirilmiş bir denetim kurumu."
+        },
+        {
+          "name": "COBIS",
+          "detail": "Council of British International Schools'un akredite üyesi (Accredited Member)."
+        },
+        {
+          "name": "ISC ve AEGIS",
+          "detail": "Independent Schools Council (ISC) üyesi; uluslararası öğrencilerin güvenli vasiliğine bağlı okulları bir araya getiren AEGIS'in üye okulu."
+        },
+        {
+          "name": "The Tutors' Association, ECIS ve diğer üyelikler",
+          "detail": "The Tutors' Association kurumsal üyesi, European Association of Training Providers tanınmış sağlayıcısı; ECIS, Avrupa Uluslararası Eğitim Derneği (EAIE), JAOS ve Swiss Group of International Schools üyesi."
+        }
+      ]
+    },
+    "ef": {
+      "tagline": "1965'ten beri dil eğitimi veren uluslararası eğitim kurumu. İngiltere'de İngilizce kursları, yaz kampları ve üniversiteye hazırlık programları.",
+      "intro": [
+        "EF (Education First), 1965'te kuruldu ve bugün dünya genelinde 450'yi aşkın okul ve ofisiyle, kendi ifadesiyle dünyanın en büyük eğitim şirketlerinden biri. İngiltere'de 50 yılı aşkın süredir uluslararası öğrencilere İngilizce öğretiyor ve ülke genelinde 8 okulu var: Londra, Oxford, Cambridge, Manchester, Brighton, Bournemouth, Eastbourne ve yaz aylarında açılan Cambridge Clare College.",
+        "EF'in kendi geliştirdiği öğretim yöntemi (EF Method) sınıfı, dijital materyalleri ve günlük hayatı bir arada kullanıyor. Kurum net bir söz veriyor: tüm derslere katılıp ödevlerini yapan öğrenci her 6 haftada bir EF seviyesi atlar, atlayamazsa ek dersleri ücretsiz alır.",
+        "EF okullarında 80'den fazla ülkeden öğrenci birlikte okuyor. Tüm öğrenciler tam zamanlı; akşam ya da hafta sonu sınıfı yok. Ders dışında her okulun aktivite sorumlusu gezileri, etkinlikleri ve spor programını düzenliyor.",
+        "EF'in İngiltere'deki en güçlü yanlarından biri üniversiteye hazırlık. Oxford ve Manchester'daki programlar, lise sonrası lisans, lisans sonrası yüksek lisans ya da MBA ve doktora için hazırlık sunuyor. EF'e göre başarılı mezunlar 150 partner üniversiteden birine yerleşme garantisi alıyor."
+      ],
+      "facts": [
+        {
+          "label": "Kuruluş",
+          "value": "1965"
+        },
+        {
+          "label": "İngiltere'de",
+          "value": "8 okul"
+        },
+        {
+          "label": "Yaş",
+          "value": "13–17 yaz kampı, 16+ yıl boyu"
+        },
+        {
+          "label": "Kurs başlangıcı",
+          "value": "Her pazartesi"
+        },
+        {
+          "label": "Haftalık ders",
+          "value": "20–32 ders (40 dk)"
+        },
+        {
+          "label": "Üniversiteye hazırlık",
+          "value": "Oxford ve Manchester"
+        },
+        {
+          "label": "Sınav merkezi",
+          "value": "Cambridge English yetkili"
+        }
+      ],
+      "programmes": [
+        {
+          "title": "Genel İngilizce",
+          "ages": "2 hafta+ · her seviye",
+          "desc": "Haftada 26 ders; dört özel ilgi dersi (SPIN) ile konuşma, dinleme, okuma ve yazma. Çocuğunuzun seviyesi EF SET testleriyle başta ölçülür, kurs boyunca takip edilir."
+        },
+        {
+          "title": "Yoğun İngilizce",
+          "ages": "2 hafta+ · her seviye",
+          "desc": "Haftada 32 ders: en hızlı ilerleme için. Sunum, akademik yazma, eleştirel düşünme gibi konularda en fazla sayıda özel ilgi dersi."
+        },
+        {
+          "title": "IELTS Hazırlık",
+          "ages": "8 hafta+ · orta–ileri seviye",
+          "desc": "İngiltere'de üniversiteye başvuru için gereken IELTS ve IELTS Academic sınavlarına hazırlık. İleri seviyedeki öğrenciler için Cambridge'de 2 haftalık kısa kurs da var."
+        },
+        {
+          "title": "Cambridge Sınavlarına Hazırlık",
+          "ages": "8 hafta+ · orta–ileri seviye",
+          "desc": "KET, PET, FCE, CAE ve CPE sınavlarına hazırlık; Ocak, Nisan, Haziran ve Eylül başlangıçlı. EF okullarının çoğu yetkili sınav merkezi olduğundan sınava kursun yapıldığı okulda girilir."
+        },
+        {
+          "title": "EF Academic Year Abroad",
+          "ages": "6, 9 veya 11 ay",
+          "desc": "İngiltere'de bir yıl ya da bir dönem boyunca İngilizce. Genel veya yoğun tempoda; isteyen öğrenci IELTS ya da Cambridge sınavıyla bitirir. Ocak, Nisan, Haziran ve Eylül başlangıçlı."
+        },
+        {
+          "title": "University Foundation Year",
+          "ages": "Lise sonrası · IELTS 5.0",
+          "desc": "İngiltere'de 13 yıldan az okul eğitimi alan uluslararası öğrenciler, lisansa başlamadan önce bir hazırlık yılı okur. 9 ay (Eylül'de 11 ay); İşletme, Fen ve Mühendislik, Beşeri Bilimler ve Hukuk, Tıp ve Eczacılık ya da Sanat ve Mimarlık alanlarından biriyle. Oxford ve Manchester'da."
+        },
+        {
+          "title": "Pre-master's ve Pre-MBA",
+          "ages": "Lisans sonrası · IELTS 6.0",
+          "desc": "İngiltere'de yüksek lisans ya da MBA için 6 aylık hazırlık: akademik İngilizce, IELTS, araştırma yöntemleri ve alan dersleri. EF'e göre başarılı mezunlar partner üniversitelerden birinde kabul garantisi alıyor."
+        },
+        {
+          "title": "Pre-PhD",
+          "ages": "Yüksek lisans sonrası · IELTS 6.0",
+          "desc": "Doktora başvurusuna 6 aylık hazırlık: tez önerisi, akademik yayın ve ileri araştırma yöntemleri, doktoralı öğretmenlerle. Başarılı mezunlara partner üniversitelerden birinde doktora kabul garantisi veriliyor."
+        }
+      ],
+      "highlights": [
+        {
+          "title": "12 yıllık lise sonrası İngiltere'de lisansa geçiş",
+          "desc": "İngiltere'de üniversiteye doğrudan başvuru için genellikle 13 yıllık okul eğitimi aranıyor. University Foundation Year, Türkiye'de liseyi bitiren çocuğunuz için bu eksik yılı tamamlıyor. EF'in açıkladığı sonuçlara göre mezunların tamamı lisans programına yerleşti; %25'i İngiltere'nin ilk 20 üniversitesine girdi."
+        },
+        {
+          "title": "Mezunlar nereye gidiyor",
+          "desc": "EF'e göre Foundation mezunları LSE, UCL, King's College, Bath, Birmingham, Durham ve Exeter gibi üniversitelere kabul aldı; Pre-master's mezunları arasında Oxford, Cambridge, York ve Leeds'e kabul alanlar var."
+        },
+        {
+          "title": "Seviye atlama garantisi",
+          "desc": "Tüm derslere katılan ve ödevlerini yapan öğrenci her 6 haftada bir EF seviyesi atlar; atlayamazsa ek dersler ücretsizdir. İlerleme EF SET testleriyle ölçülür ve kurs sonunda sertifikayla belgelenir."
+        },
+        {
+          "title": "Sınava okulda girme imkanı",
+          "desc": "EF'in İngiltere okullarının çoğu Cambridge English yetkili sınav merkezi. Çocuğunuz hazırlandığı sınava, kursu aldığı okulda ve tanıdığı ortamda girer."
+        },
+        {
+          "title": "Şehrin kalbinde okullar",
+          "desc": "Londra okulu London Eye ve South Bank'e yürüme mesafesinde, tarihi bir Viktorya binasında. Oxford kampüsü üniversite kolejlerinin yakınında, yaklaşık 3 dönümlük bahçeyle. Cambridge'de yenilenmiş Viktorya binası, Manchester'da Platt Fields Park'ın hemen yanı."
+        },
+        {
+          "title": "Uluslararası bir sınıf",
+          "desc": "80'den fazla ülkeden öğrenci. Sınıflar ortalama 12–15, en fazla 17 kişi. Çocuğunuz İngilizceyi farklı ülkelerden arkadaşlarıyla konuşarak kullanır."
+        },
+        {
+          "title": "Ders dışı program",
+          "desc": "Her okulda aktivite sorumlusu var: Stonehenge, Bath, Oxford, Cambridge, Lake District, Warwick Kalesi ve Edinburgh gibi günübirlik ve konaklamalı geziler, akşam etkinlikleri ve kulüpler."
+        },
+        {
+          "title": "Kursa dahil olanlar",
+          "desc": "Dersler, aile yanında konaklama (hafta içi kahvaltı ve akşam yemeği, hafta sonu tüm öğünler), dijital materyaller, seviye testleri, sertifika ve haftalık aktiviteler."
+        }
+      ],
+      "summerSchool": {
+        "eyebrow": "Yaz Kampı",
+        "title": "EF ile İngiltere'de Yaz",
+        "intro": "EF'in İngiltere'deki yaz kampları 13–17 yaş gençler için. Çocuğunuz her seviyeden başlayabilir; haziran, temmuz ve ağustosta her pazartesi başlayan 2–4 haftalık programda sabahları İngilizce dersine girer, öğleden sonra ve hafta sonları geziler ve etkinliklerle İngiltere'yi keşfeder. Kamp liderleri EF tarafından seçiliyor ve uluslararası gençlerle çalışmak üzere eğitiliyor.",
+        "courses": [
+          {
+            "title": "Cambridge Clare College",
+            "ages": "13–16",
+            "level": "Her seviye",
+            "length": "2–4 hafta",
+            "dates": "Haziran, temmuz ve ağustos; her pazartesi başlangıç",
+            "desc": "Cambridge Üniversitesi'nin yaklaşık 700 yıllık ikinci en eski koleji Clare College'da, yalnızca 13–16 yaş için. Konaklama kampüste ya da aile yanında, tam pansiyon. EF personeli öğrenci yurdunda 24 saat görevde."
+          },
+          {
+            "title": "Bournemouth, Eastbourne ve Cambridge",
+            "ages": "13–17",
+            "level": "Her seviye",
+            "length": "2–4 hafta",
+            "dates": "Haziran, temmuz ve ağustos; her pazartesi başlangıç",
+            "desc": "Sahil kasabaları Bournemouth ve Eastbourne'da ya da EF Cambridge'de genç kampı. Haftada 13 saat 20 dakika (genel) ya da 17 saat 20 dakika (yoğun) ders; sınıflar en fazla 17 kişi."
+          },
+          {
+            "title": "16 yaş ve üzeri yaz kursu",
+            "ages": "16+",
+            "level": "Her seviye",
+            "length": "2–12 hafta",
+            "dates": "Yaz boyunca her pazartesi başlangıç",
+            "desc": "Londra, Oxford, Cambridge ve Manchester'da haftada 20 derslik, günlük hayatta kullanılan İngilizceye odaklanan yaz kursu. Konaklama, öğünler ve ders dışı etkinlikler dahil."
+          }
+        ],
+        "includesTitle": "Yaz kampında neler dahil",
+        "includes": [
+          "Haftada 20 ya da 26 İngilizce dersi (40 dakika)",
+          "Aile yanında ya da kampüste konaklama, tam pansiyon",
+          "Haftalık aktivite ve gezi programı",
+          "Havalimanı dönüş transferleri",
+          "EF SET seviye testi ve ilerleme takibi",
+          "EF kurs sertifikası ve EF SET başarı sertifikası"
+        ]
+      },
+      "accreditations": [
+        {
+          "name": "British Council",
+          "detail": "EF'in Londra, Oxford, Cambridge ve Manchester okulları, İngiltere'de İngilizce öğretimi alanında British Council tarafından akredite (Accredited by the British Council for the teaching of English in the UK)."
+        },
+        {
+          "name": "English UK",
+          "detail": "EF, İngiltere'deki akredite dil okullarını bir araya getiren ulusal birlik English UK'in üyesi."
+        },
+        {
+          "name": "ISI Educational Oversight 2024",
+          "detail": "EF Language Schools Ltd, Independent Schools Inspectorate'in özel eğitim kurumlarını denetleyen birimi ISI Private Further Education tarafından 2024'te denetlendi. Son rapor EF'in sitesinde yayımlanıyor."
+        },
+        {
+          "name": "Cambridge English yetkili sınav merkezi",
+          "detail": "EF'in İngiltere okullarının çoğu Cambridge English Language Assessment yetkili merkezi; öğrenciler KET'ten CPE'ye kadar sınavlara kursu aldıkları okulda girebiliyor."
+        }
+      ]
+    }
   },
   "studyUk": {
     "metaTitle": "İngiltere'de İngilizce Eğitimi | Robonino",

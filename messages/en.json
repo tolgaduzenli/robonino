@@ -97,7 +97,9 @@
       "items": [
         { "name": "London", "tag": "Life in the capital" },
         { "name": "Oxford", "tag": "Historic university city" },
-        { "name": "Cambridge", "tag": "Home of the famous colleges" }
+        { "name": "Cambridge", "tag": "Home of the famous colleges" },
+        { "name": "Brighton", "tag": "City life by the sea" },
+        { "name": "Bournemouth", "tag": "Beaches and summer camps" }
       ]
     },
     "testimonials": {
@@ -149,8 +151,12 @@
     "summerAges": "Ages",
     "summerLevel": "Min. English",
     "summerLength": "Length",
-    "summerDates": "2027 dates",
+    "summerDates": "Dates",
     "summerNote": "For prices and availability, get in touch and we'll send you the details.",
+    "accreditationsEyebrow": "Quality Assurance",
+    "accreditationsTitle": "Accreditations and Inspections",
+    "accreditationsDesc": "The independent accreditations, memberships and latest inspection results the school reports for itself.",
+    "accreditationsLink": "View the reports on the school's website",
     "learnMore": "Learn more",
     "cta": {
       "title": "Is {school} Right for Your Child?",
@@ -160,6 +166,20 @@
   "schoolPages": {
     "haileybury": {
       "tagline": "A boarding school for girls and boys aged 11 to 18 in Hertford, near London, with an education built on curiosity, courage and character.",
+      "accreditations": [
+        {
+          "name": "ISI (Independent Schools Inspectorate)",
+          "detail": "The official inspectorate for independent schools in England. At its October 2025 inspection Haileybury met all standards, and its academic and co-curricular enrichment programme was judged “a significant strength”."
+        },
+        {
+          "name": "IB Diploma Programme",
+          "detail": "The International Baccalaureate Diploma is offered in the Sixth Form. According to the school, its 2026 IB cohort averaged 38.1 points against a global average of 30.88."
+        },
+        {
+          "name": "HMC and ISC",
+          "detail": "The Headmasters' and Headmistresses' Conference (HMC) and the Independent Schools Council (ISC), which bring together leading UK independent schools, are among the school's affiliations."
+        }
+      ],
       "intro": [
         "Haileybury is a co-educational boarding school on a 200-hectare campus in Hertford, a short distance from London. Its motto is “Fly High. Fly Fast.”, and the school lives up to it: pupils are encouraged to take on challenges, push their ideas further and think bigger.",
         "The school treats character as part of academic success. Kindness, empathy, integrity and service to others are part of everyday life. Pupils from the UK and from around the world live together in the same boarding houses and learn with and from each other.",
@@ -302,6 +322,24 @@
     },
     "mpw": {
       "tagline": "An independent college in London, Birmingham and Cambridge, running GCSE and A level programmes built around each student since 1973.",
+      "accreditations": [
+        {
+          "name": "ISI (Independent Schools Inspectorate)",
+          "detail": "All three colleges are inspected by ISI. MPW London (May 2025) and MPW Birmingham (October 2025) met all the standards in the inspection framework, and MPW Cambridge (October 2023) met all ISI standards."
+        },
+        {
+          "name": "Ofsted: “Outstanding”",
+          "detail": "Ofsted, England's official education inspectorate, rated MPW Cambridge (November 2019) and MPW Birmingham (February 2018) “Outstanding”, its highest grade, in all areas."
+        },
+        {
+          "name": "DfE registration, ISA and ISC",
+          "detail": "The colleges are registered with the Department for Education as independent schools, are members of the Independent Schools Association (ISA) and sit under the Independent Schools Council (ISC)."
+        },
+        {
+          "name": "Top ratings across the group",
+          "detail": "In MPW's words, it is the only education group in England where every college has achieved the highest rating in all areas of its inspection reports."
+        }
+      ],
       "intro": [
         "MPW (Mander Portman Woodward) was founded in London in 1973 by three Cambridge graduates. Today it is one of the UK's best-known independent sixth-form colleges, with colleges in London, Birmingham and Cambridge. Its motto is “Tailored, Not Uniform”: each student gets a programme set up for them.",
         "Students choose their own combination from more than 40 GCSE and A level subjects, over anything from one term to two years. They may have just finished school, or come to MPW to improve their grades. Teaching is exam-focused, classes are small, and many tutors are also exam markers.",
@@ -445,8 +483,344 @@
         ]
       }
     },
-    "oisc": { "tagline": "", "intro": [], "facts": [], "programmes": [], "highlights": [] },
-    "ef": { "tagline": "", "intro": [], "facts": [], "programmes": [], "highlights": [] }
+    "oisc": {
+      "tagline": "A private tutorial college and language school in central Oxford, teaching English, GCSEs, A levels and university preparation since 2006.",
+      "intro": [
+        "Oxford International Study Centre (OISC) is a private tutorial college and language school founded in 2006. From its two buildings in Oxford city centre it teaches at every level, from English courses to GCSEs, A levels and university preparation.",
+        "English is taught at St Aldates, between Christ Church and the Town Hall, in a 400-year-old red building with beamed ceilings that was once a coaching inn and later a bank. Academic students study at the King Edward Street Academic Centre, three minutes' walk away, in a quiet setting away from the busy language school.",
+        "OISC's defining feature is its small classes: academic classes have at most 6 students, usually 3 or 4, and many students take some lessons one-to-one. All English teachers hold the CELTA and several the DELTA, and at least 25 nationalities are in the school in a typical week.",
+        "In its April 2026 inspection, the Independent Schools Inspectorate (ISI) judged OISC to “exceed expectations”, its highest grade, for the 8th time in a row."
+      ],
+      "facts": [
+        {
+          "label": "Founded",
+          "value": "2006"
+        },
+        {
+          "label": "Centres",
+          "value": "St Aldates and King Edward Street"
+        },
+        {
+          "label": "Programmes",
+          "value": "English, GCSE, A level, Foundation"
+        },
+        {
+          "label": "Academic classes",
+          "value": "6 students at most"
+        },
+        {
+          "label": "Ages",
+          "value": "Under-14s to adults"
+        },
+        {
+          "label": "Accommodation",
+          "value": "Host family or student residence"
+        },
+        {
+          "label": "ISI inspection",
+          "value": "Exceeds expectations (2026)"
+        }
+      ],
+      "programmes": [
+        {
+          "title": "General English and IELTS",
+          "ages": "Year-round · 1 week+",
+          "desc": "20 lessons (15 hours) a week on the Standard course or 30 (22.5 hours) on the Intensive course, across six levels from A1 to C2. Students are grouped by age and level, receive a certificate of attainment, and long-term students usually take IELTS."
+        },
+        {
+          "title": "One-to-One English",
+          "ages": "10, 20 or 30 lessons a week",
+          "desc": "Flexible one-to-one lessons built around the student's goals. They can be combined with group classes: 20 group lessons plus 5, 10 or 15 individual lessons a week."
+        },
+        {
+          "title": "Full-Time A Level",
+          "ages": "1 or 2 years",
+          "desc": "Around 30 subjects to choose from, with about 6 hours a week per subject. Academic English and IELTS support is included for international students, and there is a one-year intensive A level for students whose school qualifications aren't accepted for direct UK university entry."
+        },
+        {
+          "title": "Full-Time GCSE",
+          "ages": "1 or 2 years",
+          "desc": "Preparation for the UK's age-16 exams, with 3 or 4.5 hours a week per subject. Classes have at most 6 students, usually 3 or 4, and every student has a personal tutor they meet weekly."
+        },
+        {
+          "title": "University Foundation in Business",
+          "ages": "1 academic year",
+          "desc": "Modules in Academic English, Maths, Economics, Business and Study Skills. Successful students are guaranteed progression to business, management and finance degrees at around 20 UK universities, including Oxford Brookes."
+        },
+        {
+          "title": "Oxford and Cambridge Preparation",
+          "ages": "Summer and autumn",
+          "desc": "All tutors are Oxford or Cambridge graduates. One-to-one or in groups of 2–3: subject tuition, preparation for admissions tests such as ELAT, TSA and LNAT, personal statement feedback and practice interviews."
+        },
+        {
+          "title": "British Boarding School Preparation",
+          "ages": "School placement support",
+          "desc": "English plus 3–5 academic subjects and study skills, 20–25 lessons a week. Younger students prepare for Verbal and Non-Verbal Reasoning, Common Entrance and the ISET, with help choosing a school and interview practice."
+        },
+        {
+          "title": "Easter Revision",
+          "ages": "21 March – 17 April 2027",
+          "desc": "A level, (I)GCSE and IB in more than 30 subjects, in groups of at most 6 or one-to-one. 2–3 subjects a week, 6 hours of academic work a day, daily study skills seminars and a detailed report at the end."
+        }
+      ],
+      "highlights": [
+        {
+          "title": "Very small classes",
+          "desc": "Academic classes have at most 6 students, usually 3 or 4, and many students take some subjects one-to-one. Tutors can see where your child is struggling from the first week."
+        },
+        {
+          "title": "Personal tutor and monthly reports",
+          "desc": "Every full-time student has a tutor they meet weekly, who follows both their studies and their wellbeing. Parents receive a progress report every month."
+        },
+        {
+          "title": "A bridge to UK universities",
+          "desc": "A one-year intensive A level or Foundation programme for students whose school qualifications aren't accepted for direct entry. Choosing universities, the personal statement and interview practice are part of the programme."
+        },
+        {
+          "title": "Academic English included",
+          "desc": "International GCSE and A level students get Academic English and IELTS support alongside their subjects at no extra cost."
+        },
+        {
+          "title": "Oxbridge-educated tutors",
+          "desc": "Every tutor teaching students applying to Oxford or Cambridge is a graduate of one of the two universities."
+        },
+        {
+          "title": "Support for special educational needs",
+          "desc": "A dedicated SENCo meets students and parents every week, and flexible exam and timetable arrangements are possible."
+        },
+        {
+          "title": "Weekly enrichment",
+          "desc": "Monday afternoons bring guest lectures, study skills seminars and trips such as Cotswold Wildlife Park, plus lunchtime clubs for debating, guitar and crafts."
+        },
+        {
+          "title": "Checked and inspected accommodation",
+          "desc": "Host families are background-checked, complete regular safeguarding training and are inspected at least once a year. The student residence has single en-suite rooms within walking distance of both centres."
+        }
+      ],
+      "summerSchool": {
+        "eyebrow": "Summer School 2027",
+        "title": "12 Weeks of Summer in Oxford",
+        "intro": "OISC has run summer programmes in Oxford for about 20 years and has welcomed more than 30,000 students, from 36 countries last summer. Unlike many colleges it accepts children under 14, and adults too. Your child studies with others of the same age and level, and can start on any Monday from mid-June to mid-September and stay from 1 to 8 weeks or longer.",
+        "courses": [
+          {
+            "title": "English Language & Culture",
+            "ages": "All ages",
+            "level": "Any level",
+            "length": "1–8 weeks+",
+            "dates": "Mid-June to mid-September 2027; starts every Monday",
+            "desc": "20 lessons (15 hours) of English a week, social and cultural activities in Oxford every weekday, and a full-day excursion every weekend. Interactive classes for younger learners; Academic English and IELTS options for adults."
+          },
+          {
+            "title": "English, Culture & Academic Enrichment",
+            "ages": "All ages",
+            "level": "Any level",
+            "length": "1–8 weeks+",
+            "dates": "Mid-June to mid-September 2027; starts every Monday",
+            "desc": "Everything in the first course, plus 10 lessons (7.5 hours) a week of A level, IB or (I)GCSE preparation. Your child chooses 1–2 subjects a week, taught in groups of 3–4 or one-to-one."
+          }
+        ],
+        "includesTitle": "What the summer programme includes",
+        "includes": [
+          "20 English lessons a week, in international classes grouped by age and level",
+          "Activities every weekday: punting, museum and gallery visits, college tours and treasure hunts",
+          "Full-day weekend excursions: London, Bath and Stonehenge, Cambridge",
+          "A host family (breakfast and dinner included), or a single en-suite room in the student residence 2 minutes' walk from OISC (ages 14+)",
+          "On request and subject to availability, rooms in an Oxford University college for ages 16+",
+          "Optional one-to-one Oxford and Cambridge interview preparation or boarding school entrance test preparation"
+        ]
+      },
+      "accreditations": [
+        {
+          "name": "ISI: “Exceeds expectations”",
+          "detail": "In a three-day inspection in April 2026, the Independent Schools Inspectorate judged OISC to “exceed expectations”, its highest grade, for the 8th time in a row, highlighting safeguarding, pastoral care and flexible courses. ISI is an inspection body authorised by UK Visas and Immigration (UKVI)."
+        },
+        {
+          "name": "COBIS",
+          "detail": "Accredited member of the Council of British International Schools."
+        },
+        {
+          "name": "ISC and AEGIS",
+          "detail": "Member of the Independent Schools Council (ISC) and a member school of AEGIS, committed to the safe guardianship of international students."
+        },
+        {
+          "name": "The Tutors' Association, ECIS and more",
+          "detail": "Corporate member of The Tutors' Association and a recognised provider of the European Association of Training Providers; member of ECIS, the European Association for International Education (EAIE), JAOS and the Swiss Group of International Schools."
+        }
+      ]
+    },
+    "ef": {
+      "tagline": "An international education company teaching languages since 1965, with English courses, summer camps and university preparation in the UK.",
+      "intro": [
+        "EF (Education First) was founded in 1965 and, with more than 450 schools and offices worldwide, describes itself as one of the world's largest education companies. It has taught English to international students in England for over 50 years and runs 8 schools across the country: London, Oxford, Cambridge, Manchester, Brighton, Bournemouth, Eastbourne and, in summer, Cambridge Clare College.",
+        "The EF Method, which EF developed itself, combines classroom teaching, digital materials and everyday use of English. EF makes a clear promise: a student who attends every class and does all the homework moves up one EF level every 6 weeks, or gets extra tuition free.",
+        "Students from more than 80 countries study at EF schools. Everyone studies full time, with no evening or weekend classes. Outside lessons, each school's activities coordinator runs trips, events and sport.",
+        "University preparation is one of EF's strengths in the UK. Programmes in Oxford and Manchester prepare students for undergraduate study after school, for master's or MBA study after a degree, and for a PhD. According to EF, successful graduates are guaranteed a place at one of its 150 partner universities."
+      ],
+      "facts": [
+        {
+          "label": "Founded",
+          "value": "1965"
+        },
+        {
+          "label": "In the UK",
+          "value": "8 schools"
+        },
+        {
+          "label": "Ages",
+          "value": "13–17 summer camp, 16+ year-round"
+        },
+        {
+          "label": "Course start",
+          "value": "Every Monday"
+        },
+        {
+          "label": "Lessons a week",
+          "value": "20–32 (40 min each)"
+        },
+        {
+          "label": "University prep",
+          "value": "Oxford and Manchester"
+        },
+        {
+          "label": "Exam centre",
+          "value": "Cambridge English authorised"
+        }
+      ],
+      "programmes": [
+        {
+          "title": "General English",
+          "ages": "2 weeks+ · all levels",
+          "desc": "26 lessons a week, with four Special Interest Lessons (SPINs) covering speaking, listening, reading and writing. Your child's level is measured with EF SET tests at the start and tracked throughout."
+        },
+        {
+          "title": "Intensive English",
+          "ages": "2 weeks+ · all levels",
+          "desc": "32 lessons a week for the fastest progress, with the most Special Interest Lessons in topics such as presentations, academic writing and critical thinking."
+        },
+        {
+          "title": "IELTS Preparation",
+          "ages": "8 weeks+ · intermediate–advanced",
+          "desc": "Preparation for IELTS and IELTS Academic, the tests UK universities ask for. Advanced students can also take a 2-week course in Cambridge."
+        },
+        {
+          "title": "Cambridge Exam Preparation",
+          "ages": "8 weeks+ · intermediate–advanced",
+          "desc": "Preparation for KET, PET, FCE, CAE and CPE, starting in January, April, June or September. Most EF schools are authorised exam centres, so students sit the exam where they studied."
+        },
+        {
+          "title": "EF Academic Year Abroad",
+          "ages": "6, 9 or 11 months",
+          "desc": "A year or semester of English in the UK, at general or intensive pace, with the option to finish with IELTS or a Cambridge exam. Starts in January, April, June or September."
+        },
+        {
+          "title": "University Foundation Year",
+          "ages": "After school · IELTS 5.0",
+          "desc": "In England, international students with fewer than 13 years of schooling take a preparation year before starting a degree. 9 months (11 for September starts), in one of Business, Science and Engineering, Humanities and Law, Medicine and Pharmacy, or Art and Architecture. In Oxford and Manchester."
+        },
+        {
+          "title": "Pre-master's and Pre-MBA",
+          "ages": "After a degree · IELTS 6.0",
+          "desc": "Six months of preparation for a UK master's or MBA: academic English, IELTS, research methods and specialist modules. According to EF, successful graduates are guaranteed acceptance at one of its partner universities."
+        },
+        {
+          "title": "Pre-PhD",
+          "ages": "After a master's · IELTS 6.0",
+          "desc": "Six months of preparation for doctoral study with PhD-qualified tutors: thesis proposal, academic publishing and advanced research methods. Successful graduates are guaranteed a PhD place at a partner university."
+        }
+      ],
+      "highlights": [
+        {
+          "title": "From a 12-year school system to a UK degree",
+          "desc": "Direct entry to UK universities usually expects 13 years of schooling. The University Foundation Year fills that gap for students who finish school after 12 years, as in Turkey. In EF's published results, every graduate won an undergraduate place and 25% went to a top-20 UK university."
+        },
+        {
+          "title": "Where graduates go",
+          "desc": "According to EF, Foundation graduates have been admitted to universities including LSE, UCL, King's College, Bath, Birmingham, Durham and Exeter, and Pre-master's alumni to Oxford, Cambridge, York and Leeds."
+        },
+        {
+          "title": "A progress guarantee",
+          "desc": "Students who attend every class and do the homework move up one EF level every 6 weeks, or get extra lessons free. Progress is measured with EF SET tests and certified at the end."
+        },
+        {
+          "title": "Sit the exam at school",
+          "desc": "Most EF schools in England are authorised Cambridge English exam centres, so your child takes the exam they prepared for in a familiar place."
+        },
+        {
+          "title": "Schools in the heart of each city",
+          "desc": "London is in a historic Victorian building near the London Eye and the South Bank. Oxford is near the university colleges with around 3 acres of gardens. Cambridge has a renovated Victorian building, and Manchester sits next to Platt Fields Park."
+        },
+        {
+          "title": "An international classroom",
+          "desc": "Students from more than 80 countries, in classes averaging 12–15 and never more than 17. Your child uses English every day with classmates from around the world."
+        },
+        {
+          "title": "Life outside lessons",
+          "desc": "Every school has an activities coordinator, with day and overnight trips to places such as Stonehenge, Bath, Oxford, Cambridge, the Lake District, Warwick Castle and Edinburgh, plus evening events and clubs."
+        },
+        {
+          "title": "What the course includes",
+          "desc": "Lessons, a homestay (breakfast and dinner on weekdays, all meals at weekends), digital materials, level tests, a certificate and weekly activities."
+        }
+      ],
+      "summerSchool": {
+        "eyebrow": "Summer Camp",
+        "title": "A Summer in England with EF",
+        "intro": "EF's UK summer camps are for teenagers aged 13 to 17. Your child can start at any level, on any Monday in June, July or August, for 2 to 4 weeks: English lessons in the morning, then trips and activities in the afternoons and at weekends. EF hand-picks its camp leaders and trains them to work with international teens.",
+        "courses": [
+          {
+            "title": "Cambridge Clare College",
+            "ages": "13–16",
+            "level": "Any level",
+            "length": "2–4 weeks",
+            "dates": "June, July and August; starts every Monday",
+            "desc": "At Clare College, the University of Cambridge's second-oldest college with nearly 700 years of history, for ages 13 to 16 only. Students stay on campus or with a host family, with full board, and EF staff are on duty in the residence 24 hours a day."
+          },
+          {
+            "title": "Bournemouth, Eastbourne and Cambridge",
+            "ages": "13–17",
+            "level": "Any level",
+            "length": "2–4 weeks",
+            "dates": "June, July and August; starts every Monday",
+            "desc": "Teen camps in the seaside towns of Bournemouth and Eastbourne, or at EF Cambridge. 13 hours 20 minutes (general) or 17 hours 20 minutes (intensive) of lessons a week, with a maximum of 17 per class."
+          },
+          {
+            "title": "Summer course for 16+",
+            "ages": "16+",
+            "level": "Any level",
+            "length": "2–12 weeks",
+            "dates": "Every Monday through the summer",
+            "desc": "A 20-lesson-a-week summer course focused on everyday English, in London, Oxford, Cambridge and Manchester. Accommodation, meals and activities are included."
+          }
+        ],
+        "includesTitle": "What the summer camp includes",
+        "includes": [
+          "20 or 26 English lessons a week (40 minutes each)",
+          "A homestay or campus room, with full board",
+          "A weekly programme of activities and excursions",
+          "Return airport transfers",
+          "EF SET placement test and progress tracking",
+          "EF course certificate and EF SET certificate of achievement"
+        ]
+      },
+      "accreditations": [
+        {
+          "name": "British Council",
+          "detail": "EF's London, Oxford, Cambridge and Manchester schools are accredited by the British Council for the teaching of English in the UK."
+        },
+        {
+          "name": "English UK",
+          "detail": "EF is a member of English UK, the national association of accredited English language schools."
+        },
+        {
+          "name": "ISI Educational Oversight 2024",
+          "detail": "EF Language Schools Ltd was inspected in 2024 by ISI Private Further Education, part of the Independent Schools Inspectorate. The latest report is published on EF's website."
+        },
+        {
+          "name": "Authorised Cambridge English exam centre",
+          "detail": "Most EF schools in England are Cambridge English Language Assessment authorised centres, so students can sit exams from KET to CPE where they studied."
+        }
+      ]
+    }
   },
   "studyUk": {
     "metaTitle": "Study English in the UK | Robonino",

@@ -33,6 +33,8 @@ export type PartnerSchool = {
   heroImage?: string;
   /** Extra photos shown as a gallery on the detail page. */
   gallery?: string[];
+  /** The school's own page with its inspection reports / accreditations, linked from the accreditations section. */
+  reportsUrl?: string;
   /** Set to true once the detail page's copy is ready to go live. */
   detailPage?: boolean;
   placeholder?: boolean;
@@ -56,6 +58,7 @@ const allPartnerSchools: PartnerSchool[] = [
       '/images/schools/haileybury/boarding-common-room.jpg',
       '/images/schools/haileybury/boarding-lounge.jpg',
     ],
+    reportsUrl: 'https://www.haileybury.com/about-us/policies-publications',
     detailPage: true,
   },
   {
@@ -77,10 +80,42 @@ const allPartnerSchools: PartnerSchool[] = [
       '/images/schools/mpw/mock-trial.jpg',
       '/images/schools/mpw/celebration.jpg',
     ],
+    reportsUrl: 'https://www.mpw.ac.uk/international-students/inspection-reports/',
     detailPage: true,
   },
-  { id: 'oisc', name: 'Oxford International Study Centre', website: 'https://www.oxintstudycentre.com/', logo: '/images/partners/oisc.svg', detailPage: false },
-  { id: 'ef', name: 'EF Education First', website: 'https://www.ef.co.uk/', logo: '/images/partners/ef.svg', detailPage: false },
+  {
+    id: 'oisc',
+    name: 'Oxford International Study Centre',
+    shortName: 'OISC',
+    website: 'https://www.oxintstudycentre.com/',
+    logo: '/images/partners/oisc.svg',
+    logoOnDark: '/images/partners/oisc-white.svg',
+    heroImage: '/images/schools/oisc/st-aldates.jpg',
+    reportsUrl: 'https://www.oxintstudycentre.com/accreditation',
+    detailPage: true,
+  },
+  {
+    id: 'ef',
+    name: 'EF Education First',
+    shortName: 'EF',
+    website: 'https://www.ef.co.uk/',
+    logo: '/images/partners/ef.svg',
+    logoOnDark: '/images/partners/ef-white.svg',
+    heroImage: '/images/schools/ef/tower-bridge-picnic.jpg',
+    gallery: [
+      '/images/schools/ef/london-courtyard.jpg',
+      '/images/schools/ef/graduation.jpg',
+      '/images/schools/ef/london-classroom.jpg',
+      '/images/schools/ef/oxford-bridge-of-sighs.jpg',
+      '/images/schools/ef/london-eye.jpg',
+      '/images/schools/ef/london-cafeteria.jpg',
+      '/images/schools/ef/punting.jpg',
+      '/images/schools/ef/british-museum.jpg',
+      '/images/schools/ef/london-bus.jpg',
+    ],
+    reportsUrl: 'https://www.ef.co.uk/campaign/ilsd/uk/accreditations/',
+    detailPage: true,
+  },
 ];
 
 /** Each school paired with its index into `partnerSchools.items` in the dictionary. */
