@@ -90,7 +90,7 @@ export function AboutView({ locale }: { locale: Locale }) {
 
       <section className="mx-auto max-w-[1100px] px-7 py-20">
         <SectionHeading eyebrow={dict.team.eyebrow} title={dict.team.title} maxWidth={560} />
-        <div className="grid justify-center gap-[22px]" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 280px))' }}>
+        <div className="grid justify-center gap-[22px]" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 320px))' }}>
           {dict.team.members.filter((p) => !content.team.find((m) => m.id === p.id)?.hidden).map((p) => {
             const member = content.team.find((m) => m.id === p.id);
             return (
@@ -106,6 +106,11 @@ export function AboutView({ locale }: { locale: Locale }) {
                 <div className="text-[13px]" style={{ color: colors.textFaint }}>
                   {p.role}
                 </div>
+                {'bio' in p && p.bio && (
+                  <p className="m-0 mt-3 text-left text-[14px] leading-relaxed" style={{ color: colors.textMuted }}>
+                    {p.bio}
+                  </p>
+                )}
               </div>
             );
           })}

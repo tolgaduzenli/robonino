@@ -1018,6 +1018,7 @@
       "title": "Our Team",
       "members": [
         { "id": "tolga", "name": "Tolga Duzenli", "role": "United Kingdom Representative" },
+        {"id": "miray", "name": "Miray Soylu", "role": "Robonino Istanbul Consultant", "bio": "I live in Istanbul, I'm a lawyer and the mother of a daughter. The care I took in choosing a school where my daughter would feel safe and happy and learn English is the care I bring to the families I guide at Robonino. I travel to London often to get to know schools and programmes first-hand. Together with families, I look at summer school and half-term English programmes that suit their children's interests and needs, and I support them through the application process."},
         { "id": "cagatay", "name": "Cagatay Duzenli", "role": "Turkey Representative" }
       ]
     },

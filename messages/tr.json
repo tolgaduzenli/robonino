@@ -1018,6 +1018,7 @@
       "title": "Ekibimiz",
       "members": [
         { "id": "tolga", "name": "Tolga Düzenli", "role": "İngiltere Temsilcisi" },
+        {"id": "miray", "name": "Miray Soylu", "role": "Robonino İstanbul Danışmanı", "bio": "İstanbul’da yaşıyorum, hukukçuyum ve bir kız çocuğu annesiyim. Kızımın kendini güvende ve mutlu hissedeceği, İngilizce öğreneceği bir okul seçerken gösterdiğim özeni, Robonino’da rehberlik ettiğim ailelere de taşıyorum. Londra’ya sık sık gidip okulları ve programları yerinde tanıyorum. Ailelerle birlikte, çocuklarının ilgi alanlarına ve ihtiyaçlarına uygun yaz okulu ve ara tatil İngilizce programlarını değerlendiriyorum, başvuru süreçlerinde eşlik ediyorum."},
         { "id": "cagatay", "name": "Çağatay Düzenli", "role": "Türkiye Temsilcisi" }
       ]
     },
