@@ -64,7 +64,7 @@ Several sections were switched off because there was no real content for them ye
 Each school also has a detail page one level under Study UK, at `/<locale>/<studyUk slug>/<school id>` (e.g. `/tr/ingilterede-egitim/haileybury`, `/en/study-uk/haileybury`):
 - The route is `app/[locale]/[slug]/[school]/page.tsx` (`dynamicParams = false`; any parent slug other than Study UK 404s) and the view is `components/views/SchoolView.tsx`. Build links with `getSchoolPath(id, locale)`. The school id is the same in both languages, and the Header's language switcher carries it across.
 - Page copy lives in `schoolPages.<id>` (keyed by id, not index): `tagline`, `intro[]`, `facts[]`, `programmes[]`, `highlights[]`. Its type, `SchoolPageCopy` in `lib/i18n/dictionaries.ts`, is written by hand so that empty arrays type-check. Shared labels live in `schoolPage`.
-- Photos go in `public/images/schools/<id>/`, listed as `heroImage` and `gallery` in `lib/content/partnerSchools.ts`.
+- Photos go in `public/images/schools/<id>/`, listed as `heroImage` and `gallery` in `lib/content/partnerSchools.ts`. The hero shows `logoOnDark` (a white, transparent logo, e.g. `haileybury-white.svg`, `mpw-white.png`) straight on the photo; schools without one fall back to `logo` on a small white card. `shortName` (e.g. "MPW") is used inside headings in place of the full name.
 - Empty sections are hidden in production. In dev they show a dashed "Draft" note.
 - A page only goes live once `detailPage: true` is set on the school. Until then it renders in `npm run dev` only. The "Learn more" buttons (Study UK), the Home chip links and the sitemap entries all follow the same flag.
 

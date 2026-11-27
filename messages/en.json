@@ -300,7 +300,151 @@
         ]
       }
     },
-    "mpw": { "tagline": "", "intro": [], "facts": [], "programmes": [], "highlights": [] },
+    "mpw": {
+      "tagline": "An independent college in London, Birmingham and Cambridge, running GCSE and A level programmes built around each student since 1973.",
+      "intro": [
+        "MPW (Mander Portman Woodward) was founded in London in 1973 by three Cambridge graduates. Today it is one of the UK's best-known independent sixth-form colleges, with colleges in London, Birmingham and Cambridge. Its motto is “Tailored, Not Uniform”: each student gets a programme set up for them.",
+        "Students choose their own combination from more than 40 GCSE and A level subjects, over anything from one term to two years. They may have just finished school, or come to MPW to improve their grades. Teaching is exam-focused, classes are small, and many tutors are also exam markers.",
+        "The atmosphere is closer to university than school. Students are treated as young adults and call their tutors by first name, but the rules on punctuality and deadlines are firm. Every student has a personal tutor, and guidance on UCAS, Oxbridge and competitive courses such as Medicine is part of the programme.",
+        "Around 1,200 students study at the colleges each year, about a third of them from overseas. According to MPW, around two-thirds go on to Russell Group, University of London and specialist universities."
+      ],
+      "facts": [
+        {
+          "label": "Founded",
+          "value": "1973, London"
+        },
+        {
+          "label": "Students",
+          "value": "Girls and boys (co-ed)"
+        },
+        {
+          "label": "Programmes",
+          "value": "GCSE, A level, Foundation"
+        },
+        {
+          "label": "Subjects",
+          "value": "More than 40"
+        },
+        {
+          "label": "Boarding",
+          "value": "London, Queen's Gate House"
+        },
+        {
+          "label": "Summer school",
+          "value": "London and Cambridge, ages 14–17"
+        }
+      ],
+      "programmes": [
+        {
+          "title": "GCSE and IGCSE",
+          "ages": "1 or 2 years",
+          "desc": "One- or two-year courses for the UK's age-16 exams, depending on your child's age and situation. There are 30 subjects to choose from, from sciences and maths to Mandarin, Latin, Photography and Textiles."
+        },
+        {
+          "title": "Two-Year A level",
+          "ages": "Years 12–13",
+          "desc": "Most MPW A level students take this route. The usual plan is three A levels plus the EPQ (Extended Project Qualification), with the number and mix of subjects adjusted to the student. Subjects are explained at interview, and students can try taster lessons."
+        },
+        {
+          "title": "One-Year A level",
+          "ages": "Intensive · 1 year",
+          "desc": "Self-contained courses that cover the whole syllabus in one year, taught separately from the two-year programme. For students with some sixth-form experience, those changing school, or those adding a new subject for their university application. Expect a fast pace and frequent exam practice."
+        },
+        {
+          "title": "Transfer at the End of Year 12",
+          "ages": "Transfer",
+          "desc": "If the first year of A levels hasn't gone to plan, your child can join Year 13 at MPW or repeat Year 12. Subjects and exam boards can be changed where needed, and enrolment stays open until the September term starts."
+        },
+        {
+          "title": "A level and GCSE Retakes",
+          "ages": "1 year or January start",
+          "desc": "For students disappointed on results day. A one-year course if several units need relearning, or a short course starting in January for students who narrowly missed their grades. According to MPW, retake students improve by two grades on average."
+        },
+        {
+          "title": "Easter Revision",
+          "ages": "GCSE and A level · March–April",
+          "desc": "Intensive revision weeks before exams, open to students from any school. Examiner tutors find the gaps, run past-paper practice and teach exam technique. Available in 30 A level and 16 GCSE subjects at all three colleges."
+        },
+        {
+          "title": "MPW University Foundation",
+          "ages": "Ages 17+ · London",
+          "desc": "A university preparation year in the UK for international students who have finished high school at home. Students follow one pathway (Business and Economics, Engineering, Humanities, Science, or Sports Science and Psychology) alongside academic English."
+        },
+        {
+          "title": "UAL Foundation Diploma",
+          "ages": "Art and Design · London",
+          "desc": "A University of the Arts London (UAL) diploma for students aiming for leading art and design degrees in the UK, with portfolio preparation at its centre."
+        }
+      ],
+      "highlights": [
+        {
+          "title": "No one-size-fits-all",
+          "desc": "More than 40 subjects can be taken in any combination, over anything from one term to two years. Your child's programme is planned around their goals."
+        },
+        {
+          "title": "Small classes",
+          "desc": "MPW guarantees fewer than 10 students in every class. Your child can ask questions easily, and tutors can see exactly where each student is struggling."
+        },
+        {
+          "title": "Tutors who know the exams",
+          "desc": "Tutors hold first-class degrees or doctorates, and many mark A level or GCSE exams in their subject. MPW writes its own course notes."
+        },
+        {
+          "title": "Exam practice from day one",
+          "desc": "Every subject has monthly revision tests. In the exam year, students also sit weekly timed assignments under exam conditions."
+        },
+        {
+          "title": "Regular updates for parents",
+          "desc": "Test and homework marks are on a parent portal throughout the course. On top of parents' evenings, written subject reports go home five times a year."
+        },
+        {
+          "title": "Personal tutor and university guidance",
+          "desc": "Every student has a personal tutor. Support with UCAS, Oxbridge, Medicine and other competitive courses is part of the programme."
+        },
+        {
+          "title": "Treated as young adults",
+          "desc": "Fewer school rules and first names with tutors, but no slack on punctuality or deadlines. Your child gets used to university-style independence before they get there."
+        },
+        {
+          "title": "Measurable results",
+          "desc": "In MPW's 2026 results, 37% of A level grades were A*/A and 62% were A*–B. 85% of Oxbridge offer holders secured their places."
+        }
+      ],
+      "summerSchool": {
+        "eyebrow": "Summer School 2027",
+        "title": "MPW Summer School: London and Cambridge",
+        "intro": "MPW Summer School gives students aged 14 to 17 two weeks to explore an academic subject in English. Your child chooses one of 8 subject streams, joins life-skills workshops, hears university academics speak and learns how UK university applications work. In the school's own words: “Where young minds shine.”",
+        "courses": [
+          {
+            "title": "London Campus",
+            "ages": "14–17",
+            "level": "B1+",
+            "length": "2 weeks",
+            "dates": "27 June – 10 July · 11–24 July · 25 July – 7 August",
+            "desc": "In South Kensington, home to the museums, Imperial College and the Royal Albert Hall. All 8 streams run here, and Architecture and Art and Design are London only. Students stay at Queen's Gate House next to the college and go on industry trips linked to their subject."
+          },
+          {
+            "title": "Cambridge Campus",
+            "ages": "14–17",
+            "level": "B1+",
+            "length": "2 weeks",
+            "dates": "27 June – 10 July · 11–24 July · 25 July – 7 August",
+            "desc": "In the centre of the famous university city, with 6 subject streams. Students stay at Tripos Court, tour Cambridge colleges and go punting on the River Cam. Four-week students can spend one session in Cambridge and one in London."
+          }
+        ],
+        "includesTitle": "What the programme includes",
+        "includes": [
+          "One of 8 subject streams: Computing, Robotics and AI; Medicine and Sciences; Physics and Engineering; Business, Finance and Economics; Politics and Law; Psychology and Sociology; Architecture; Art and Design",
+          "My Path; My Way life-skills courses, one each week: public speaking, negotiation, persuasion, problem solving, emotional intelligence or media literacy",
+          "Weekly lectures by academics from the University of Cambridge and London universities, on topics such as AI and climate change",
+          "A 3½-hour University Preparation Workshop on UCAS, Oxbridge applications and personal statements",
+          "Guest speakers for each stream, plus industry trips (London) or university tours (Cambridge)",
+          "Museums, galleries, theatre, escape rooms, movie nights and karaoke",
+          "Single en-suite rooms, House Parents living in, and three meals a day",
+          "An awards ceremony on the last Friday, with a certificate and a personal progress report from the stream teacher"
+        ]
+      }
+    },
     "oisc": { "tagline": "", "intro": [], "facts": [], "programmes": [], "highlights": [] },
     "ef": { "tagline": "", "intro": [], "facts": [], "programmes": [], "highlights": [] }
   },

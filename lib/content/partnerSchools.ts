@@ -22,8 +22,13 @@
 export type PartnerSchool = {
   id: string;
   name: string;
+  /** Shorter name used inside headings on the detail page (e.g. "MPW Programmes"). Defaults to `name`. */
+  shortName?: string;
   website: string;
   logo?: string;
+  /** White/transparent version of the logo, shown directly on the dark hero photo of the detail page.
+   *  Without one, the hero shows `logo` on a small white card. */
+  logoOnDark?: string;
   /** Large photo at the top of the detail page. Without one, the hero uses a brand-coloured background. */
   heroImage?: string;
   /** Extra photos shown as a gallery on the detail page. */
@@ -39,6 +44,7 @@ const allPartnerSchools: PartnerSchool[] = [
     name: 'Haileybury',
     website: 'https://www.haileybury.com/',
     logo: '/images/partners/haileybury.svg',
+    logoOnDark: '/images/partners/haileybury-white.svg',
     heroImage: '/images/schools/haileybury/campus-aerial.jpg',
     gallery: [
       '/images/schools/haileybury/london-trip.jpg',
@@ -52,7 +58,27 @@ const allPartnerSchools: PartnerSchool[] = [
     ],
     detailPage: true,
   },
-  { id: 'mpw', name: 'MPW (Mander Portman Woodward)', website: 'https://www.mpw.ac.uk/', logo: '/images/partners/mpw.jpg', detailPage: false },
+  {
+    id: 'mpw',
+    name: 'MPW (Mander Portman Woodward)',
+    shortName: 'MPW',
+    website: 'https://www.mpw.ac.uk/',
+    logo: '/images/partners/mpw.jpg',
+    logoOnDark: '/images/partners/mpw-white.png',
+    heroImage: '/images/schools/mpw/natural-history-museum.jpg',
+    gallery: [
+      '/images/schools/mpw/cambridge-punting.jpg',
+      '/images/schools/mpw/robotics.jpg',
+      '/images/schools/mpw/medicine-lab.jpg',
+      '/images/schools/mpw/cambridge-college-tour.jpg',
+      '/images/schools/mpw/london-eye.jpg',
+      '/images/schools/mpw/life-skills-workshop.jpg',
+      '/images/schools/mpw/computer-lab.jpg',
+      '/images/schools/mpw/mock-trial.jpg',
+      '/images/schools/mpw/celebration.jpg',
+    ],
+    detailPage: true,
+  },
   { id: 'oisc', name: 'Oxford International Study Centre', website: 'https://www.oxintstudycentre.com/', logo: '/images/partners/oisc.svg', detailPage: false },
   { id: 'ef', name: 'EF Education First', website: 'https://www.ef.co.uk/', logo: '/images/partners/ef.svg', detailPage: false },
 ];

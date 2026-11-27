@@ -300,7 +300,151 @@
         ]
       }
     },
-    "mpw": { "tagline": "", "intro": [], "facts": [], "programmes": [], "highlights": [] },
+    "mpw": {
+      "tagline": "1973'ten beri Londra, Birmingham ve Cambridge'de, her öğrenciye göre şekillenen GCSE ve A level programları sunan bağımsız bir kolej.",
+      "intro": [
+        "MPW (Mander Portman Woodward), 1973'te Londra'da üç Cambridge Üniversitesi mezunu tarafından kuruldu. Bugün Londra, Birmingham ve Cambridge'de üç kolejiyle İngiltere'nin tanınmış bağımsız lise kolejlerinden biri. Okulun mottosu “Tailored, Not Uniform”: her öğrenci için ayrı ayarlanmış bir program, herkese aynı kalıp değil.",
+        "MPW'de öğrenciler 40'tan fazla GCSE ve A level dersi arasından kendi kombinasyonlarını seçiyor. Program bir dönemden iki yıla kadar sürebiliyor; çocuğunuz okuldan yeni çıkmış da olabilir, notlarını yükseltmek için gelmiş de. Dersler sınav odaklı, sınıflar küçük, öğretmenlerin önemli bir kısmı aynı zamanda sınav değerlendiricisi.",
+        "Kolej atmosferi bir okuldan çok üniversiteye yakın: öğrencilere genç yetişkin gibi davranılıyor, öğretmenlerle ilk isimle konuşuluyor. Buna karşılık derse zamanında gelmek ve ödev teslim tarihleri konusunda kurallar net. Her öğrencinin kişisel bir tutor'u var; UCAS başvurusu, Oxbridge ve tıp gibi rekabetçi bölümler için rehberlik programın parçası.",
+        "Kolejlerde her yıl yaklaşık 1.200 öğrenci okuyor; bunların üçte biri uluslararası öğrenci. MPW'nin verilerine göre öğrencilerin yaklaşık üçte ikisi Russell Group, University of London ve uzman üniversitelere devam ediyor."
+      ],
+      "facts": [
+        {
+          "label": "Kuruluş",
+          "value": "1973, Londra"
+        },
+        {
+          "label": "Öğrenciler",
+          "value": "Kız ve erkek (karma)"
+        },
+        {
+          "label": "Programlar",
+          "value": "GCSE, A level, Foundation"
+        },
+        {
+          "label": "Ders seçeneği",
+          "value": "40'tan fazla"
+        },
+        {
+          "label": "Yatılı",
+          "value": "Londra, Queen's Gate House"
+        },
+        {
+          "label": "Yaz okulu",
+          "value": "Londra ve Cambridge, 14–17 yaş"
+        }
+      ],
+      "programmes": [
+        {
+          "title": "GCSE ve IGCSE",
+          "ages": "1 veya 2 yıl",
+          "desc": "İngiltere'nin 16 yaş sınavları için, çocuğunuzun yaşına ve durumuna göre bir ya da iki yıllık program. Fen ve matematikten Mandarin, Latince, fotoğraf ve tekstile kadar 30 ders arasından seçim yapılabiliyor."
+        },
+        {
+          "title": "İki Yıllık A level",
+          "ages": "Year 12–13",
+          "desc": "MPW'de A level öğrencilerinin çoğu bu programda. Genellikle üç A level ve EPQ (bağımsız araştırma projesi) alınıyor; ders sayısı ve kombinasyonu öğrenciye göre ayarlanıyor. Kayıt görüşmesinde dersler tanıtılıyor, deneme derslerine katılmak mümkün."
+        },
+        {
+          "title": "Tek Yıllık A level",
+          "ages": "Yoğun program · 1 yıl",
+          "desc": "Tüm müfredatı bir yılda tamamlayan, iki yıllık programdan ayrı yürüyen yoğun dersler. Daha önce lise deneyimi olan, okul değiştiren ya da üniversite başvurusu için yeni bir ders eklemek isteyen öğrenciler için. Tempo hızlı, sınav pratiği sık."
+        },
+        {
+          "title": "Year 12 Sonunda Geçiş",
+          "ages": "Transfer",
+          "desc": "A level'ın ilk yılı beklendiği gibi geçmediyse çocuğunuz MPW'de Year 13'e katılabilir ya da Year 12'yi tekrarlayabilir. Gerekirse ders ve sınav kurulu değiştirilebiliyor; kayıt Eylül dönemi başlayana kadar açık."
+        },
+        {
+          "title": "A level ve GCSE Tekrarı",
+          "ages": "1 yıl veya Ocak başlangıçlı",
+          "desc": "Sonuç günü hayal kırıklığı yaşayan öğrenciler için. Birkaç ünitenin baştan çalışılması gerekiyorsa bir yıllık program, hedef notun az farkla kaçırıldığı durumlarda Ocak'ta başlayan kısa kurs. MPW'nin verilerine göre tekrar öğrencileri notlarını ortalama iki harf yükseltiyor."
+        },
+        {
+          "title": "Paskalya Tekrar Kursları",
+          "ages": "GCSE ve A level · Mart–Nisan",
+          "desc": "Her okuldan öğrenciye açık, sınav öncesi yoğun tekrar haftaları. Sınav değerlendiricisi öğretmenlerle eksik konuların tespiti, çıkmış soru pratiği ve sınav tekniği. 30 A level ve 16 GCSE dersinde, üç kolejde de açılıyor."
+        },
+        {
+          "title": "MPW University Foundation",
+          "ages": "17 yaş ve üzeri · Londra",
+          "desc": "Kendi ülkesinde liseyi bitirmiş uluslararası öğrenciler için İngiltere'de üniversiteye hazırlık yılı. İşletme ve Ekonomi, Mühendislik, Beşeri Bilimler, Fen ya da Spor Bilimi ve Psikoloji alanlarından biri, akademik İngilizce desteğiyle birlikte okunuyor."
+        },
+        {
+          "title": "UAL Foundation Diploma",
+          "ages": "Sanat ve Tasarım · Londra",
+          "desc": "Sanat ve tasarım alanında İngiltere'nin önde gelen üniversitelerine hazırlanan öğrenciler için University of the Arts London (UAL) diploması. Portfolyo hazırlığı programın merkezinde."
+        }
+      ],
+      "highlights": [
+        {
+          "title": "Herkese aynı kalıp yok",
+          "desc": "40'tan fazla ders, istenen kombinasyonda ve bir dönemden iki yıla kadar farklı sürelerde okunabiliyor. Program çocuğunuzun hedeflerine göre birlikte planlanıyor."
+        },
+        {
+          "title": "Küçük sınıflar",
+          "desc": "MPW her sınıfta 10'dan az öğrenci garantisi veriyor. Çocuğunuz soru sormaktan çekinmez, öğretmen de her öğrencinin nerede zorlandığını yakından görür."
+        },
+        {
+          "title": "Sınavı iyi bilen öğretmenler",
+          "desc": "Öğretmenler en az birincilik dereceli lisans ya da doktora sahibi; çoğu kendi dersinde A level veya GCSE sınav değerlendiricisi. Ders notlarını MPW kendisi hazırlıyor."
+        },
+        {
+          "title": "Sınav pratiği ilk günden",
+          "desc": "Her derste aylık tekrar sınavları yapılıyor; sınav yılında buna her hafta gerçek sınav koşullarında süreli ödevler ekleniyor."
+        },
+        {
+          "title": "Velilere düzenli bilgi",
+          "desc": "Sınav ve ödev sonuçları veli portalında anlık olarak görülebiliyor. Veli toplantılarının yanında yılda beş kez ders bazında yazılı rapor gönderiliyor."
+        },
+        {
+          "title": "Kişisel tutor ve üniversite rehberliği",
+          "desc": "Her öğrencinin bir tutor'u var. UCAS başvurusu, Oxbridge, tıp ve diğer rekabetçi bölümler için başvuru desteği programın parçası."
+        },
+        {
+          "title": "Genç yetişkin gibi",
+          "desc": "Okul kuralları azaltılmış, öğretmenlerle ilk isimle konuşuluyor; ama derse zamanında gelmek ve teslim tarihleri konusunda taviz yok. Çocuğunuz üniversite hayatına alışarak hazırlanır."
+        },
+        {
+          "title": "Ölçülebilir sonuçlar",
+          "desc": "MPW'nin 2026 verilerine göre A level notlarının %37'si A*/A, %62'si A*–B. Oxbridge kabulü alan öğrencilerin %85'i yerini garantiledi."
+        }
+      ],
+      "summerSchool": {
+        "eyebrow": "Yaz Okulu 2027",
+        "title": "MPW Summer School: Londra ve Cambridge",
+        "intro": "MPW Summer School (MPW Yaz Okulu), 14–17 yaş öğrencilere iki haftada bir akademik alanı İngilizce keşfetme fırsatı veriyor. Çocuğunuz 8 alandan birini seçer, yaşam becerileri atölyelerine katılır, üniversite akademisyenlerini dinler ve İngiltere'de üniversite başvurusunun nasıl yapıldığını öğrenir. Okulun sloganıyla: “Where young minds shine.”",
+        "courses": [
+          {
+            "title": "Londra Kampüsü",
+            "ages": "14–17",
+            "level": "B1+",
+            "length": "2 hafta",
+            "dates": "27 Haziran – 10 Temmuz · 11–24 Temmuz · 25 Temmuz – 7 Ağustos",
+            "desc": "Müzelerin, Imperial College'ın ve Royal Albert Hall'un bulunduğu South Kensington'da. 8 akademik alanın hepsi açık; Mimarlık ile Sanat ve Tasarım yalnızca Londra'da. Öğrenciler kolejin yanındaki Queen's Gate House'ta kalır, kendi alanlarıyla ilgili sektör gezilerine katılır."
+          },
+          {
+            "title": "Cambridge Kampüsü",
+            "ages": "14–17",
+            "level": "B1+",
+            "length": "2 hafta",
+            "dates": "27 Haziran – 10 Temmuz · 11–24 Temmuz · 25 Temmuz – 7 Ağustos",
+            "desc": "Dünyaca ünlü üniversite şehrinin merkezinde, 6 akademik alanla. Öğrenciler Tripos Court'ta kalır, Cambridge kolejlerini gezer, Cam nehrinde punting (geleneksel sandal turu) yapar. Dört hafta kalanlar bir dönemi Cambridge'de, diğerini Londra'da geçirebilir."
+          }
+        ],
+        "includesTitle": "Programda neler var",
+        "includes": [
+          "8 akademik alandan biri: Bilgisayar, Robotik ve Yapay Zeka; Tıp ve Bilim; Fizik ve Mühendislik; İşletme, Finans ve Ekonomi; Siyaset ve Hukuk; Psikoloji ve Sosyoloji; Mimarlık; Sanat ve Tasarım",
+          "My Path; My Way yaşam becerileri kursları, her hafta bir tane: topluluk önünde konuşma, müzakere, ikna, problem çözme, duygusal zeka ya da medya okuryazarlığı",
+          "Cambridge ve Londra üniversitelerinden akademisyenlerin haftalık konferansları; yapay zeka ve iklim değişikliği gibi konularda",
+          "3,5 saatlik Üniversite Hazırlık Atölyesi: UCAS, Oxbridge başvurusu ve kişisel beyan (personal statement)",
+          "Her alana özel konuk konuşmacılar ve sektör gezileri (Londra) ya da üniversite turları (Cambridge)",
+          "Müzeler, galeriler, tiyatro, kaçış odası, film geceleri ve karaoke",
+          "Banyolu tek kişilik odalar, öğrencilerle aynı binada kalan House Parent'lar ve günde 3 öğün",
+          "Son Cuma ödül töreni: katılım sertifikası ve alan öğretmeninden kişisel gelişim raporu"
+        ]
+      }
+    },
     "oisc": { "tagline": "", "intro": [], "facts": [], "programmes": [], "highlights": [] },
     "ef": { "tagline": "", "intro": [], "facts": [], "programmes": [], "highlights": [] }
   },

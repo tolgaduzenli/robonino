@@ -17,7 +17,7 @@ const emptyCopy: SchoolPageCopy = { tagline: '', intro: [], facts: [], programme
 const isDev = process.env.NODE_ENV !== 'production';
 
 function fill(template: string, school: School) {
-  return template.replaceAll('{school}', school.name);
+  return template.replaceAll('{school}', school.shortName ?? school.name);
 }
 
 /** Copy for one school, with the short card text as fallback for the tagline. */
@@ -114,9 +114,22 @@ export function SchoolView({ locale, school }: { locale: Locale; school: School 
             <span className="text-white">{school.name}</span>
           </nav>
 
-          <div className="mb-6 inline-flex rounded-[16px] bg-white px-5 py-3.5" style={{ boxShadow: '0 12px 30px oklch(10% 0.05 258 / 0.25)' }}>
-            <SchoolMark school={school} size={52} />
-          </div>
+          {school.logoOnDark ? (
+            <Image
+              src={school.logoOnDark}
+              alt={school.name}
+              width={0}
+              height={0}
+              sizes="240px"
+              priority
+              className="mb-6 h-[64px] w-auto max-w-[240px] object-contain object-left"
+              style={{ filter: 'drop-shadow(0 2px 8px oklch(10% 0.05 258 / 0.45))' }}
+            />
+          ) : (
+            <div className="mb-6 inline-flex rounded-[12px] bg-white px-3.5 py-2.5" style={{ boxShadow: '0 12px 30px oklch(10% 0.05 258 / 0.25)' }}>
+              <SchoolMark school={school} size={40} />
+            </div>
+          )}
 
           <h1 className="m-0 mb-3 font-poppins text-[clamp(34px,5vw,58px)] font-extrabold leading-[1.05] tracking-tight text-white">
             {school.name}
@@ -220,7 +233,7 @@ export function SchoolView({ locale, school }: { locale: Locale; school: School 
           <div className="mx-auto max-w-[1280px]">
             <SectionHeading eyebrow={t.programmesEyebrow} title={fill(t.programmesTitle, school)} eyebrowColor={colors.teal} />
             {page.programmes.length > 0 ? (
-              <div className="grid gap-[22px] md:grid-cols-2 lg:grid-cols-3">
+              <div className={`grid gap-[22px] md:grid-cols-2 ${page.programmes.length % 3 !== 0 && page.programmes.length % 4 === 0 ? 'xl:grid-cols-4 lg:grid-cols-2' : 'lg:grid-cols-3'}`}>
                 {page.programmes.map((p) => (
                   <div key={p.title} className="rn-card flex flex-col rounded-[18px] bg-white p-7" style={{ boxShadow: '0 8px 24px oklch(30% 0.09 258 / 0.07)' }}>
                     <IconTile icon="menu_book" bg={tint.tealIcon18} color={colors.tealDark} />
