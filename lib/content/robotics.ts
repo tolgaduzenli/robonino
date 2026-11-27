@@ -25,7 +25,7 @@ export const features = [
 ] as const;
 
 export const gallery = [
-  { image: 'https://images.unsplash.com/photo-1581092160607-ee22731cb92f?w=700&q=80' },
+  { image: '/images/robotics/workshop-table.jpg' },
   { image: 'https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=700&q=80' },
   { image: 'https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=700&q=80' },
   { image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=700&q=80' },

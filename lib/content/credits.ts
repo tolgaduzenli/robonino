@@ -33,4 +33,10 @@ export const photoCredits = [
     source: 'Unsplash',
     sourceUrl: 'https://unsplash.com/photos/c1DKRBJtSdI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
   },
+  {
+    name: 'Gabriel Vasiliu',
+    profileUrl: 'https://unsplash.com/@gabimedia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+    source: 'Unsplash',
+    sourceUrl: 'https://unsplash.com/photos/F9Qjauv2C3g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+  },
 ] as const;
