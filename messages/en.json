@@ -18,7 +18,7 @@
     "newsletterDesc": "News on schools, STEM camps and events, sent in English or Turkish.",
     "emailPlaceholder": "Email address",
     "subscribe": "Subscribe",
-    "brandBlurb": "A UK-based education company. We teach robotics and coding to children, help families find language schools in the UK, and run team workshops for companies.",
+    "brandBlurb": "A UK-based international education and innovation company. We create UK learning experiences for young people, STEM programmes for children and innovation workshops for organisations.",
     "programsHeading": "Programs",
     "companyHeading": "Company",
     "contactHeading": "UK Contact",
@@ -41,11 +41,11 @@
     }
   },
   "home": {
-    "metaTitle": "Robonino | Study in the UK, Robotics & Coding, Team Workshops",
-    "metaDescription": "Robonino helps families find UK language schools, teaches robotics and coding to children with Young Engineers, and runs team-building workshops for companies.",
+    "metaTitle": "Robonino | UK Education, STEM & International Experiences",
+    "metaDescription": "Robonino helps young people discover UK education and international experiences, delivers hands-on STEM learning for children, and designs innovation workshops for organisations.",
     "hero": {
-      "title": "Robotics for Kids, UK Schools for Families, Workshops for Teams",
-      "desc": "We're based in the UK and work in English and Turkish. Our robotics classes follow the Young Engineers curriculum, and we help families choose a UK language school and handle the application.",
+      "title": "Education, Discovery and New Opportunities Beyond Borders",
+      "desc": "UK-based Robonino helps young people experience education and campus life in the UK, children develop STEM skills, and organisations learn together. We guide families in English and Turkish through school selection, applications and visa processes.",
       "ctaStudy": "Study in UK",
       "ctaRobotics": "Robotics & Coding",
       "ctaEvents": "Corporate Events",
@@ -55,27 +55,46 @@
     },
     "services": {
       "eyebrow": "What We Do",
-      "title": "Three Services, One Team",
-      "desc": "Language schools in the UK, robotics classes for children and workshops for companies, all organised by the same team.",
+      "title": "Different Experiences, One Shared Purpose",
+      "desc": "We turn learning into real-world experiences through international education programmes, hands-on STEM learning for children and innovation workshops for organisations.",
       "study": {
         "badge": "Study in UK",
-        "title": "Study English in the UK",
-        "desc": "We find and book UK language schools for children, teenagers, adults and families.",
-        "features": ["School placement", "Summer schools", "Visa guidance", "Accommodation support", "Airport transfers", "Parent communication"],
+        "title": "UK Education & International Experiences",
+        "desc": "Programmes primarily for ages 11–17, bringing together English learning, campus life, international friendships and opportunities to explore personal interests. We also help adults find English language courses.",
+        "features": [
+          "School placement",
+          "Summer schools",
+          "Visa guidance",
+          "Accommodation support",
+          "Airport transfers",
+          "Parent communication"
+        ],
         "cta": "Explore Programs →"
       },
       "robotics": {
         "badge": "Robotics & Coding",
         "title": "Robotics & Coding for Kids",
         "desc": "Hands-on STEM classes where children build robots and learn to code.",
-        "features": ["Robotics workshops", "Coding lessons", "STEM clubs", "School programs", "Holiday camps"],
+        "features": [
+          "Robotics workshops",
+          "Coding lessons",
+          "STEM clubs",
+          "School programs",
+          "Holiday camps"
+        ],
         "cta": "Discover STEM →"
       },
       "events": {
         "badge": "Corporate Events",
         "title": "Corporate & Social Events",
         "desc": "Team-building workshops for companies, built around robotics and problem-solving.",
-        "features": ["Team building", "Robotics challenges", "Innovation workshops", "Networking events", "Creative activities"],
+        "features": [
+          "Team building",
+          "Robotics challenges",
+          "Innovation workshops",
+          "Networking events",
+          "Creative activities"
+        ],
         "cta": "Plan an Event →"
       }
     },
@@ -83,32 +102,77 @@
       "eyebrow": "Why Families & Companies Choose Us",
       "title": "Why Robonino",
       "items": [
-        { "title": "UK-Based Support", "desc": "Our team lives in England, so help is close by while your child is here." },
-        { "title": "Trusted School Partners", "desc": "We only work with language schools and STEM partners we have checked ourselves." },
-        { "title": "Child Safety First", "desc": "Safeguarding and duty of care are part of every program we run." },
-        { "title": "Turkish & English Communication", "desc": "Talk to us in Turkish or English, whichever you prefer." },
-        { "title": "International Experience", "desc": "We have spent years helping Turkish families with UK schools and institutions." },
-        { "title": "Professional Organisation", "desc": "We handle the logistics, from paperwork to airport pickup." }
+        {
+          "title": "UK-Based Support",
+          "desc": "Our UK-based team gets to know schools and learning environments first-hand, offering families local insight and support."
+        },
+        {
+          "title": "Trusted School Partners",
+          "desc": "We only work with language schools and STEM partners we have checked ourselves."
+        },
+        {
+          "title": "Child Safety First",
+          "desc": "Safeguarding and duty of care are part of every program we run."
+        },
+        {
+          "title": "Turkish & English Communication",
+          "desc": "Talk to us in Turkish or English, whichever you prefer."
+        },
+        {
+          "title": "International Experience",
+          "desc": "We have spent years helping Turkish families with UK schools and institutions."
+        },
+        {
+          "title": "Professional Organisation",
+          "desc": "We handle the logistics, from paperwork to airport pickup."
+        }
       ]
     },
     "destinations": {
       "eyebrow": "Where You'll Study",
       "title": "Featured Destinations",
       "items": [
-        { "name": "London", "tag": "Life in the capital" },
-        { "name": "Oxford", "tag": "Historic university city" },
-        { "name": "Cambridge", "tag": "Home of the famous colleges" },
-        { "name": "Brighton", "tag": "City life by the sea" },
-        { "name": "Bournemouth", "tag": "Beaches and summer camps" }
+        {
+          "name": "London",
+          "tag": "Life in the capital"
+        },
+        {
+          "name": "Oxford",
+          "tag": "Historic university city"
+        },
+        {
+          "name": "Cambridge",
+          "tag": "Home of the famous colleges"
+        },
+        {
+          "name": "Brighton",
+          "tag": "City life by the sea"
+        },
+        {
+          "name": "Bournemouth",
+          "tag": "Beaches and summer camps"
+        }
       ]
     },
     "testimonials": {
       "eyebrow": "Real Stories",
       "title": "What Families & Partners Say",
       "items": [
-        { "quote": "Robonino guided our daughter's whole summer school placement — visas, host family, everything. We felt cared for the entire way.", "name": "Elif Yılmaz", "role": "Parent, Istanbul" },
-        { "quote": "The robotics camp completely changed how my son sees technology. He built his first real robot in a week.", "name": "Mehmet Kaya", "role": "Parent & Student Family" },
-        { "quote": "We booked a Robonino innovation workshop for our leadership offsite — genuinely one of the best team events we've run.", "name": "Sarah Whitfield", "role": "Head of People, London" }
+        {
+          "quote": "Robonino guided our daughter's whole summer school placement — visas, host family, everything. We felt cared for the entire way.",
+          "name": "Elif Yılmaz",
+          "role": "Parent, Istanbul"
+        },
+        {
+          "quote": "The robotics camp completely changed how my son sees technology. He built his first real robot in a week.",
+          "name": "Mehmet Kaya",
+          "role": "Parent & Student Family"
+        },
+        {
+          "quote": "We booked a Robonino innovation workshop for our leadership offsite — genuinely one of the best team events we've run.",
+          "name": "Sarah Whitfield",
+          "role": "Head of People, London"
+        }
       ]
     },
     "cta": {
@@ -127,10 +191,22 @@
     "homeCta": "See our partner schools",
     "visitWebsite": "Visit website",
     "items": [
-      { "city": "Hertford, Hertfordshire", "desc": "A school where curiosity is celebrated and pupils are encouraged to take on challenges, think bigger and build character every day." },
-      { "city": "London, Birmingham & Cambridge", "desc": "Founded in 1973, MPW runs GCSE and A level colleges in three cities, with programmes built around each student instead of a one-size-fits-all timetable." },
-      { "city": "Oxford", "desc": "A tutorial college and language school with two centres in central Oxford. It teaches international and UK students, and adapts the teaching to each student's starting point and goals." },
-      { "city": "Schools across the UK", "desc": "An international education company offering language courses, cultural exchange, academic programmes and educational travel." }
+      {
+        "city": "Hertford, Hertfordshire",
+        "desc": "A school where curiosity is celebrated and pupils are encouraged to take on challenges, think bigger and build character every day."
+      },
+      {
+        "city": "London, Birmingham & Cambridge",
+        "desc": "Founded in 1973, MPW runs GCSE and A level colleges in three cities, with programmes built around each student instead of a one-size-fits-all timetable."
+      },
+      {
+        "city": "Oxford",
+        "desc": "A tutorial college and language school with two centres in central Oxford. It teaches international and UK students, and adapts the teaching to each student's starting point and goals."
+      },
+      {
+        "city": "Schools across the UK",
+        "desc": "An international education company offering language courses, cultural exchange, academic programmes and educational travel."
+      }
     ]
   },
   "schoolPage": {
@@ -823,46 +899,86 @@
     }
   },
   "studyUk": {
-    "metaTitle": "Study English in the UK | Robonino",
-    "metaDescription": "Robonino finds UK language schools and summer schools for children, teenagers, adults and families, and helps with visas, accommodation and airport transfers.",
+    "metaTitle": "Study in the UK: Education & Summer Programmes | Robonino",
+    "metaDescription": "UK English learning, campus life, international friendships and interest-led programmes for ages 11–17. Separate language school options and application guidance for adults.",
     "hero": {
-      "title": "Learn English Where It's Spoken",
-      "desc": "We help you choose a language school, handle the enrolment, and stay in touch with you until the course is over.",
-      "primaryCta": "Get a Free Consultation",
-      "secondaryCta": "View Programs",
-      "imageAlt": "Students on a UK language school campus"
+      "title": "More Than a Language Course. An Experience That Opens Doors.",
+      "desc": "Studying in the UK can mean historic campuses, friendships with young people from around the world and the chance to discover new interests. We help families explore programmes for ages 11–17 that combine English learning with social, cultural and academic experiences, guiding you through school selection, applications and visa processes.",
+      "primaryCta": "Explore Programmes for Your Child",
+      "secondaryCta": "Book a Free Consultation",
+      "imageAlt": "International young people learning together on a UK school campus"
     },
     "audiences": {
-      "eyebrow": "Programs for Every Age",
-      "title": "Who We Help",
+      "eyebrow": "Our Focus: International Experiences for Young People",
+      "title": "Different Learning Journeys for Different Ages",
       "items": [
-        { "title": "Children (6–15)", "desc": "Supervised programs where younger children pick up English through activities, with regular updates for parents." },
-        { "title": "Young People (16+)", "desc": "Summer schools and term-time courses that prepare teenagers to study in English at university." },
-        { "title": "Adults", "desc": "Intensive and general English courses for work, study or personal reasons." },
-        { "title": "Families", "desc": "Parents and children can study during the same weeks and stay together." }
+        {
+          "title": "Young People (11–17) — Our Core Programmes",
+          "desc": "Summer schools and themed programmes that bring English lessons together with campus life, international friendships, sport and social activities. Programme content varies by age, English level and each student's interests."
+        },
+        {
+          "title": "Adults (18+)",
+          "desc": "General and intensive English courses for work, study or personal development. Adult language courses are considered separately from our school-age campus and summer school experiences."
+        },
+        {
+          "title": "Families",
+          "desc": "Where suitable schools and dates are available, parents and children may be able to study during the same period, with family accommodation options considered."
+        },
+        {
+          "title": "Younger Children",
+          "desc": "Options for children under 11 depend on each school's age requirements and supervision arrangements. We assess availability and suitability with the family."
+        }
       ]
     },
     "features": {
-      "eyebrow": "From Start to Finish",
-      "title": "What We Take Care Of",
+      "eyebrow": "Guidance for Families, From Start to Finish",
+      "title": "Support at Every Stage of the Journey",
       "items": [
-        { "title": "School Placement", "desc": "We match each student to one of our UK partner schools by age, level and goals." },
-        { "title": "Summer Schools", "desc": "Residential and day programs during the summer holidays." },
-        { "title": "Visa Guidance", "desc": "Help with each step of the UK study visa application." },
-        { "title": "Accommodation Support", "desc": "Host families, student residences or family stays, all checked for safety." },
-        { "title": "Airport Transfers", "desc": "We arrange airport pickups, so students never have to find their own way." },
-        { "title": "Parent Communication", "desc": "Regular updates in Turkish or English while your child is in the UK." }
+        {
+          "title": "Finding the Right Programme",
+          "desc": "We explore partner-school options together, taking account of the student's age, English level, interests and goals."
+        },
+        {
+          "title": "Campus and Summer School Experiences",
+          "desc": "We look at residential and day options, considering lessons alongside social activities, sport, trips and any subject-themed project work offered."
+        },
+        {
+          "title": "Applications and Enrolment",
+          "desc": "We help you understand the steps, documents and arrangements involved in applying to and enrolling with a school."
+        },
+        {
+          "title": "Visa Application Guidance",
+          "desc": "We guide families through the UK visa application process and supporting documents. Visa decisions are made by the relevant authorities."
+        },
+        {
+          "title": "Accommodation and Travel",
+          "desc": "Depending on the programme, we help consider boarding, homestay or family accommodation and practical arrangements such as airport transfers."
+        },
+        {
+          "title": "Parent Communication",
+          "desc": "We provide communication support in English and Turkish while your child is in the UK, in line with the arrangements of the programme."
+        }
       ]
     },
     "destinations": {
       "eyebrow": "Cities",
       "title": "Where Our Students Study",
       "items": [
-        { "name": "London" },
-        { "name": "Oxford" },
-        { "name": "Cambridge" },
-        { "name": "Brighton" },
-        { "name": "Bournemouth" }
+        {
+          "name": "London"
+        },
+        {
+          "name": "Oxford"
+        },
+        {
+          "name": "Cambridge"
+        },
+        {
+          "name": "Brighton"
+        },
+        {
+          "name": "Bournemouth"
+        }
       ]
     },
     "testimonial": {
@@ -871,8 +987,8 @@
       "role": "Parent, Ankara"
     },
     "cta": {
-      "title": "Planning a Course in the UK?",
-      "desc": "Tell us the student's age, level and goals, and we'll suggest schools and cities that fit.",
+      "title": "Let's Plan the Right UK Experience for Your Child",
+      "desc": "Tell us your child's age, English level and interests. We'll explore suitable programmes and the details that matter to your family.",
       "primary": "Send a Message",
       "secondary": "Book a Free Call"
     }
@@ -893,35 +1009,82 @@
       "title": "Meet the Young Engineers Programs",
       "subTitle": "Eight programs for ages 4 to 18, all following the Young Engineers curriculum used in over 100 countries.",
       "items": [
-        { "title": "AlgoBuddy (4-6 years)", "desc": "Young children take their first coding steps with physical blocks or a screen app." },
-        { "title": "Big Builders (4-6 years)", "desc": "Kids build 3D models with flexible parts while discovering science and basic engineering." },
-        { "title": "Smartivo (4-6 years)", "desc": "Children follow story missions and give a robot simple commands to make it move and light up." },
-        { "title": "AlgoPlay (6-10 years)", "desc": "Kids build models with Algobrix blocks, write code sequences, and bring their robot to life." },
-        { "title": "Bricks Challenge (6-10 years)", "desc": "Kids explore forces, balance, and mechanics hands-on by building with construction blocks." },
-        { "title": "Galileo Technic (7-10 years)", "desc": "Children build more complex models to learn about gears, motion and energy." },
-        { "title": "RoboToys (9-12 years)", "desc": "Kids build more advanced robots and program them, which trains logical thinking." },
-        { "title": "AlgoC (13-18 years)", "desc": "Teens code real robotics projects in C with Arduino and get an intro to AI-driven behavior." }
+        {
+          "title": "AlgoBuddy (4-6 years)",
+          "desc": "Young children take their first coding steps with physical blocks or a screen app."
+        },
+        {
+          "title": "Big Builders (4-6 years)",
+          "desc": "Kids build 3D models with flexible parts while discovering science and basic engineering."
+        },
+        {
+          "title": "Smartivo (4-6 years)",
+          "desc": "Children follow story missions and give a robot simple commands to make it move and light up."
+        },
+        {
+          "title": "AlgoPlay (6-10 years)",
+          "desc": "Kids build models with Algobrix blocks, write code sequences, and bring their robot to life."
+        },
+        {
+          "title": "Bricks Challenge (6-10 years)",
+          "desc": "Kids explore forces, balance, and mechanics hands-on by building with construction blocks."
+        },
+        {
+          "title": "Galileo Technic (7-10 years)",
+          "desc": "Children build more complex models to learn about gears, motion and energy."
+        },
+        {
+          "title": "RoboToys (9-12 years)",
+          "desc": "Kids build more advanced robots and program them, which trains logical thinking."
+        },
+        {
+          "title": "AlgoC (13-18 years)",
+          "desc": "Teens code real robotics projects in C with Arduino and get an intro to AI-driven behavior."
+        }
       ]
     },
     "features": {
       "eyebrow": "How We Teach",
       "title": "Classes, Clubs and Camps",
       "items": [
-        { "title": "Robotics Workshops", "desc": "Hands-on sessions building and programming real robots." },
-        { "title": "Coding Lessons", "desc": "A step-by-step course that starts with block coding and moves on to text-based languages." },
-        { "title": "STEM Clubs", "desc": "Weekly clubs where children build up a portfolio of finished projects over the term." },
-        { "title": "School Programs", "desc": "We bring STEM lessons into schools, matched to their curriculum." },
-        { "title": "Holiday Camps", "desc": "Full-day robotics & coding camps during school breaks." }
+        {
+          "title": "Robotics Workshops",
+          "desc": "Hands-on sessions building and programming real robots."
+        },
+        {
+          "title": "Coding Lessons",
+          "desc": "A step-by-step course that starts with block coding and moves on to text-based languages."
+        },
+        {
+          "title": "STEM Clubs",
+          "desc": "Weekly clubs where children build up a portfolio of finished projects over the term."
+        },
+        {
+          "title": "School Programs",
+          "desc": "We bring STEM lessons into schools, matched to their curriculum."
+        },
+        {
+          "title": "Holiday Camps",
+          "desc": "Full-day robotics & coding camps during school breaks."
+        }
       ]
     },
     "gallery": {
       "eyebrow": "In the Classroom",
       "title": "A Look at Our Workshops",
       "items": [
-        { "label": "Robotics workshop table" },
-        { "label": "Kids coding on laptops" },
-        { "label": "LEGO robotics kits" },
-        { "label": "Team presenting a robot" }
+        {
+          "label": "Robotics workshop table"
+        },
+        {
+          "label": "Kids coding on laptops"
+        },
+        {
+          "label": "LEGO robotics kits"
+        },
+        {
+          "label": "Team presenting a robot"
+        }
       ]
     },
     "testimonial": {
@@ -951,30 +1114,62 @@
       "eyebrow": "Choose a Format",
       "title": "Pick What Suits Your Team",
       "items": [
-        { "title": "Team Building", "desc": "Group challenges that can only be solved if people cooperate." },
-        { "title": "Robotics Challenges", "desc": "Teams design and race robots against the clock." },
-        { "title": "Innovation Workshops", "desc": "Guided sessions where teams turn an idea into a working prototype." }
+        {
+          "title": "Team Building",
+          "desc": "Group challenges that can only be solved if people cooperate."
+        },
+        {
+          "title": "Robotics Challenges",
+          "desc": "Teams design and race robots against the clock."
+        },
+        {
+          "title": "Innovation Workshops",
+          "desc": "Guided sessions where teams turn an idea into a working prototype."
+        }
       ]
     },
     "features": {
       "eyebrow": "What's Included",
       "title": "We Organise the Whole Event",
       "items": [
-        { "title": "Venue & Logistics", "desc": "We source and manage the space, equipment and schedule." },
-        { "title": "Expert Facilitators", "desc": "Experienced hosts trained in robotics and workshop design." },
-        { "title": "Custom Challenges", "desc": "Activities planned around your team's size and goals." },
-        { "title": "Catering Coordination", "desc": "We arrange food and drinks for the day." },
-        { "title": "Post-Event Report", "desc": "After the event we send you photos, feedback and the main takeaways." }
+        {
+          "title": "Venue & Logistics",
+          "desc": "We source and manage the space, equipment and schedule."
+        },
+        {
+          "title": "Expert Facilitators",
+          "desc": "Experienced hosts trained in robotics and workshop design."
+        },
+        {
+          "title": "Custom Challenges",
+          "desc": "Activities planned around your team's size and goals."
+        },
+        {
+          "title": "Catering Coordination",
+          "desc": "We arrange food and drinks for the day."
+        },
+        {
+          "title": "Post-Event Report",
+          "desc": "After the event we send you photos, feedback and the main takeaways."
+        }
       ]
     },
     "gallery": {
       "eyebrow": "Recent Events",
       "title": "A Look at Past Sessions",
       "items": [
-        { "label": "Team robotics challenge" },
-        { "label": "Innovation workshop" },
-        { "label": "Group networking session" },
-        { "label": "Prototype presentation" }
+        {
+          "label": "Team robotics challenge"
+        },
+        {
+          "label": "Innovation workshop"
+        },
+        {
+          "label": "Group networking session"
+        },
+        {
+          "label": "Prototype presentation"
+        }
       ]
     },
     "testimonial": {
@@ -991,11 +1186,11 @@
   },
   "about": {
     "metaTitle": "About Robonino",
-    "metaDescription": "Robonino is a UK-based education company: the Young Engineers franchisee for robotics and coding, UK school placement for families, and team workshops for companies.",
+    "metaDescription": "Robonino is a UK-based international education and innovation company, offering UK learning experiences for young people, Young Engineers STEM programmes for children and innovation workshops for organisations.",
     "hero": {
       "eyebrow": "About Robonino",
-      "title": "Based in the UK, Working in Two Languages",
-      "desc": "Robonino is a UK-based education and innovation company. We teach children robotics and coding, guide families through studying abroad, and design workshops for companies."
+      "title": "Opening Doors to Education and Opportunities Around the World",
+      "desc": "Robonino is a UK-based international education and innovation company. We help young people discover educational experiences abroad, children develop STEM skills and organisations learn together."
     },
     "story": {
       "title": "Our Story",
@@ -1007,19 +1202,46 @@
       "eyebrow": "How We Work",
       "title": "Our Values",
       "items": [
-        { "title": "Trust First", "desc": "We check every partner school and venue ourselves." },
-        { "title": "Child Safety", "desc": "Safeguarding and duty-of-care in every program we run." },
-        { "title": "Made by Educators", "desc": "Our programs are designed by educators and engineers." },
-        { "title": "Two Languages", "desc": "You get full support in English and Turkish." }
+        {
+          "title": "Trust First",
+          "desc": "We check every partner school and venue ourselves."
+        },
+        {
+          "title": "Child Safety",
+          "desc": "Safeguarding and duty-of-care in every program we run."
+        },
+        {
+          "title": "Made by Educators",
+          "desc": "Our programs are designed by educators and engineers."
+        },
+        {
+          "title": "Two Languages",
+          "desc": "You get full support in English and Turkish."
+        }
       ]
     },
     "team": {
       "eyebrow": "The People Behind Robonino",
       "title": "Our Team",
       "members": [
-        {"id": "tolga", "name": "Tolga Düzenli", "role": "Robonino Founder and UK Education Consultant", "bio": "I graduated from Hacettepe University with a degree in Computer Engineering in 2011. Having had the opportunity to live in three different countries, I have been based in London since 2018, where I work as a software engineer in the financial sector.\n\nBecoming a father gave me a new perspective on children's development, education and the decisions parents make about their children's future. This interest inspired me to take my first step into children's education in 2024, launching a LEGO and STEM education business in London as a Young Engineers franchisee. I later brought the same educational concept to Turkey, establishing Genç Mühendisler in Adana.\n\nThrough Robonino, I now aim to help families in Turkey find the right English language schools and educational programmes for their children. Living in London gives me the opportunity to build direct relationships with UK schools, gain first-hand knowledge of their programmes and understand the local educational environment. I want to use this experience and local insight to help families make informed decisions and find opportunities that match their children's interests and needs.\n\nFor me, it is about more than simply recommending a school or a programme. It is about helping families find the right educational experience, one that supports their children's development while giving parents confidence and peace of mind."},
-        {"id": "miray", "name": "Miray Soylu", "role": "Robonino Istanbul Consultant", "bio": "I live in Istanbul, I'm a lawyer and the mother of a daughter. The care I took in choosing a school where my daughter would feel safe and happy and learn English is the care I bring to the families I guide at Robonino. I travel to London often to get to know schools and programmes first-hand. Together with families, I look at summer school and half-term English programmes that suit their children's interests and needs, and I support them through the application process."},
-        {"id": "cagatay", "name": "Cagatay Duzenli", "role": "Robonino Visa Consultant", "bio": "I am an entrepreneur and business owner working in international education, travel and visa consultancy. Based in Adana, Turkey, I have spent years helping students and families explore educational and professional opportunities abroad.\n\nMy main areas of expertise include Work and Travel programmes for university students, as well as visa application consultancy for the UK, European countries and the United States. I also operate a Work and Travel business in the US and support families in Turkey who are exploring international language schools and educational opportunities for their children.\n\nAs a father of a daughter, I understand the excitement and responsibility that come with making decisions about a child's international education and future. Through Robonino, I aim to help families not only explore the right educational opportunities but also navigate the visa application processes and practical arrangements that make studying abroad possible.\n\nI believe every international journey starts with good planning, reliable guidance and the confidence to take the first step."}
+        {
+          "id": "tolga",
+          "name": "Tolga Düzenli",
+          "role": "Robonino Founder and UK Education Consultant",
+          "bio": "I graduated from Hacettepe University with a degree in Computer Engineering in 2011. Having had the opportunity to live in three different countries, I have been based in London since 2018, where I work as a software engineer in the financial sector.\n\nBecoming a father gave me a new perspective on children's development, education and the decisions parents make about their children's future. This interest inspired me to take my first step into children's education in 2024, launching a LEGO and STEM education business in London as a Young Engineers franchisee. I later brought the same educational concept to Turkey, establishing Genç Mühendisler in Adana.\n\nThrough Robonino, I now aim to help families in Turkey find the right English language schools and educational programmes for their children. Living in London gives me the opportunity to build direct relationships with UK schools, gain first-hand knowledge of their programmes and understand the local educational environment. I want to use this experience and local insight to help families make informed decisions and find opportunities that match their children's interests and needs.\n\nFor me, it is about more than simply recommending a school or a programme. It is about helping families find the right educational experience, one that supports their children's development while giving parents confidence and peace of mind."
+        },
+        {
+          "id": "miray",
+          "name": "Miray Soylu",
+          "role": "Robonino Istanbul Consultant",
+          "bio": "I live in Istanbul, I'm a lawyer and the mother of a daughter. The care I took in choosing a school where my daughter would feel safe and happy and learn English is the care I bring to the families I guide at Robonino. I travel to London often to get to know schools and programmes first-hand. Together with families, I look at summer school and half-term English programmes that suit their children's interests and needs, and I support them through the application process."
+        },
+        {
+          "id": "cagatay",
+          "name": "Cagatay Duzenli",
+          "role": "Robonino Visa Consultant",
+          "bio": "I am an entrepreneur and business owner working in international education, travel and visa consultancy. Based in Adana, Turkey, I have spent years helping students and families explore educational and professional opportunities abroad.\n\nMy main areas of expertise include Work and Travel programmes for university students, as well as visa application consultancy for the UK, European countries and the United States. I also operate a Work and Travel business in the US and support families in Turkey who are exploring international language schools and educational opportunities for their children.\n\nAs a father of a daughter, I understand the excitement and responsibility that come with making decisions about a child's international education and future. Through Robonino, I aim to help families not only explore the right educational opportunities but also navigate the visa application processes and practical arrangements that make studying abroad possible.\n\nI believe every international journey starts with good planning, reliable guidance and the confidence to take the first step."
+        }
       ]
     },
     "cta": {
@@ -1044,7 +1266,12 @@
       "phone": "Phone / WhatsApp",
       "phonePlaceholder": "+44 ...",
       "interest": "I'm interested in",
-      "interestOptions": ["Study in UK", "Robotics & Coding", "Corporate Events", "Something else"],
+      "interestOptions": [
+        "Study in UK",
+        "Robotics & Coding",
+        "Corporate Events",
+        "Something else"
+      ],
       "message": "Message",
       "messagePlaceholder": "Tell us a bit about what you're looking for...",
       "submit": "Send Message",
@@ -1054,7 +1281,11 @@
     },
     "info": {
       "officeTitle": "UK Office",
-      "officeAddressLines": ["", "London", "United Kingdom"],
+      "officeAddressLines": [
+        "",
+        "London",
+        "United Kingdom"
+      ],
       "directTitle": "Direct Contact",
       "phone": "+44",
       "email": "info@robonino.com",
@@ -1071,7 +1302,9 @@
     "sections": [
       {
         "heading": "1. Who We Are",
-        "blocks": ["Robonino\nLondon, UK\nContact: via the form on our Contact page"]
+        "blocks": [
+          "Robonino\nLondon, UK\nContact: via the form on our Contact page"
+        ]
       },
       {
         "heading": "2. Information We Collect",
@@ -1195,7 +1428,9 @@
     "sections": [
       {
         "heading": "1. About Us",
-        "blocks": ["Robonino\nLondon, UK\nContact: via the form on our Contact page"]
+        "blocks": [
+          "Robonino\nLondon, UK\nContact: via the form on our Contact page"
+        ]
       },
       {
         "heading": "2. Our Services",
