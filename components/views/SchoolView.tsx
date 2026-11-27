@@ -131,7 +131,7 @@ export function SchoolView({ locale, school }: { locale: Locale; school: School 
             {tagline}
           </p>
 
-          <div className="flex flex-wrap gap-3.5">
+          {/* <div className="flex flex-wrap gap-3.5">
             <Link
               href={contactHref}
               className="rn-btn-primary rounded-xl px-[26px] py-[15px] font-poppins text-[15px] font-bold text-white no-underline"
@@ -149,7 +149,7 @@ export function SchoolView({ locale, school }: { locale: Locale; school: School 
               {dict.partnerSchools.visitWebsite}
               <span className="rn-icon" style={{ fontSize: 17 }}>open_in_new</span>
             </a>
-          </div>
+          </div> */}
         </div>
       </section>
 
