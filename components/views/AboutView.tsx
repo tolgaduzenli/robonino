@@ -90,27 +90,34 @@ export function AboutView({ locale }: { locale: Locale }) {
 
       <section className="mx-auto max-w-[1100px] px-7 py-20">
         <SectionHeading eyebrow={dict.team.eyebrow} title={dict.team.title} maxWidth={560} />
-        <div className="grid justify-center gap-[22px]" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 320px))' }}>
+        <div className="mx-auto flex max-w-[960px] flex-col gap-7">
           {dict.team.members.filter((p) => !content.team.find((m) => m.id === p.id)?.hidden).map((p) => {
             const member = content.team.find((m) => m.id === p.id);
+            const bio = 'bio' in p && p.bio ? p.bio.split('\n\n') : [];
             return (
-              <div key={p.name} className="text-center">
-                <div className="relative mb-3.5 aspect-square overflow-hidden rounded-[18px]">
+              <div
+                key={p.name}
+                className="flex flex-col gap-7 rounded-[22px] bg-white p-6 sm:flex-row sm:items-start sm:p-8"
+                style={{ boxShadow: '0 10px 30px oklch(30% 0.09 258 / 0.07)' }}
+              >
+                <div className="relative aspect-square w-full max-w-[260px] flex-none self-center overflow-hidden rounded-[18px] sm:w-[220px] sm:self-start">
                   {member && (
-                    <Image src={member.photo} alt={`${p.name}, ${p.role}`} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover" />
+                    <Image src={member.photo} alt={`${p.name}, ${p.role}`} fill sizes="260px" className="object-cover" />
                   )}
                 </div>
-                <div className="font-poppins text-[15.5px] font-bold" style={{ color: colors.textDark }}>
-                  {p.name}
+                <div className="min-w-0 flex-1">
+                  <div className="font-poppins text-[20px] font-bold" style={{ color: colors.textDark }}>
+                    {p.name}
+                  </div>
+                  <div className="mb-4 font-poppins text-[14px] font-semibold" style={{ color: colors.tealDark }}>
+                    {p.role}
+                  </div>
+                  {bio.map((para, i) => (
+                    <p key={i} className="m-0 mb-3 text-[15px] leading-relaxed last:mb-0" style={{ color: colors.textBody }}>
+                      {para}
+                    </p>
+                  ))}
                 </div>
-                <div className="text-[13px]" style={{ color: colors.textFaint }}>
-                  {p.role}
-                </div>
-                {'bio' in p && p.bio && (
-                  <p className="m-0 mt-3 text-left text-[14px] leading-relaxed" style={{ color: colors.textMuted }}>
-                    {p.bio}
-                  </p>
-                )}
               </div>
             );
           })}
