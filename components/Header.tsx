@@ -48,7 +48,10 @@ export function Header({
   const currentSlug = segments[2]?.replace(/\/$/, '') || '';
   const currentKey: NavKey = currentSlug ? getRouteKeyFromSlug(currentSlug, locale) ?? 'home' : 'home';
   const otherLocale: Locale = locale === 'en' ? 'tr' : 'en';
-  const otherHref = getPath(currentKey, otherLocale);
+  // Sub-pages (e.g. a partner school under Study UK) use the same sub-slug in
+  // both languages, so carry the rest of the path across.
+  const subPath = currentKey !== 'home' ? segments.slice(3).filter(Boolean).join('/') : '';
+  const otherHref = getPath(currentKey, otherLocale) + (subPath ? `/${subPath}` : '');
 
   const navLabel: Record<string, string> = {
     home: nav.home,

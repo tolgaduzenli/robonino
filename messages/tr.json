@@ -125,11 +125,184 @@
     "homeCta": "Partner okullarımızı inceleyin",
     "visitWebsite": "Web sitesini ziyaret edin",
     "items": [
-      { "city": "Hertfordshire", "desc": "Merakın takdir edildiği bir okul. Çocuğunuz burada zorluklardan çekinmemeyi, daha büyük düşünmeyi öğrenir ve karakteri her gün biraz daha güçlenir." },
+      { "city": "Hertford, Hertfordshire", "desc": "Merakın takdir edildiği bir okul. Çocuğunuz burada zorluklardan çekinmemeyi, daha büyük düşünmeyi öğrenir ve karakteri her gün biraz daha güçlenir." },
       { "city": "Londra, Birmingham ve Cambridge", "desc": "1973'ten beri GCSE (16 yaş sınavları) ve A level (üniversiteye hazırlık) eğitimi veren MPW, üç şehirdeki kolejlerinde her öğrenciye göre şekillenen programlar sunuyor." },
       { "city": "Oxford", "desc": "Oxford şehir merkezinde iki kampüsü olan bir dil okulu ve özel eğitim koleji (tutorial college). Yurt dışından ve İngiltere'den gelen öğrencilerle, her birinin seviyesine ve hedefine göre çalışıyor." },
       { "city": "İngiltere'nin farklı şehirleri", "desc": "Dil eğitimi, kültürel değişim, akademik programlar ve eğitim gezileri sunan uluslararası bir eğitim kurumu." }
     ]
+  },
+  "schoolPage": {
+    "metaTitleSuffix": "İngiltere Partner Okulu",
+    "contactCta": "Bu Okul Hakkında Bize Danışın",
+    "locationLabel": "Konum",
+    "glanceTitle": "Kısaca",
+    "overviewEyebrow": "Okul Hakkında",
+    "programmesEyebrow": "Programlar",
+    "programmesTitle": "{school} Programları",
+    "highlightsEyebrow": "Öne Çıkanlar",
+    "highlightsTitle": "{school} Çocuğunuza Neler Kazandırır?",
+    "galleryEyebrow": "Kampüs Hayatı",
+    "galleryTitle": "Okuldan Kareler",
+    "otherSchoolsEyebrow": "Partner Okullar",
+    "otherSchoolsTitle": "Diğer Partner Okullarımız",
+    "allSchools": "Tüm partner okullar",
+    "summerAges": "Yaş",
+    "summerLevel": "Min. İngilizce",
+    "summerLength": "Süre",
+    "summerDates": "2027 tarihleri",
+    "summerNote": "Fiyat ve kontenjan bilgisi için bize ulaşın, detayları size gönderelim.",
+    "learnMore": "Detaylı bilgi",
+    "cta": {
+      "title": "{school} Çocuğunuza Uygun mu?",
+      "desc": "Çocuğunuzun yaşını, İngilizce seviyesini ve hedeflerini bize anlatın; bu okulun ona uygun olup olmadığını ve sonraki adımları birlikte konuşalım."
+    }
+  },
+  "schoolPages": {
+    "haileybury": {
+      "tagline": "Londra'ya yakın Hertford'da, 11–18 yaş kız ve erkek öğrencilere merak, cesaret ve karakter odaklı eğitim veren bir yatılı okul.",
+      "intro": [
+        "Haileybury, Londra'ya yakın Hertford'da 200 hektarlık bir kampüse yayılan karma bir yatılı okul. Sloganı “Fly High. Fly Fast.” (Yükseğe uç, hızlı uç) ve okulun anlayışı da bu sözü yansıtıyor: çocuğunuz burada zor işlerden kaçmamayı, fikirlerini bir adım öteye taşımayı ve daha büyük düşünmeyi öğrenir.",
+        "Okul, akademik başarıyı karakter gelişiminden ayrı görmüyor. Nezaket, empati, dürüstlük ve başkalarına hizmet gündelik hayatın parçası. İngiltere'den ve dünyanın farklı ülkelerinden gelen öğrenciler aynı yatılı evlerde yaşıyor, birlikte ve birbirlerinden öğreniyor.",
+        "Ders programı geniş tutuluyor: çocuğunuz ilk yıllarda sağlam bir temel kazanıyor, sonraki yıllarda ilgi alanlarını keşfedip seçimlerini kendisi yapıyor. Konu bilgisi proje temelli çalışmalarla destekleniyor; araştırma, iş birliği ve sunum becerileri derslerin içinde gelişiyor. Teknoloji ve yapay zeka sınıfta kullanılıyor ama öğretmenle öğrenci arasındaki yakın ilişkinin yerini almıyor.",
+        "Okulun belirttiğine göre Haileybury mezunları İngiltere'de ve dünyada önde gelen üniversitelere devam ediyor. Amaç, öğrencileri değerleri, becerileri ve diplomalarıyla okul sonrasındaki hayata hazır şekilde yetiştirmek."
+      ],
+      "facts": [
+        {
+          "label": "Öğrenciler",
+          "value": "Kız ve erkek (karma)"
+        },
+        {
+          "label": "Yaş",
+          "value": "11–18 (Year 7–13)"
+        },
+        {
+          "label": "Konaklama",
+          "value": "13 yatılı ev, kız ve erkek ayrı"
+        },
+        {
+          "label": "Lise programı",
+          "value": "A level veya IB Diploması"
+        },
+        {
+          "label": "Kampüs",
+          "value": "200 hektar"
+        },
+        {
+          "label": "Havalimanı",
+          "value": "Stansted, Luton: ~30 dk"
+        }
+      ],
+      "programmes": [
+        {
+          "title": "Lower School",
+          "ages": "Year 7–8 · 11–13 yaş",
+          "desc": "Sağlam bir temel dönemi. İngilizce, matematik, fen, Fransızca, İspanyolca, Latince, tarih, coğrafya, teoloji ve felsefe, sanat, müzik, drama, teknoloji ve bilgisayar derslerinin yanında haftalık okuma ve iyi oluş (wellbeing) dersleri var. Bilgisayar, müzik, drama, sanat ve tasarım atölyeleri çocuğunuzun konuşma becerisini ve yaratıcılığını geliştirir."
+        },
+        {
+          "title": "Removes",
+          "ages": "Year 9 · 13–14 yaş",
+          "desc": "Temel dersler sürerken çocuğunuz ilgisine göre iki uzmanlık yolu (pathway) seçer: İleri Fen ve Astrofizik, Bilgisayar Bilimi: Programlama ve Yapay Zeka, Sahne Draması, Antik Yunan ya da Edebiyat ve Yaratıcı Yazarlık gibi. Digital Innovations derslerinde yapay zekanın pratik ve etik kullanımını öğrenir."
+        },
+        {
+          "title": "Middles ve Fifths: (I)GCSE",
+          "ages": "Year 10–11 · 14–16 yaş",
+          "desc": "İki yılda 10 ya da 11 (I)GCSE dersi (İngiltere'nin 16 yaş sınavları). Matematik, İngiliz dili, İngiliz edebiyatı, biyoloji, kimya ve fizik herkes için zorunlu, böylece ileride tüm seçenekler açık kalır. Çocuğunuz buna modern diller, beşeri bilimler, klasik dersler, teknoloji ve sanat arasından dört seçmeli ders ekler. Sınavlar Year 11'in yaz döneminde yapılır."
+        },
+        {
+          "title": "Pre-Diploma",
+          "ages": "Year 11 · 15–16 yaş · 1 yıl",
+          "desc": "Okula Year 11'de katılan öğrenciler için hızlı tempolu, tek yıllık bir hazırlık programı. İngilizce ve matematiğin yanında fen, beşeri bilimler ve dillerden seçilen dersler okunur, yaz döneminde (I)GCSE sınavlarına girilir. Üç yıllık yolculuğun ilk adımıdır: ardından lisede IB Diploması'na geçilir."
+        },
+        {
+          "title": "Sixth Form: A level",
+          "ages": "Year 12–13 · 16–18 yaş",
+          "desc": "Üniversiteye hazırlık programı A level'da öğrenciler genellikle üç ders seçer ve bu derslerde derinleşir. İlk yıl (Lower Sixth), A level derslerini tamamlayan ve genişleten seçmeli akademik dersler içeren Academic Extension Programme (AEP) ile desteklenir."
+        },
+        {
+          "title": "Sixth Form: IB Diploması",
+          "ages": "Year 12–13 · 16–18 yaş",
+          "desc": "Uluslararası tanınan, geniş kapsamlı bir program: üçü ileri (Higher Level), üçü standart (Standard Level) düzeyde altı ders. Bunlara eleştirel düşünmeyi geliştiren Bilgi Kuramı (Theory of Knowledge), üniversite tarzı bir araştırma ödevi (Extended Essay) ve Yaratıcılık, Etkinlik, Hizmet (CAS) projeleri eklenir."
+        }
+      ],
+      "highlights": [
+        {
+          "title": "Lisede iki yol: A level veya IB",
+          "desc": "Okulun belirttiğine göre Haileybury, lisede bu iki programı birlikte sunan az sayıdaki İngiltere okulundan biri. Çocuğunuz kendisine uyan yolu seçer; özel bir Sixth Form ekibi, yatılı ev ekibi ve kişisel tutor'u bu iki yıl boyunca yanındadır."
+        },
+        {
+          "title": "Erken yaşta kendi ilgi alanını seçme",
+          "desc": "Year 9'da seçilen iki uzmanlık yolu, Astrofizikten Yaratıcı Yazarlığa kadar uzanıyor. Çocuğunuz neyi sevdiğini (I)GCSE ve lise seçimlerinden önce deneyerek keşfeder."
+        },
+        {
+          "title": "Yapay zeka ve programlama derste",
+          "desc": "Digital Innovations derslerinde yapay zekanın pratik ve etik kullanımı işleniyor; isteyen öğrenciler Bilgisayar Bilimi: Programlama ve Yapay Zeka yolunu seçebiliyor."
+        },
+        {
+          "title": "Okuma ve iyi oluş ders programında",
+          "desc": "Okuma ve iyi oluş (wellbeing) dersleri, alt sınıflardan (I)GCSE yıllarına kadar haftalık programın parçası. Okul, okumayı tüm derslerdeki başarının itici gücü olarak görüyor."
+        },
+        {
+          "title": "Her öğrenciye bir tutor",
+          "desc": "Çocuğunuzun akademik gelişimini bir tutor yakından takip eder, yatılı ev ekibi de gündelik hayatında yanındadır. Okulun pastoral bakım anlayışının merkezinde her öğrencinin tanınması, değer görmesi ve anlaşılması var."
+        },
+        {
+          "title": "Akademik Zenginleştirme Grubu",
+          "desc": "Alt sınıf öğrencileri ders dışında haftada bir toplanır: münazara ve topluluk önünde konuşma çalışır, konuk konuşmacıları dinler, kendi seçtikleri bir konuyu Haileybury Academic Exhibition Fair'de sunar."
+        },
+        {
+          "title": "Spor ve sanat için geniş tesisler",
+          "desc": "25 metrelik ısıtmalı yüzme havuzu, spor salonu ve fitness salonu, kapalı ve açık tenis kortları, squash ve rackets kortları, rugby'den hokeye, kriketten netbola 22 saha ve oyun alanı, 5 sahne ve performans mekanı."
+        },
+        {
+          "title": "Değerler ve topluluk",
+          "desc": "Nezaket, empati, dürüstlük ve başkalarına hizmet okul hayatının içinde. Öğrenciler topluluk hizmeti projelerinde çevrelerine katkı sağlamayı öğrenir; okulun İngiltere'de ve dünyada okul ortaklıkları da var."
+        }
+      ],
+      "summerSchool": {
+        "eyebrow": "Yaz Okulu 2027",
+        "title": "Haileybury Kampüsünde Bir Yaz",
+        "intro": "Haileybury, yaz aylarında kampüsünü 11–17 yaş öğrencilere açıyor. Çocuğunuz okulun yatılı evlerinde kalır, Haileybury'nin dersliklerinde ve laboratuvarlarında ders görür, öğleden sonraları spor ve sanat aktivitelerine katılır, hafta içi ve hafta sonu gezileriyle İngiltere'yi yakından tanır. Yaşına ve İngilizce seviyesine göre üç programdan biri seçilir.",
+        "courses": [
+          {
+            "title": "English+",
+            "ages": "11–13",
+            "level": "A2",
+            "length": "2 veya 4 hafta",
+            "dates": "11–24 Temmuz · 25 Temmuz – 7 Ağustos · 4 hafta: 11 Temmuz – 7 Ağustos",
+            "desc": "Sabahları tarih, bilim, kültür, sanat ve teknoloji konuları üzerinden İngilizce (CLIL), öğleden sonra takım projeleri. Yurt dışında ilk yaz okulunu yaşayacak çocuklar için sıcak ve hareketli bir başlangıç."
+          },
+          {
+            "title": "Academic English+",
+            "ages": "14–16",
+            "level": "B1",
+            "length": "2 veya 4 hafta",
+            "dates": "11–24 Temmuz · 25 Temmuz – 7 Ağustos · 4 hafta: 11 Temmuz – 7 Ağustos",
+            "desc": "Sabahları STEM ya da Sanat, İş ve Beşeri Bilimler alanında akademik İngilizce. Öğleden sonra altı uzman projeden biri: Kodlama Akademisi, Bilim Dünyası, Tasarım ve Üretim, Küresel Girişimciler, Film Yapımı veya Mini MUN (Birleşmiş Milletler simülasyonu). Çocuğunuz eve kendi web sitesi, kısa filmi ya da tasarladığı bir ürünle döner."
+          },
+          {
+            "title": "Innovation Leaders",
+            "badge": "2027'de yeni",
+            "ages": "14–17",
+            "level": "C1",
+            "length": "2 hafta",
+            "dates": "11–24 Temmuz · 25 Temmuz – 7 Ağustos",
+            "desc": "İngilizcesi ileri düzeyde olan öğrenciler için tamamen İngilizce bir akademik program. Sabahları yaratıcı iş geliştirme ve girişimcilik, öğleden sonraları yapay zeka ve yeni teknolojilerle STEM projeleri. City of London'da iş geliştirme atölyeleri ve Royal Institution gibi bilim mekanlarına ziyaretler programın parçası."
+          }
+        ],
+        "includesTitle": "Üç programda da",
+        "includes": [
+          "Kampüste yatılı konaklama: kız ve erkekler için ayrı yatılı binalar, odaların çoğu tek ya da çift kişilik",
+          "Günde 3 öğün; vejetaryen, vegan ve özel diyet seçenekleri, gezi günlerinde kumanya",
+          "Her hafta seçilen bir spor ya da sanat aktivitesi: futbol, tenis, hokey, şarkı ve dans, oyunculuk ya da pasta şefiyle The Great Haileybury Bake-Off",
+          "Her akşam 19:00–21:00 etkinlik: açık hava sineması, sessiz disko (silent disco), Haileybury's Got Talent ve Cuma akşamları sertifika töreni",
+          "Haftada üç tam gün gezi: Cambridge, Oxford ya da Windsor Kalesi; Londra ve Thames nehrinde tekne turu; Thorpe Park gibi bir tema parkı",
+          "7/24 kampüs güvenliği, öğrenci refah sorumlusu (Welfare Manager), okul hemşiresi ve veliler için 7/24 acil iletişim hattı"
+        ]
+      }
+    },
+    "mpw": { "tagline": "", "intro": [], "facts": [], "programmes": [], "highlights": [] },
+    "oisc": { "tagline": "", "intro": [], "facts": [], "programmes": [], "highlights": [] },
+    "ef": { "tagline": "", "intro": [], "facts": [], "programmes": [], "highlights": [] }
   },
   "studyUk": {
     "metaTitle": "İngiltere'de İngilizce Eğitimi | Robonino",

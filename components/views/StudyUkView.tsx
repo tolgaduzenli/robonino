@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import { getDictionary } from '@/lib/i18n/dictionaries';
-import { getPath } from '@/lib/i18n/routes';
+import { getPath, getSchoolPath } from '@/lib/i18n/routes';
 import type { Locale } from '@/lib/i18n/config';
 import * as content from '@/lib/content/studyUk';
 import { colors } from '@/lib/content/colors';
@@ -9,7 +9,7 @@ import { SectionHeading } from '@/components/ui/SectionHeading';
 import { IconCard, FeatureRow } from '@/components/ui/IconCard';
 import { DestinationCard } from '@/components/ui/DestinationCard';
 import { PartnerSchoolCard } from '@/components/ui/PartnerSchoolCard';
-import { partnerSchools } from '@/lib/content/partnerSchools';
+import { partnerSchools, getSchoolPage } from '@/lib/content/partnerSchools';
 import { SingleTestimonial } from '@/components/ui/TestimonialCard';
 import { CTABand } from '@/components/ui/CTABand';
 import { FilledButton, OutlineButton } from '@/components/ui/Button';
@@ -123,6 +123,8 @@ export function StudyUkView({ locale }: { locale: Locale }) {
                   city={partnersDict.items[school.index]?.city ?? ''}
                   desc={partnersDict.items[school.index]?.desc ?? ''}
                   websiteLabel={partnersDict.visitWebsite}
+                  detailHref={getSchoolPage(school.id) ? getSchoolPath(school.id, locale) : undefined}
+                  learnMoreLabel={fullDict.schoolPage.learnMore}
                 />
               ))}
             </div>

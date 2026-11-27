@@ -26,6 +26,16 @@ const nunito = Nunito({
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        {/* Icon font (Material Symbols, used via the .rn-icon class). Must be in this
+            root layout's <head>: a <head> rendered from a nested layout ends up inside
+            <body> and breaks hydration. */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,500,1,0&display=block"
+          rel="stylesheet"
+        />
+      </head>
       <body className={`${poppins.variable} ${nunito.variable} font-nunito`}>{children}</body>
     </html>
   );

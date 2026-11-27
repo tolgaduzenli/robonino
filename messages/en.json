@@ -125,11 +125,184 @@
     "homeCta": "See our partner schools",
     "visitWebsite": "Visit website",
     "items": [
-      { "city": "Hertfordshire", "desc": "A school where curiosity is celebrated and pupils are encouraged to take on challenges, think bigger and build character every day." },
+      { "city": "Hertford, Hertfordshire", "desc": "A school where curiosity is celebrated and pupils are encouraged to take on challenges, think bigger and build character every day." },
       { "city": "London, Birmingham & Cambridge", "desc": "Founded in 1973, MPW runs GCSE and A level colleges in three cities, with programmes built around each student instead of a one-size-fits-all timetable." },
       { "city": "Oxford", "desc": "A tutorial college and language school with two centres in central Oxford. It teaches international and UK students, and adapts the teaching to each student's starting point and goals." },
       { "city": "Schools across the UK", "desc": "An international education company offering language courses, cultural exchange, academic programmes and educational travel." }
     ]
+  },
+  "schoolPage": {
+    "metaTitleSuffix": "UK Partner School",
+    "contactCta": "Ask Us About This School",
+    "locationLabel": "Location",
+    "glanceTitle": "At a Glance",
+    "overviewEyebrow": "About the School",
+    "programmesEyebrow": "Programmes",
+    "programmesTitle": "Programmes at {school}",
+    "highlightsEyebrow": "Highlights",
+    "highlightsTitle": "What {school} Offers Your Child",
+    "galleryEyebrow": "Campus Life",
+    "galleryTitle": "A Look Around {school}",
+    "otherSchoolsEyebrow": "Partner Schools",
+    "otherSchoolsTitle": "Our Other Partner Schools",
+    "allSchools": "All partner schools",
+    "summerAges": "Ages",
+    "summerLevel": "Min. English",
+    "summerLength": "Length",
+    "summerDates": "2027 dates",
+    "summerNote": "For prices and availability, get in touch and we'll send you the details.",
+    "learnMore": "Learn more",
+    "cta": {
+      "title": "Is {school} Right for Your Child?",
+      "desc": "Tell us your child's age, English level and goals. We'll tell you whether this school is a good fit and what the next steps are."
+    }
+  },
+  "schoolPages": {
+    "haileybury": {
+      "tagline": "A boarding school for girls and boys aged 11 to 18 in Hertford, near London, with an education built on curiosity, courage and character.",
+      "intro": [
+        "Haileybury is a co-educational boarding school on a 200-hectare campus in Hertford, a short distance from London. Its motto is “Fly High. Fly Fast.”, and the school lives up to it: pupils are encouraged to take on challenges, push their ideas further and think bigger.",
+        "The school treats character as part of academic success. Kindness, empathy, integrity and service to others are part of everyday life. Pupils from the UK and from around the world live together in the same boarding houses and learn with and from each other.",
+        "The curriculum is broad. Your child builds strong foundations in the early years, then explores their interests and makes more of their own choices as they move up the school. Subject knowledge is combined with project-based work that develops research, teamwork and presentation skills. Technology and AI are used in lessons, but never in place of the close relationship between teacher and pupil.",
+        "According to the school, Haileybury pupils go on to leading universities in the UK and around the world. The aim is for them to leave with the values, skills and qualifications they need for life after school."
+      ],
+      "facts": [
+        {
+          "label": "Pupils",
+          "value": "Girls and boys (co-ed)"
+        },
+        {
+          "label": "Ages",
+          "value": "11–18 (Years 7–13)"
+        },
+        {
+          "label": "Boarding",
+          "value": "13 houses, separate for girls and boys"
+        },
+        {
+          "label": "Sixth Form",
+          "value": "A levels or IB Diploma"
+        },
+        {
+          "label": "Campus",
+          "value": "200 hectares"
+        },
+        {
+          "label": "Airports",
+          "value": "Stansted, Luton: ~30 min"
+        }
+      ],
+      "programmes": [
+        {
+          "title": "Lower School",
+          "ages": "Years 7–8 · ages 11–13",
+          "desc": "A foundation stage. Alongside English, maths, science, French, Spanish, Latin, history, geography, theology and philosophy, art, music, drama, and technology and computing, pupils have weekly reading and wellbeing lessons. Workshops in computing, music, drama, art and design technology build their confidence in speaking and their creativity."
+        },
+        {
+          "title": "Removes",
+          "ages": "Year 9 · ages 13–14",
+          "desc": "While continuing the core subjects, your child chooses two specialist pathways, such as Advanced Science and Astrophysics, Computer Science: Programming and AI, Performance Drama, The Greeks, or Literature and Creative Writing. Digital Innovations classes cover the practical and ethical use of AI."
+        },
+        {
+          "title": "Middles and Fifths: (I)GCSE",
+          "ages": "Years 10–11 · ages 14–16",
+          "desc": "Ten or eleven (I)GCSEs over two years. Maths, English language, English literature, biology, chemistry and physics are compulsory, which keeps every future option open. Your child adds four options from modern languages, humanities, classics, technology and the arts. Exams are taken in the summer term of Year 11."
+        },
+        {
+          "title": "Pre-Diploma",
+          "ages": "Year 11 · ages 15–16 · one year",
+          "desc": "A fast-paced one-year course for pupils who join the school in Year 11. Pupils study English and maths plus options in the sciences, humanities and languages, and sit (I)GCSE exams in the summer. It is the first step of a three-year route that continues into the IB Diploma in the Sixth Form."
+        },
+        {
+          "title": "Sixth Form: A levels",
+          "ages": "Years 12–13 · ages 16–18",
+          "desc": "Pupils usually choose three subjects and study them in depth. In the first year (Lower Sixth) the Academic Extension Programme (AEP) adds academic electives that complement and extend their A level choices."
+        },
+        {
+          "title": "Sixth Form: IB Diploma",
+          "ages": "Years 12–13 · ages 16–18",
+          "desc": "A broad, internationally recognised programme: six subjects, three at Higher Level and three at Standard Level. Alongside them, pupils take Theory of Knowledge, write a university-style Extended Essay and complete Creativity, Activity, Service (CAS) projects."
+        }
+      ],
+      "highlights": [
+        {
+          "title": "A choice of A levels or the IB",
+          "desc": "The school says it is one of only a handful in the UK to offer both in the Sixth Form. Your child picks the route that suits them, supported by a dedicated Sixth Form team, their house team and a personal tutor."
+        },
+        {
+          "title": "Choosing interests early",
+          "desc": "The two Year 9 pathways range from Astrophysics to Creative Writing, so your child can try out what they enjoy before choosing (I)GCSE and Sixth Form subjects."
+        },
+        {
+          "title": "AI and programming in lessons",
+          "desc": "Digital Innovations classes cover the practical and ethical use of AI, and pupils can choose the Computer Science: Programming and AI pathway."
+        },
+        {
+          "title": "Reading and wellbeing on the timetable",
+          "desc": "Reading and wellbeing lessons are part of the weekly timetable from the Lower School through the (I)GCSE years. The school sees reading as a driver of achievement across every subject."
+        },
+        {
+          "title": "A tutor for every pupil",
+          "desc": "A tutor follows your child's academic progress closely, and the house team looks after day-to-day life. The school's pastoral care is built around every pupil feeling known, valued and understood."
+        },
+        {
+          "title": "Academic Enrichment Group",
+          "desc": "Lower School pupils meet once a week outside lessons to practise debating and public speaking, hear guest speakers and prepare a project of their choice for the Haileybury Academic Exhibition Fair."
+        },
+        {
+          "title": "Room for sport and the arts",
+          "desc": "A 25-metre heated pool, sports hall and gym, indoor and outdoor tennis courts, squash and rackets courts, 22 pitches and playing surfaces for everything from rugby to netball, and 5 performance venues."
+        },
+        {
+          "title": "Values and community",
+          "desc": "Kindness, empathy, integrity and service to others run through school life. Pupils take part in community action projects, and the school has partnerships with schools in the UK and abroad."
+        }
+      ],
+      "summerSchool": {
+        "eyebrow": "Summer School 2027",
+        "title": "A Summer on the Haileybury Campus",
+        "intro": "Each summer Haileybury opens its campus to students aged 11 to 17. Your child stays in the school's boarding houses, has lessons in Haileybury's classrooms and labs, joins sport and arts activities in the afternoons, and sees more of England on day trips. There are three courses, chosen by age and English level.",
+        "courses": [
+          {
+            "title": "English+",
+            "ages": "11–13",
+            "level": "A2",
+            "length": "2 or 4 weeks",
+            "dates": "11–24 July · 25 July – 7 August · 4 weeks: 11 July – 7 August",
+            "desc": "Morning English lessons built around history, science, culture, art and technology (CLIL), then team projects in the afternoon. A warm, busy introduction for children going to a summer school abroad for the first time."
+          },
+          {
+            "title": "Academic English+",
+            "ages": "14–16",
+            "level": "B1",
+            "length": "2 or 4 weeks",
+            "dates": "11–24 July · 25 July – 7 August · 4 weeks: 11 July – 7 August",
+            "desc": "Academic English in the morning through STEM or Arts, Business and Humanities. In the afternoon, one of six expert projects: Coding Academy, World of Science, Design and Manufacturing, Global Entrepreneurs, Filmmaking or a Mini Model United Nations. Your child comes home with their own website, short film or product."
+          },
+          {
+            "title": "Innovation Leaders",
+            "badge": "New for 2027",
+            "ages": "14–17",
+            "level": "C1",
+            "length": "2 weeks",
+            "dates": "11–24 July · 25 July – 7 August",
+            "desc": "An academic programme taught entirely in English for students with advanced English. Creative business development and entrepreneurship in the mornings, STEM projects with AI and new technologies in the afternoons, plus business workshops in the City of London and visits to science venues such as the Royal Institution."
+          }
+        ],
+        "includesTitle": "On all three courses",
+        "includes": [
+          "Boarding on campus, with separate houses for girls and boys and mostly single or twin rooms",
+          "Three meals a day, with vegetarian, vegan and special diet options and packed lunches on trip days",
+          "A sport or arts activity chosen each week: football, tennis, hockey, song and dance, acting, or The Great Haileybury Bake-Off with a professional pastry chef",
+          "Evening activities every day from 19:00 to 21:00: outdoor cinema, silent disco, Haileybury's Got Talent and a certificate ceremony on Friday nights",
+          "Three full-day trips a week: Cambridge, Oxford or Windsor Castle; London with a boat trip on the Thames; and a theme park such as Thorpe Park",
+          "24/7 campus security, a Welfare Manager, a school nurse and a 24/7 emergency line for parents"
+        ]
+      }
+    },
+    "mpw": { "tagline": "", "intro": [], "facts": [], "programmes": [], "highlights": [] },
+    "oisc": { "tagline": "", "intro": [], "facts": [], "programmes": [], "highlights": [] },
+    "ef": { "tagline": "", "intro": [], "facts": [], "programmes": [], "highlights": [] }
   },
   "studyUk": {
     "metaTitle": "Study English in the UK | Robonino",

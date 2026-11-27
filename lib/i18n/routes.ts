@@ -28,6 +28,16 @@ export function getPath(key: NavKey, locale: Locale): string {
   return `/${locale}/${getSlug(key, locale)}`;
 }
 
+/**
+ * Partner school detail pages live one level under Study UK, e.g.
+ * /en/study-uk/haileybury and /tr/ingilterede-egitim/haileybury. The school
+ * part is the school's `id` from lib/content/partnerSchools.ts and is the
+ * same in both languages.
+ */
+export function getSchoolPath(schoolId: string, locale: Locale): string {
+  return `${getPath('studyUk', locale)}/${schoolId}`;
+}
+
 /** Reverse lookup: given a URL slug and locale, which page does it mean? */
 export function getRouteKeyFromSlug(slug: string, locale: Locale): RouteKey | null {
   for (const key of routeKeys) {

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import { isLocale, type Locale } from '@/lib/i18n/config';
 import { getDictionary } from '@/lib/i18n/dictionaries';
-import { getPath } from '@/lib/i18n/routes';
+import { getPath, getSchoolPath } from '@/lib/i18n/routes';
 import * as content from '@/lib/content/home';
 import { colors } from '@/lib/content/colors';
 import { SectionHeading } from '@/components/ui/SectionHeading';
@@ -10,7 +10,7 @@ import { IconCard } from '@/components/ui/IconCard';
 import { ServiceCard } from '@/components/ui/ServiceCard';
 import { DestinationCard } from '@/components/ui/DestinationCard';
 import { PartnerSchoolChip } from '@/components/ui/PartnerSchoolCard';
-import { partnerSchools } from '@/lib/content/partnerSchools';
+import { partnerSchools, getSchoolPage } from '@/lib/content/partnerSchools';
 import { TestimonialCard } from '@/components/ui/TestimonialCard';
 import { CTABand } from '@/components/ui/CTABand';
 import { FilledButton } from '@/components/ui/Button';
@@ -192,7 +192,8 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
                   key={school.id}
                   school={school}
                   city={partnersDict.items[school.index]?.city ?? ''}
-                  websiteLabel={partnersDict.visitWebsite}
+                  websiteLabel={getSchoolPage(school.id) ? fullDict.schoolPage.learnMore : partnersDict.visitWebsite}
+                  href={getSchoolPage(school.id) ? getSchoolPath(school.id, locale as Locale) : undefined}
                 />
               ))}
             </div>

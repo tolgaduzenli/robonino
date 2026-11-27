@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { locales } from '@/lib/i18n/config';
-import { getPath, routeKeys, type NavKey } from '@/lib/i18n/routes';
+import { getPath, getSchoolPath, routeKeys, type NavKey } from '@/lib/i18n/routes';
+import { schoolPages } from '@/lib/content/partnerSchools';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.robonino.com';
 const allKeys: NavKey[] = ['home', ...routeKeys];
@@ -16,6 +17,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'weekly',
         alternates: {
           languages: Object.fromEntries(locales.map((l) => [l, `${SITE_URL}${getPath(key, l)}`])),
+        },
+      });
+    }
+
+    for (const school of schoolPages) {
+      entries.push({
+        url: `${SITE_URL}${getSchoolPath(school.id, locale)}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        alternates: {
+          languages: Object.fromEntries(locales.map((l) => [l, `${SITE_URL}${getSchoolPath(school.id, l)}`])),
         },
       });
     }

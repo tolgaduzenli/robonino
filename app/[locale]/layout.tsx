@@ -71,18 +71,13 @@ export default function LocaleLayout({
 
   return (
     <>
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,500,1,0&display=block"
-          rel="stylesheet"
-        />
-        <script
-          type="application/ld+json"
-          // eslint-disable-next-line react/no-danger
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
-        />
-      </head>
+      {/* JSON-LD is valid anywhere in the document, so it lives in <body> here
+          rather than in a nested <head> (which caused a hydration mismatch). */}
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+      />
       <SetHtmlLang locale={locale as Locale} />
       <Header locale={locale as Locale} nav={dict.nav} cta={dict.header.cta} />
       <main>{children}</main>
